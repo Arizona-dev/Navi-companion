@@ -137,7 +137,8 @@ def apply_script(pid, staged, install, work):
         'taskkill /IM NaviOverlay.exe /F >nul 2>nul',
         'ping -n 2 127.0.0.1 >nul',
         f'robocopy "{staged}" "{install}" /E /R:5 /W:1 /XF config.json /NFL /NDL /NJH /NJS /NP >nul',
-        f'start "" "{install / "Navi.exe"}"',
-        f'cd /d "%TEMP%" & rmdir /s /q "{work}"',
+        f'cd /d "{install}"',
+        f'start "" /D "{install}" "{install / "Navi.exe"}"',
+        f'rmdir /s /q "{work}"',
         '',
     ])
