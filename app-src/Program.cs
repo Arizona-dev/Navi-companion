@@ -517,8 +517,8 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
             if (browser.CoreWebView2 == null) return;
             string text = ShortcutsWork ? L("Clics verrouillés · Ctrl+Alt+N pour déverrouiller", "Clicks locked · Ctrl+Alt+N to unlock")
                                         : L("Clics verrouillés · icône Navi près de l'horloge", "Clicks locked · Navi icon near the clock");
-            string script = locked ? "document.documentElement.setAttribute('data-locked'," + Backend.Js(text) + ")"
-                                   : "document.documentElement.removeAttribute('data-locked')";
+            string script = locked ? "document.body.setAttribute('data-locked'," + Backend.Js(text) + ")"
+                                   : "document.body.removeAttribute('data-locked')";
             try { _ = browser.CoreWebView2.ExecuteScriptAsync(script); } catch (Exception) { }
         }
 
