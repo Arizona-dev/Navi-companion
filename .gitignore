@@ -9,8 +9,8 @@ maps/*
 
 # Build output
 __pycache__/
-overlay-src/bin/
-overlay-src/obj/
+bin/
+obj/
 overlay-app/
 *.pdb
 *.part
