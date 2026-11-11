@@ -384,3 +384,6 @@ html[data-app] .save-control #refresh:hover,html[data-app] .save-control .region
 /* The gold focus frame is a keyboard aid: it only shows after Tab was used, never from a click or when the window opens. Text fields keep theirs. */
 html:not([data-keyboard]) :focus-visible:not(input,textarea){outline:none!important}
 html:not([data-keyboard]) .world-region:focus-visible{background:transparent}
+/* How to reach a Gold Skulltula: a short gold note under its name, in the list and in its sheet. */
+.result .result-hint{display:block;color:var(--gold);font-size:calc(11.5px * var(--ui-scale, 1));letter-spacing:.02em;white-space:normal;line-height:1.35;margin-top:calc(2px * var(--ui-scale, 1))}
+.collectible-hint{color:var(--gold);margin:calc(10px * var(--ui-scale, 1)) 0 0;font-size:calc(14px * var(--ui-scale, 1))}
