@@ -131,7 +131,10 @@ function showDetail(x){
 }
 function bounds(){if(mapMode==='world')return {minX:0,minY:0,maxX:1366,maxY:993};const p=plans.find(p=>p.id===$('plan').value);if(!p)return null;const pts=catalog.filter(x=>collectibleOnPlan(x,p)),b=p.bounds,pad=p.padding??15;return {p,minX:Math.min(...(b?[b.x[0]]:[]),...p.layers.map(l=>l.left),...pts.map(x=>x.position[0]))-pad,minY:Math.min(...(b?[b.z[0]]:[]),...p.layers.map(l=>l.top),...pts.map(x=>x.position[2]))-pad,maxX:Math.max(...(b?[b.x[1]]:[]),...p.layers.map(l=>l.left+l.width),...pts.map(x=>x.position[0]))+pad,maxY:Math.max(...(b?[b.z[1]]:[]),...p.layers.map(l=>l.top+l.height),...pts.map(x=>x.position[2]))+pad};}
 let needsFit=false;
-function fit(){const b=bounds();if(!b)return;const r=$('map').getBoundingClientRect();if(!r.width||!r.height){needsFit=true;return;}needsFit=false;scale=Math.min(r.width/(b.maxX-b.minX),r.height/(b.maxY-b.minY))*.98;ox=(r.width-(b.maxX+b.minX)*scale)/2;oy=(r.height-(b.maxY+b.minY)*scale)/2;draw();}
+function fit(){const b=bounds();if(!b)return;const r=$('map').getBoundingClientRect();if(!r.width||!r.height){needsFit=true;return;}needsFit=false;
+ // The map of Hyrule leaves the strip of the buttons placed on the map free.
+ const top=mapMode==='world'&&!overlayMode?(document.querySelector('.map-top')?.getBoundingClientRect().bottom-r.top||0)+6:0,h=r.height-top;
+ scale=Math.min(r.width/(b.maxX-b.minX),h/(b.maxY-b.minY))*.98;ox=(r.width-(b.maxX+b.minX)*scale)/2;oy=top+(h-(b.maxY+b.minY)*scale)/2;draw();}
 function pan(){if(mapMode==='world'){draw();return;}const w=$('world'),p=plans.find(p=>p.id===$('plan').value);for(const n of w.children)if(n._w){n.style.left=ox+n._w[0]*scale+'px';n.style.top=oy+n._w[1]*scale+'px';}if(p){w.querySelector('.player-marker')?.remove();drawPlayerMarker(w,p);}}
 function draw(){if(mapMode==='world'){drawWorldOverview();return;}const p=plans.find(p=>p.id===$('plan').value);if(!p)return;const w=$('world');w.replaceChildren();for(const l of p.layers){const im=document.createElement('img');im.src='/maps/'+l.file;im.alt=p.interior?p.label+T(' · Plan intérieur'): '';im.draggable=false;im._w=[l.left,l.top];im.style.cssText=`left:${ox+l.left*scale}px;top:${oy+l.top*scale}px;width:${l.width*scale}px;height:${l.height*scale}px`;w.append(im);}const rows=filtered().filter(x=>collectibleOnPlan(x,p));for(const x of rows){const b=node('button','','pin '+x.kind+(x.owned===true?' owned':x.owned==null?' unknown':'')+(selected===x.id?' selected':''));b.append(collectibleIcon(x,'pin-icon'));b._w=[x.position[0],x.position[2]];b.style.left=ox+x.position[0]*scale+'px';b.style.top=oy+x.position[2]*scale+'px';b.setAttribute('aria-label',title(x)+' · '+status(x)+' · '+x.id.slice(-4));b.title=title(x)+' · '+status(x);b.onclick=()=>selectItem(x);w.append(b);}drawPlayerMarker(w,p);$('map-caption').textContent=mapSyncNotice||(p.interior?p.label+T(' · Plan issu de la géométrie du jeu'):!p.layers.length?T('Plan détaillé indisponible · Position dans la zone'):(p.floor?T('Étage ')+p.floor+' · ':'')+rows.length+(rows.length>1?T(' repères'):T(' repère'))+T(' · Glisser pour déplacer · Molette pour zoomer'));}
 function zoom(f){pauseFollowing();if(!(scale>0)){fit();return;}const r=$('map').getBoundingClientRect(),next=Math.max(.015,Math.min(40,scale*f)),ratio=next/scale;ox=r.width/2-(r.width/2-ox)*ratio;oy=r.height/2-(r.height/2-oy)*ratio;scale=next;draw();rememberMapViewport();}
@@ -281,7 +284,7 @@ const worldRegions=[
 function syncMapMode(){
  const overview=mapMode==='world';
  $('world-view').setAttribute('aria-pressed',String(overview));$('regional-view').setAttribute('aria-pressed',String(!overview));
- document.querySelector('.map-toolbar').hidden=overview;
+ document.querySelector('.map-toolbar').classList.toggle('is-overview',overview);
  $('map').classList.toggle('is-world',overview);
  document.querySelector('.map-credit').textContent=overview?T('Illustration : Nintendo · via VidaExtra'):T('Plans : Owl Object Map · Nintendo');
  $('map').setAttribute('aria-label',overview?T('Carte complète d’Hyrule. Choisis une région pour ouvrir son plan.'):T('Plan de la zone. Glisser ou flèches pour déplacer, molette ou boutons pour zoomer.'));
