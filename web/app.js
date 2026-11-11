@@ -358,18 +358,31 @@ function syncFollowButton(){
  button.title=active?T('Désactiver le suivi de Link'):T('Activer le suivi de Link');
 }
 function pauseFollowing(){ $('follow-player').checked=false;syncFollowButton(); }
+// The application window and the mini-map share their storage but not their size: each keeps its own view.
+const viewportKey=overlayMode?'navi-map-viewport-overlay':'navi-map-viewport';
 function rememberMapViewport(){
- try{localStorage.setItem('navi-map-viewport',JSON.stringify({scale,ox,oy,plan:$('plan').value,mode:mapMode}));}catch{}
+ const r=$('map').getBoundingClientRect();
+ try{localStorage.setItem(viewportKey,JSON.stringify({scale,ox,oy,plan:$('plan').value,mode:mapMode,w:r.width,h:r.height}));}catch{}
+}
+// True when at least a part of the plan is inside the frame.
+function planInView(){
+ const b=bounds(),r=$('map').getBoundingClientRect();if(!b||!r.width||!r.height)return true;
+ return b.maxX*scale+ox>24&&b.minX*scale+ox<r.width-24&&b.maxY*scale+oy>24&&b.minY*scale+oy<r.height-24;
 }
 function restoreMapViewport(){
  try{
-  const v=JSON.parse(localStorage.getItem('navi-map-viewport'));
+  const v=JSON.parse(localStorage.getItem(viewportKey));
   if(!v||!Number.isFinite(v.scale)||v.scale<.015||v.scale>40||v.mode!=='region')return;
   if(Boolean(plans.find(p=>p.id===v.plan)?.interior)!==Boolean(plans.find(p=>p.id===$('plan').value)?.interior))return;
   scale=v.scale;
-  if(v.plan===$('plan').value&&Number.isFinite(v.ox)&&Number.isFinite(v.oy)){ox=v.ox;oy=v.oy;}
-  else{const b=bounds(),r=$('map').getBoundingClientRect();if(b){ox=r.width/2-(b.minX+b.maxX)*scale/2;oy=r.height/2-(b.minY+b.maxY)*scale/2;}}
-  draw();
+  const r=$('map').getBoundingClientRect();
+  if(v.plan===$('plan').value&&Number.isFinite(v.ox)&&Number.isFinite(v.oy)){
+   // Same point of the plan at the centre, even when the window was resized since.
+   ox=v.ox+(Number.isFinite(v.w)?(r.width-v.w)/2:0);oy=v.oy+(Number.isFinite(v.h)?(r.height-v.h)/2:0);
+  }
+  else{const b=bounds();if(b){ox=r.width/2-(b.minX+b.maxX)*scale/2;oy=r.height/2-(b.minY+b.maxY)*scale/2;}}
+  // Never an empty frame: a view that shows nothing of the plan is replaced by the whole plan.
+  if(planInView())draw();else fit();
  }catch{}
 }
 $('follow-player').onchange=()=>{if($('follow-player').checked)$('player-center').click();syncFollowButton();};

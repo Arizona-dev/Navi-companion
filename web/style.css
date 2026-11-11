@@ -170,6 +170,7 @@ html[data-overlay] .map-view-bar{display:none!important}
 html[data-overlay] #overlay-follow{display:grid;place-items:center}
 html[data-overlay] #overlay-follow[aria-pressed="true"]{background:#cbae6c;color:#393937;border-color:#8d743b;box-shadow:0 0 0 2px #33323055}
 html[data-overlay] #overlay-follow[aria-pressed="true"] svg{fill:currentColor}
+html[data-overlay][data-locked] body::after{content:attr(data-locked);position:fixed;left:50%;bottom:8px;transform:translateX(-50%);z-index:50;padding:4px 10px;border:1px solid #8d743b;border-radius:2px;background:#1b1c1eee;color:#c9ab63;font-size:12px;letter-spacing:.04em;white-space:nowrap;pointer-events:none}
 html[data-overlay] .map-bottom{display:none!important}
 html[data-overlay] #player-status{font-size:14px;line-height:1.3}
 html[data-overlay] .pin{width:25px;height:25px}

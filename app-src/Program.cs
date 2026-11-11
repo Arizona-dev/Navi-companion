@@ -475,6 +475,7 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
                 await browser.EnsureCoreWebView2Async(await Backend.Engine());
                 Backend.Protect(browser.CoreWebView2, () => false);
                 browser.CoreWebView2.Settings.IsZoomControlEnabled = false;
+                browser.CoreWebView2.DOMContentLoaded += (_, _) => ShowLockOnPage();
                 browser.Source = PageAddress();
                 if (!ShortcutsWork)
                     tray.ShowBalloonTip(5000, "Navi", L("Un raccourci Ctrl+Alt+N ou Ctrl+Alt+M est déjà pris par un autre programme. Utilise l'icône Navi près de l'horloge pour verrouiller, afficher ou fermer la mini-carte.", "The Ctrl+Alt+N or Ctrl+Alt+M shortcut is already used by another program. Use the Navi icon near the clock to lock, show or close the mini-map."), ToolTipIcon.Info);
@@ -499,7 +500,19 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
             Native.SetWindowLongPtr(Handle, -20, new IntPtr(style));
             if (value) Native.SetLayeredWindowAttributes(Handle, 0, 255, 2);
             tray.Text = value ? LockedText() : L("Navi · Mini-carte", "Navi · Mini-map");
+            ShowLockOnPage();
             Native.SetWindowPos(Handle, new IntPtr(-1), 0, 0, 0, 0, 0x33);
+        }
+
+        // A locked mini-map ignores clicks: the page says so, with the way to unlock it.
+        void ShowLockOnPage()
+        {
+            if (browser.CoreWebView2 == null) return;
+            string text = ShortcutsWork ? L("Clics verrouillés · Ctrl+Alt+N pour déverrouiller", "Clicks locked · Ctrl+Alt+N to unlock")
+                                        : L("Clics verrouillés · icône Navi près de l'horloge", "Clicks locked · Navi icon near the clock");
+            string script = locked ? "document.documentElement.setAttribute('data-locked'," + Backend.Js(text) + ")"
+                                   : "document.documentElement.removeAttribute('data-locked')";
+            try { _ = browser.CoreWebView2.ExecuteScriptAsync(script); } catch (Exception) { }
         }
 
         void ToggleVisible() { if (Visible) Hide(); else { Show(); TopMost = true; } }
