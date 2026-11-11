@@ -56,7 +56,6 @@ const NAVI_EN = {
 "Acteur remplacé": "Actor replaced",
 "Activer le suivi de Link": "Turn on Follow Link",
 "Actualiser": "Refresh",
-"Actualisé après une sauvegarde en jeu.": "Refreshed after an in-game save.",
 "Adapte les textes, les boutons et les panneaux à ton confort. Le changement s’applique immédiatement à tout Navi.": "Adjust the text, buttons and panels to your comfort. The change applies immediately across all of Navi.",
 "Adresse hors limites": "Address out of bounds",
 "Adulte": "Adult",

@@ -247,7 +247,14 @@ namespace Navi
             Size = new Size(Math.Min(area.Width - 80, (int)(1360 * dpi)), Math.Min(area.Height - 80, (int)(880 * dpi)));
             StartPosition = FormStartPosition.CenterScreen;
             var saved = Backend.ReadBounds("app-window.txt", MinimumSize.Width, MinimumSize.Height);
-            if (saved.HasValue) { StartPosition = FormStartPosition.Manual; Bounds = saved.Value; }
+            // The size of the last session is kept; the window always opens centred, on the screen it was on.
+            if (saved.HasValue)
+            {
+                var screen = Screen.FromRectangle(saved.Value).WorkingArea;
+                var size = new Size(Math.Min(saved.Value.Width, screen.Width), Math.Min(saved.Value.Height, screen.Height));
+                StartPosition = FormStartPosition.Manual;
+                Bounds = new Rectangle(screen.Left + (screen.Width - size.Width) / 2, screen.Top + (screen.Height - size.Height) / 2, size.Width, size.Height);
+            }
             Controls.Add(browser);
             Shown += async (_, _) => await Start();
         }
