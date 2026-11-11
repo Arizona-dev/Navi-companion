@@ -6,8 +6,6 @@ assets/*
 maps/*
 # Plans des fontaines : tracés produits pour Navi, sans source en ligne
 !maps/*_FairyFountain.webp
-# Illustration du bloc « Prochaine étape », fournie par l'auteur
-!assets/hyrule-user-art.png
 
 # Produits de compilation
 __pycache__/

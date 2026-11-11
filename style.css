@@ -93,7 +93,7 @@ html:not([data-navi-cursor]) .navi-cursor *{animation-play-state:paused}
 
 /* Anchor the fade to the artwork itself, not to the banner width. */
 .quest-next{background:#202d36;isolation:isolate;overflow:hidden}
-.quest-next::before{content:'';position:absolute;inset:0 0 0 auto;width:min(100%,calc(490px * var(--ui-scale)));pointer-events:none;z-index:-1;background:linear-gradient(#202d3626,#202d3626),url('/assets/hyrule-user-art.png') right 59%/100% auto no-repeat;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#00000008 10%,#00000030 25%,#00000080 43%,#000000cf 60%,#000 78%);mask-image:linear-gradient(90deg,transparent 0%,#00000008 10%,#00000030 25%,#00000080 43%,#000000cf 60%,#000 78%)}
+.quest-next::before{content:'';position:absolute;inset:0 0 0 auto;width:min(100%,calc(490px * var(--ui-scale)));pointer-events:none;z-index:-1;background:linear-gradient(#202d3626,#202d3626),url('/assets/hyrule-user-art.png') right 59%/100% auto no-repeat,url('/assets/hyrule-keyart.webp') 62% center/cover no-repeat;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#00000008 10%,#00000030 25%,#00000080 43%,#000000cf 60%,#000 78%);mask-image:linear-gradient(90deg,transparent 0%,#00000008 10%,#00000030 25%,#00000080 43%,#000000cf 60%,#000 78%)}
 @media(max-width:700px){.quest-next::before{opacity:.3}}
 
 /* Give the atlas the unused details column; keep the controls square at every UI size. */

@@ -120,6 +120,11 @@
   "sha256": "8ab9892e3ad96f3c0de50c72848bb636852141bf771a0874b370b2029803a3b7"
  },
  {
+  "file": "assets/hyrule-keyart.webp",
+  "url": "https://www.pcgameshardware.de/screenshots/original/2026/09/Zelda-Ocarina-of-Time-Remake-pcgh_artwork.webp",
+  "sha256": "e4f65df87f712b1f7afa07399e55ec98b2660cff5dd4299c7cc2420b28c387be"
+ },
+ {
   "file": "assets/hyrule-world.webp",
   "url": "https://i.blogs.es/455c86/hshlxu3wcaacawz/1366_2000.webp",
   "sha256": "47cb32db0079a6a90ca12b0c1d7398fe4a1156977e803a9ab2344c1119973fb0"
