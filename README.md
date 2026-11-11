@@ -11,6 +11,8 @@ The interface is available in **English and French** (switch at the top right).
 
 ![Map with Link's position](docs/map.jpg)
 
+![Map of Hyrule with the region names](docs/hyrule.jpg)
+
 | Quests | Statistics |
 | --- | --- |
 | ![Quests](docs/quests.jpg) | ![Statistics](docs/statistics.jpg) |
