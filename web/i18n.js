@@ -47,7 +47,6 @@ const NAVI_EN = {
 "10 rubis par partie": "10 Rupees per game",
 "100 rubis": "100 Rupees",
 "50 jetons de Skulltula": "50 Gold Skulltula Tokens",
-"? À vérifier": "? To verify",
 "ACTIVITÉS & RECORDS": "ACTIVITIES & RECORDS",
 "Absent de cet inventaire": "Not in this inventory",
 "Accès depuis la course d’Igor": "Access from Dampé's race",
