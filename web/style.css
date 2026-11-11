@@ -351,3 +351,19 @@ html[data-overlay] .map-top{display:none!important}
 .world-region.current .world-region-label{font-weight:700}
 /* On the map of Hyrule the region and floor bar stays in place (choosing a region opens its plan); only the floor, meaningless there, is hidden. */
 .map-toolbar.is-overview>.picker-plan,.map-toolbar.is-overview>#plan{visibility:hidden}
+.world-region[data-label="above"] .world-region-label{top:auto;bottom:calc(23px * var(--ui-scale, 1))}
+.world-region[data-label="right"] .world-region-label{top:50%;left:calc(26px * var(--ui-scale, 1));transform:translateY(-50%)}
+.world-region[data-label="left"] .world-region-label{top:50%;left:auto;right:calc(26px * var(--ui-scale, 1));transform:translateY(-50%)}
+/* Map table: plans and the map of Hyrule lie on an aged chart, with faint survey lines and darkened edges. */
+#map{background:
+ radial-gradient(ellipse at 50% 46%,#0000 42%,#14110cb8 100%),
+ repeating-linear-gradient(0deg,#0000 0 calc(95px * var(--ui-scale, 1)),#2a21121f calc(95px * var(--ui-scale, 1)) calc(96px * var(--ui-scale, 1))),
+ repeating-linear-gradient(90deg,#0000 0 calc(95px * var(--ui-scale, 1)),#2a21121f calc(95px * var(--ui-scale, 1)) calc(96px * var(--ui-scale, 1))),
+ radial-gradient(ellipse at 28% 30%,#9c917366,#0000 55%),
+ radial-gradient(ellipse at 74% 72%,#5e554366,#0000 50%),
+ #7d7460!important;box-shadow:inset 0 0 0 1px #00000066,inset 0 0 calc(60px * var(--ui-scale, 1)) #000000a6!important}
+/* The illustration melts into the chart instead of ending on a straight edge. */
+#map.is-world #world img{-webkit-mask-image:radial-gradient(ellipse 66% 66% at 50% 50%,#000 84%,#0000 100%);mask-image:radial-gradient(ellipse 66% 66% at 50% 50%,#000 84%,#0000 100%)}
+/* Captions on the chart keep a dark backing. */
+#map .map-legend,#map .map-credit{background:#1b1c1ed9!important;padding:calc(3px * var(--ui-scale, 1)) calc(9px * var(--ui-scale, 1))!important;color:#b9bbbf!important;text-shadow:none}
+#map .compass{color:#e4dcc0!important;text-shadow:0 1px 3px #000!important}

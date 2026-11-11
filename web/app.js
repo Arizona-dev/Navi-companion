@@ -304,6 +304,19 @@ function drawWorldOverview(){
   b.append(node('span','', 'world-region-dot'),node('span',regionName(id),'world-region-label'));
   b.onclick=()=>{pauseFollowing();setRegion(targetRegion||id);if(targetRegion){const layer=plans.find(p=>p.id===$('plan').value)?.layers.find(l=>l.file.startsWith(id+'_'));if(layer){const r=$('map').getBoundingClientRect();scale=Math.min(r.width/layer.width,r.height/layer.height)*.85;ox=r.width/2-(layer.left+layer.width/2)*scale;oy=r.height/2-(layer.top+layer.height/2)*scale;draw();}}};w.append(b);
  }
+ // Ribbons that would cover another one move to a free side of their point: below, above, right, then left.
+ const taken=[],hit=(a,b)=>a.left<b.right-2&&a.right>b.left+2&&a.top<b.bottom-2&&a.bottom>b.top+2;
+ const regions=[...w.querySelectorAll('.world-region')];
+ for(const b of regions)taken.push(b.querySelector('.world-region-dot').getBoundingClientRect());
+ for(const b of regions){
+  const label=b.querySelector('.world-region-label');let box;
+  for(const side of ['below','above','right','left']){
+   b.dataset.label=side;box=label.getBoundingClientRect();
+   if(!taken.some(t=>hit(box,t)))break;
+   b.dataset.label='below';box=null;
+  }
+  taken.push(box||label.getBoundingClientRect());
+ }
  $('map-caption').textContent=T('Choisis une région pour ouvrir son plan · Zoom et déplacement disponibles');
  $('player-status').textContent=savedArea?(liveState?.connected&&$('slot').value==='latest'?T('● En direct · '):T('Zone sauvegardée : '))+regionName(savedArea):'';
 }
