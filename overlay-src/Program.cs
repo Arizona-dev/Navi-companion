@@ -160,6 +160,14 @@ internal sealed class OverlayWindow : Form
     Process StartServer()
     {
         var root = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, ".."));
+        // Packaged app: Navi.exe carries its own Python. From sources: fall back to an installed Python.
+        var packaged = Path.Combine(root, "Navi.exe");
+        if (File.Exists(packaged))
+        {
+            var bundled = new ProcessStartInfo(packaged) { WorkingDirectory = root, UseShellExecute = false, CreateNoWindow = true };
+            bundled.ArgumentList.Add("--no-open");
+            if (Process.Start(bundled) is Process running) return running;
+        }
         var script = Path.Combine(root, "server.py");
         if (!File.Exists(script)) throw new FileNotFoundException(L("Le serveur Navi est introuvable : le dossier overlay-app doit rester dans le dossier de Navi.", "The Navi server was not found: the overlay-app folder must stay inside the Navi folder."));
         foreach (var (program, option) in new[] { ("pyw.exe", "-3"), ("pythonw.exe", null as string) })

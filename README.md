@@ -15,18 +15,27 @@ The interface is available in **English and French** (switch at the top right).
 | --- | --- |
 | ![Quests](docs/quests.jpg) | ![Statistics](docs/statistics.jpg) |
 
-Everything runs on your PC: the server only listens on `127.0.0.1` and nothing is sent to an external service. The only Internet access is the download of the game images on first launch.
+Everything runs on your PC: the server only listens on `127.0.0.1` and none of your data is sent anywhere. Navi only reaches the Internet to download the game images on first launch and to ask GitHub whether a newer version exists.
 
 ## Installation
 
-1. Install [Python 3](https://www.python.org/downloads/) (3.9 or newer).
-2. Download `Navi-companion.zip` from the [Releases](../../releases/latest) page and unzip it.
-3. Put the `Navi-companion` folder **inside the Fritchii folder** (where `fritchii.exe` is) or right next to it.
-4. Double-click `Start-Navi.cmd`.
+Nothing to install first: Python and .NET are included.
 
-On first launch, Navi downloads about 210 images (icons and maps, 17 MB), then opens `http://127.0.0.1:8766` in your browser. Save once in the game for your data to appear.
+1. Download `Navi-companion.zip` from the [Releases](../../releases/latest) page and unzip it.
+2. Put the `Navi-companion` folder **inside the Fritchii folder** (where `fritchii.exe` is) or right next to it.
+3. Double-click `Navi.exe`.
+
+On first launch, Navi downloads about 210 images (icons and maps, 17 MB), then opens `http://127.0.0.1:8766` in your browser. Save once in the game for your data to appear. Closing the Navi window stops it.
 
 Windows may show "Windows protected your PC" because the files are not signed: click **More info**, then **Run anyway**.
+
+Requirements: Windows 10 or 11, 64-bit. The mini-map also uses Microsoft Edge WebView2, which Windows 11 and up-to-date Windows 10 already include.
+
+### Updates
+
+At launch, Navi asks GitHub whether a newer release exists and shows a banner if so. **Update** downloads the release, replaces the program files and restarts Navi; your `config.json`, downloaded images and notes are kept. **Later** hides the banner until the next release.
+
+To turn the check off, add `"check_updates": false` to `config.json`.
 
 ### If Navi cannot find your saves
 
@@ -42,7 +51,6 @@ Copy `config.example.json` to `config.json` and set the game's save folder in it
 
 Run `Start-Navi-Overlay.cmd`, or click **Over the game** from the map. The mini-map starts Navi by itself if needed.
 
-- It needs the [.NET Desktop Runtime](https://dotnet.microsoft.com/download/dotnet) 8 or newer (x64) and Microsoft Edge WebView2, which Windows 11 already includes.
 - Play in windowed or borderless fullscreen mode, otherwise the game covers it.
 - Move it with the golden handle on the top edge; resize it from the edges and corners.
 - `Ctrl+Alt+N` locks or unlocks clicks (when locked, clicks go through to the game).
@@ -64,11 +72,15 @@ More details in [docs/DETAILS.md](docs/DETAILS.md).
 
 ## From source
 
-The repository does not contain the compiled mini-map. To build it (.NET SDK 8 or newer):
+With Python 3.9+ installed, `Start-Navi.cmd` runs Navi straight from the sources.
+
+To build the release archive (Python with PyInstaller, .NET SDK 8 or newer, git):
 
 ```
-dotnet publish overlay-src/NaviOverlay.csproj -c Release -o overlay-app
+powershell -ExecutionPolicy Bypass -File build.ps1
 ```
+
+This produces `dist/Navi-companion.zip` with `Navi.exe` (embedded Python) and a self-contained mini-map. The version number is in the `VERSION` file.
 
 Tests:
 

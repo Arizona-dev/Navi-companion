@@ -21,3 +21,6 @@ overlay-app/
 test-map.cjs
 # Release archives
 dist/
+
+# Packaging work folder
+build/

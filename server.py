@@ -6,8 +6,12 @@ import json, struct, base64, argparse, webbrowser, math, subprocess, os, re, sys
 from quests import EPONA_SONG, quest_states
 from live import LiveTracker
 from map_position import locate_player
+from paths import BASE, FROZEN
+from updater import Updater
+import download_images
+import threading
 
-BASE = Path(__file__).resolve().parent
+UPDATES = Updater()
 CATALOG = json.loads((BASE / 'catalog.json').read_text('utf-8'))
 COLLECTIBLES = json.loads((BASE / 'collectibles.json').read_text('utf-8'))
 TITLE_ID = '0400486024DEC000'
@@ -202,7 +206,7 @@ class Handler(BaseHTTPRequestHandler):
         allowed = (f'127.0.0.1:{self.server.server_port}', f'localhost:{self.server.server_port}')
         if self.headers.get('Host') not in allowed or self.headers.get('Origin') not in tuple('http://' + h for h in allowed):
             self.send_error(403); return
-        if self.path != '/api/overlay/open':
+        if self.path not in ('/api/overlay/open', '/api/update/install'):
             self.send_error(404); return
         if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
             self.send_error(415); return
@@ -211,12 +215,17 @@ class Handler(BaseHTTPRequestHandler):
             if not 0 <= size <= 128:
                 self.send_error(413); return
             self.rfile.read(size)
-            executable = BASE / 'overlay-app' / 'NaviOverlay.exe'
-            if not executable.is_file():
-                raise ValueError('Le programme de mini-carte est introuvable.')
-            subprocess.Popen([str(executable)], cwd=BASE, stdin=subprocess.DEVNULL,
-                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            data = json.dumps({'opened': True}).encode()
+            if self.path == '/api/update/install':
+                # Stops this process once the new files are staged; a script then copies them and restarts Navi.
+                UPDATES.install(lambda: os._exit(0))
+                data = json.dumps({'installing': True}).encode()
+            else:
+                executable = BASE / 'overlay-app' / 'NaviOverlay.exe'
+                if not executable.is_file():
+                    raise ValueError('Le programme de mini-carte est introuvable.')
+                subprocess.Popen([str(executable)], cwd=BASE, stdin=subprocess.DEVNULL,
+                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                data = json.dumps({'opened': True}).encode()
             self.send_response(200)
         except (OSError, ValueError) as exc:
             data = json.dumps({'error': str(exc)}).encode()
@@ -235,6 +244,9 @@ class Handler(BaseHTTPRequestHandler):
             if url.path == '/api/live':
                 live = LIVE.snapshot()
                 data = json.dumps({**live, 'player': locate_player(live.get('player'))}).encode()
+                mime = 'application/json'
+            elif url.path == '/api/update':
+                data = json.dumps(UPDATES.snapshot()).encode()
                 mime = 'application/json'
             elif url.path == '/api/state':
                 data = json.dumps(snapshot(parse_qs(url.query).get('slot',['latest'])[0])).encode()
@@ -269,8 +281,10 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self,*args): pass
 
 if __name__ == '__main__':
-    parser=argparse.ArgumentParser(); parser.add_argument('--port',type=int,default=8766); parser.add_argument('--open',action='store_true')
+    parser=argparse.ArgumentParser(); parser.add_argument('--port',type=int,default=8766); parser.add_argument('--open',action='store_true'); parser.add_argument('--no-open',action='store_true')
     args=parser.parse_args()
+    # The packaged Navi.exe opens the browser on a plain double-click; the mini-map starts it with --no-open.
+    args.open = args.open or (FROZEN and not args.no_open)
     try:
         server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler)
     except OSError:
@@ -281,7 +295,7 @@ if __name__ == '__main__':
     print(f'Navi : http://127.0.0.1:{args.port}',flush=True)
     print(f'Saves: {ROOT}' if ROOT else 'Fritchii saves not found. Put the Navi folder inside the Fritchii folder (or next to it), or copy config.example.json to config.json and set save_root.',flush=True)
     # Game images are not shipped with Navi; fetch missing ones without delaying the server.
-    import threading, importlib
-    threading.Thread(target=importlib.import_module('download_images').main,daemon=True).start()
+    threading.Thread(target=download_images.main,daemon=True).start()
+    UPDATES.start()
     if args.open: webbrowser.open(f'http://127.0.0.1:{args.port}')
     server.serve_forever()

@@ -144,7 +144,7 @@ $('notes').oninput=()=>{if(noteKey)try{localStorage.setItem(noteKey,$('notes').v
 $('export').onclick=()=>{if(!state)return;const url=URL.createObjectURL(new Blob([JSON.stringify({...state,notes:$('notes').value},null,2)],{type:'application/json'}));const a=node('a','');a.href=url;a.download='navi-'+state.slot+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 let mapSize=null;
 new ResizeObserver(()=>{const r=$('map').getBoundingClientRect();if($('carte').hidden||!r.width||!r.height)return;if(mapSize){ox+=(r.width-mapSize.width)/2;oy+=(r.height-mapSize.height)/2;draw();}mapSize={width:r.width,height:r.height};}).observe($('map'));
-(async function start(){try{[catalog,plans]=await Promise.all(['/collectibles.json','/plans.json'].map(async u=>{const r=await fetch(u);if(!r.ok)throw Error(T('Données de carte indisponibles'));return r.json();}));localizeData(catalog);localizeData(plans);$('region').replaceChildren(...[...new Set(plans.map(p=>p.id.split('/')[5]))].sort((a,b)=>regionName(a).localeCompare(regionName(b),NAVI_LANG)).map(k=>new Option(regionName(k),k)));setRegion('KakarikoVillage');await refresh();setInterval(refresh,5000);const wanted=new URLSearchParams(location.search).get('view');if(wanted)[...document.querySelectorAll('[data-view]')].find(b=>b.dataset.view===wanted)?.click();}catch(e){$('error').hidden=false;$('error').textContent=e.message+T(' · Nouvel essai dans 5 secondes.');setTimeout(start,5000);}})();
+(async function start(){try{[catalog,plans]=await Promise.all(['/collectibles.json','/plans.json'].map(async u=>{const r=await fetch(u);if(!r.ok)throw Error(T('Données de carte indisponibles'));return r.json();}));localizeData(catalog);localizeData(plans);$('region').replaceChildren(...[...new Set(plans.map(p=>p.id.split('/')[5]))].sort((a,b)=>regionName(a).localeCompare(regionName(b),NAVI_LANG)).map(k=>new Option(regionName(k),k)));setRegion('KakarikoVillage');await refresh();setInterval(refresh,5000);checkUpdate();const wanted=new URLSearchParams(location.search).get('view');if(wanted)[...document.querySelectorAll('[data-view]')].find(b=>b.dataset.view===wanted)?.click();}catch(e){$('error').hidden=false;$('error').textContent=e.message+T(' · Nouvel essai dans 5 secondes.');setTimeout(start,5000);}})();
 const pickers=[];
 function syncPickers(){pickers.forEach(p=>p.sync());}
 function installPicker(select){
@@ -432,4 +432,29 @@ function renderDial(done,total){
  const points=medals.map(([id,name],i)=>{const a=i*Math.PI/3,lit=owned(id);return `<circle class="dial-medal${lit?' lit':''}" cx="${(100+radius*Math.sin(a)).toFixed(1)}" cy="${(100-radius*Math.cos(a)).toFixed(1)}" r="10"><title>${name}${lit?T(' · obtenu'):T(' · à obtenir')}</title></circle>`;}).join('');
  const svg=`<svg viewBox="0 0 200 200" aria-hidden="true"><circle class="dial-track" cx="100" cy="100" r="${radius}"/><circle class="dial-inner" cx="100" cy="100" r="56"/><circle class="dial-arc" cx="100" cy="100" r="${radius}" transform="rotate(-90 100 100)" stroke-dasharray="${length.toFixed(1)}" stroke-dashoffset="${(length*(1-share)).toFixed(1)}"/>${points}<text class="dial-count" x="100" y="106" text-anchor="middle">${Number(done)}</text><text class="dial-label" x="100" y="130" text-anchor="middle">${T('sur ')}${Number(total)}${T(' étapes')}</text></svg>`;
  for(const id of ['dial-home','dial-quests']){const box=$(id);if(!box)continue;box.innerHTML=svg;box.setAttribute('aria-label',T('Progression de l’histoire')+' : '+done+' / '+total+' · '+medals.filter(m=>owned(m[0])).map(m=>m[1]).join(', '));}
+}
+// Update notice: the server asks GitHub for the latest release at launch.
+async function checkUpdate(attempt=0){
+ if(overlayMode)return;
+ let info;try{info=await (await fetch('/api/update',{signal:AbortSignal.timeout(5000)})).json();}catch{return;}
+ if(info.status==='checking'&&attempt<5){setTimeout(()=>checkUpdate(attempt+1),3000);return;}
+ let skipped='';try{skipped=localStorage.getItem('navi-update-skip')||'';}catch{}
+ if(!info.available||skipped===info.latest)return;
+ const banner=$('update-banner'),text=node('span',T('Navi ')+info.latest+T(' est disponible (tu as la ')+info.current+').'),actions=node('span','','update-actions');
+ const later=node('button',T('Plus tard'));later.onclick=()=>{try{localStorage.setItem('navi-update-skip',info.latest);}catch{}banner.hidden=true;};
+ if(info.canInstall){
+  const go=node('button',T('Mettre à jour'),'primary');
+  go.onclick=async()=>{
+   go.disabled=later.disabled=true;text.textContent=T('Mise à jour en cours… Navi va redémarrer tout seul.');
+   try{
+    const r=await fetch('/api/update/install',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
+    const d=await r.json().catch(()=>({}));if(!r.ok)throw Error(d.error||'erreur '+r.status);
+    const wait=setInterval(async()=>{try{const now=await (await fetch('/api/update',{signal:AbortSignal.timeout(2500)})).json();if(now.current===info.latest){clearInterval(wait);location.reload();}}catch{}},2500);
+   }catch(e){text.textContent=T(e.message);go.disabled=later.disabled=false;}
+  };
+  actions.append(go);
+ }else if(/^https:\/\/github\.com\//.test(info.url||'')){
+  const link=node('a',T('Voir la version'));link.href=info.url;link.target='_blank';link.rel='noopener';actions.append(link);
+ }
+ actions.append(later);banner.replaceChildren(text,actions);banner.hidden=false;
 }

@@ -2,10 +2,10 @@
 
 ## Running
 
-- Start: double-click `Start-Navi.cmd` (Python 3 required). Address: `http://127.0.0.1:8766`.
+- Start: double-click `Navi.exe` (packaged app) or `Start-Navi.cmd` (from sources, Python 3 required). Address: `http://127.0.0.1:8766`.
 - Closing the command window stops the server. When the mini-map started the server by itself, closing the mini-map stops it.
 - The save folder is detected automatically when Navi sits inside the Fritchii folder or next to it. Otherwise copy `config.example.json` to `config.json` and set `save_root`.
-- The server only listens on `127.0.0.1`. No data is sent to an external service.
+- The server only listens on `127.0.0.1`. None of your data is sent anywhere; the only outgoing requests are the image downloads and the update check on GitHub.
 - Saves are opened read-only. There is no editing feature.
 
 ## What is tracked
@@ -55,7 +55,7 @@
 - `Ctrl+Alt+N` locks/unlocks clicks. When locked, clicks go to the game without taking focus. `Ctrl+Alt+M` hides/shows. The notification icon can also lock, unlock, show, switch language and close.
 - Use Fritchii in windowed or borderless fullscreen mode.
 - The window, its zoom and its settings have their own local profile, separate from the browser. Size and position are saved on close.
-- Requires Windows x64, .NET Desktop Runtime 8 or newer and Microsoft Edge WebView2. Sources in `overlay-src`; program in `overlay-app`.
+- Requires Windows x64 and Microsoft Edge WebView2 (the packaged mini-map includes .NET). Sources in `overlay-src`; program in `overlay-app`.
 - The mini-map only shows markers confirmed as missing. The House of Skulltula reward stays hidden before 50 tokens. The 16 Pieces of Heart tied to an identified reward signal are read live; the others and the Skulltulas use the save. An incomplete live read never replaces save data, and historical slots never use the rewards of the game in progress.
 
 ## Fairy fountains

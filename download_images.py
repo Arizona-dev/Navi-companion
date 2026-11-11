@@ -10,7 +10,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-BASE = Path(__file__).resolve().parent
+from paths import BASE
 
 
 def missing_images(base=BASE):

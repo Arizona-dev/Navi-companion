@@ -61,6 +61,23 @@ class Tests(unittest.TestCase):
         self.assertEqual(server.optional(broken,None,'inconnu'),'inconnu')
         self.assertEqual(server.optional(lambda save:7,None,'inconnu'),7)
         self.assertEqual(len(server.UNKNOWN_COLLECTIBLES['items']),len(server.COLLECTIBLES))
+    def test_update_versions_and_archive_safety(self):
+        import updater, zipfile
+        self.assertGreater(updater.parse('v1.10.0'), updater.parse('1.9.3'))
+        self.assertEqual(updater.parse('v2'), (2, 0, 0))
+        with tempfile.TemporaryDirectory() as d:
+            good=Path(d)/'good.zip'
+            with zipfile.ZipFile(good,'w') as z: z.writestr('Navi-companion/VERSION','9.9.9')
+            self.assertEqual((updater.safe_extract(good,Path(d)/'out')/'VERSION').read_text(),'9.9.9')
+            for name in ('../evil.txt','Other/file.txt','Navi-companion/../../evil.txt'):
+                bad=Path(d)/'bad.zip'
+                with zipfile.ZipFile(bad,'w') as z: z.writestr(name,'x')
+                with self.assertRaises(ValueError): updater.safe_extract(bad,Path(d)/'out2')
+            (Path(d)/'config.json').write_text('{"check_updates": false}','utf-8')
+            self.assertFalse(updater.enabled(Path(d)))
+            idle=updater.Updater(Path(d),can_install=True); idle.start()
+            self.assertEqual(idle.snapshot()['status'],'disabled')
+            with self.assertRaises(ValueError): idle.install(lambda: None)
     def test_stable_read_leaves_file_unchanged(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'test.sav';p.write_bytes(b'unchanged')
