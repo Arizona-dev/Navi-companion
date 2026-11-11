@@ -242,6 +242,29 @@ namespace Navi
             e.Graphics.DrawString("NAVI", font, brush, (ClientSize.Width - size.Width) / 2, (ClientSize.Height - size.Height) / 2);
         }
 
+        // Like a game menu: the interface is designed for 1440 x 860 and scaled to the window,
+        // so its proportions stay the same at any size.
+        // How many screen pixels one page pixel takes at zoom 1 (the display scale), measured from the page itself.
+        double displayScale;
+
+        void FitInterface()
+        {
+            if (IsDisposed || browser.CoreWebView2 == null || WindowState == FormWindowState.Minimized || displayScale <= 0) return;
+            double factor = Math.Min(browser.ClientSize.Width / displayScale / 1440.0, browser.ClientSize.Height / displayScale / 860.0);
+            if (factor > 0) browser.ZoomFactor = Math.Max(0.4, Math.Min(3.0, factor));
+        }
+
+        async Task MeasureDisplay()
+        {
+            try
+            {
+                var ratio = double.Parse(await browser.ExecuteScriptAsync("window.devicePixelRatio"), CultureInfo.InvariantCulture);
+                if (ratio > 0 && browser.ZoomFactor > 0) displayScale = ratio / browser.ZoomFactor;
+            }
+            catch (Exception) { }
+            FitInterface();
+        }
+
         async Task Status(string text, double? fraction = null)
         {
             if (IsDisposed || browser.CoreWebView2 == null) return;
@@ -256,7 +279,9 @@ namespace Navi
                 await browser.EnsureCoreWebView2Async(await Backend.Engine());
                 var core = browser.CoreWebView2;
                 Backend.Protect(core, () => splash);
-                core.Settings.IsZoomControlEnabled = true;
+                core.Settings.IsZoomControlEnabled = false;
+                Resize += (_, _) => FitInterface();
+                core.NavigationCompleted += async (_, _) => await MeasureDisplay();
                 core.WebMessageReceived += (_, e) =>
                 {
                     string message; try { message = e.TryGetWebMessageAsString(); } catch (Exception) { return; }

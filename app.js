@@ -1,6 +1,8 @@
 const $=id=>document.getElementById(id);
 const overlayMode=new URLSearchParams(location.search).get('overlay')==='1';
 if(overlayMode)document.documentElement.dataset.overlay='true';
+// Inside the Navi window the page is laid out for a fixed design size and scaled like a game menu.
+if(new URLSearchParams(location.search).get('app')==='1')document.documentElement.dataset.app='true';
 let state=null,busy=false,refreshAgain=false,noteKey='',liveState=null;
 const currentPlayer=()=>($('slot').value==='latest'&&liveState?.player)||state?.player;
 const currentArea=()=>($('slot').value==='latest'&&liveState?.connected&&liveState.area)||state?.area||'';

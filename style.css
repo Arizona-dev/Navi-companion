@@ -274,3 +274,49 @@ html[data-overlay] .dial{display:none}
 #notes{background:var(--panel);border-color:var(--edge)}
 #update-banner{display:flex;align-items:center;justify-content:space-between;gap:calc(16px * var(--ui-scale, 1));flex-wrap:wrap;padding:calc(10px * var(--ui-scale, 1)) calc(26px * var(--ui-scale, 1));background:var(--panel);border-bottom:calc(1px * var(--ui-scale, 1)) solid var(--edge);font-size:calc(15px * var(--ui-scale, 1))}#update-banner[hidden]{display:none}.update-actions{display:flex;align-items:center;gap:calc(10px * var(--ui-scale, 1))}.update-actions button,.update-actions a{min-height:0;padding:calc(7px * var(--ui-scale, 1)) calc(14px * var(--ui-scale, 1));border:calc(1px * var(--ui-scale, 1)) solid var(--edge);border-radius:2px;background:none;color:var(--ink);font-size:calc(14px * var(--ui-scale, 1));text-decoration:none;cursor:pointer}.update-actions .primary{background:var(--gold);border-color:var(--gold);color:#1b1c1e;font-weight:600}html[data-overlay] #update-banner{display:none}
 .update-bar{flex-basis:100%;height:calc(3px * var(--ui-scale, 1));background:#2a2b2e;overflow:hidden}.update-bar span{display:block;height:100%;width:0;background:var(--gold);transition:width .3s ease}
+/* Navi window: game-menu proportions. The program scales the whole page to the window, so this layout never reflows. */
+html[data-app] .topbar{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:calc(86px * var(--ui-scale, 1));padding:0 calc(34px * var(--ui-scale, 1));gap:calc(24px * var(--ui-scale, 1));position:relative}
+html[data-app] .topbar::after{content:'';position:absolute;left:50%;bottom:calc(-5px * var(--ui-scale, 1));width:calc(8px * var(--ui-scale, 1));height:calc(8px * var(--ui-scale, 1));background:var(--bg);border:calc(1px * var(--ui-scale, 1)) solid var(--edge);transform:translateX(-50%) rotate(45deg);z-index:2}
+html[data-app] .topbar nav{order:0;width:auto;height:100%;gap:calc(6px * var(--ui-scale, 1));overflow:visible;justify-content:center}
+html[data-app] .topbar nav button{position:relative;padding:0 calc(18px * var(--ui-scale, 1));font-size:calc(13px * var(--ui-scale, 1));font-weight:500;letter-spacing:.16em;text-transform:uppercase;border-bottom:0;transition:color .15s ease}
+html[data-app] .topbar nav button:hover{color:var(--ink)}
+html[data-app] .topbar nav button[aria-current]{color:var(--ink);border-bottom:0}
+html[data-app] .topbar nav button[aria-current]::after{content:'';position:absolute;left:50%;bottom:calc(20px * var(--ui-scale, 1));width:calc(6px * var(--ui-scale, 1));height:calc(6px * var(--ui-scale, 1));background:var(--gold);transform:translateX(-50%) rotate(45deg)}
+html[data-app] .save-control{justify-self:end;margin-left:0}
+html[data-app] .brand{justify-self:start}
+html[data-app] .page{max-width:calc(1260px * var(--ui-scale, 1));padding-top:calc(46px * var(--ui-scale, 1))}
+html[data-app] .page h1{font-size:calc(52px * var(--ui-scale, 1))!important}
+html[data-app] .page h1::after{content:'';display:block;width:calc(150px * var(--ui-scale, 1));height:calc(1px * var(--ui-scale, 1));margin-top:calc(16px * var(--ui-scale, 1));background:linear-gradient(90deg,var(--gold),#c9ab6300)}
+html[data-app] .quest-next,html[data-app] .stat-cards>*,html[data-app] .stat-panel,html[data-app] .settings-panel{--tick:calc(14px * var(--ui-scale, 1));--hair:calc(1px * var(--ui-scale, 1));background-image:linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold));background-repeat:no-repeat;background-size:var(--tick) var(--hair),var(--hair) var(--tick),var(--tick) var(--hair),var(--hair) var(--tick),var(--tick) var(--hair),var(--hair) var(--tick),var(--tick) var(--hair),var(--hair) var(--tick);background-position:left top,left top,right top,right top,left bottom,left bottom,right bottom,right bottom}
+html[data-app] ::-webkit-scrollbar{width:calc(10px * var(--ui-scale, 1));height:calc(10px * var(--ui-scale, 1))}
+html[data-app] ::-webkit-scrollbar-thumb{background:#3a3c40;border:calc(3px * var(--ui-scale, 1)) solid var(--bg)}
+html[data-app] ::-webkit-scrollbar-track{background:var(--bg)}
+html[data-app] ::selection{background:#c9ab6344}
+html[data-app] .topbar{grid-template-columns:auto minmax(0,1fr) auto}
+html[data-app] .topbar nav button{padding:0 calc(15px * var(--ui-scale, 1))}
+html[data-app] #connection{display:none}
+html[data-app] .topbar nav{min-width:0}
+html[data-app] .topbar nav button{padding:0 calc(11px * var(--ui-scale, 1));font-size:calc(12.5px * var(--ui-scale, 1));letter-spacing:.1em;white-space:nowrap}
+html[data-app] .save-control .region-picker{width:calc(196px * var(--ui-scale, 1))}
+html[data-app] .brand{flex:none}
+/* Navi window, map view: a slim side panel so the map gets the room. */
+html[data-app] .atlas{grid-template-columns:calc(264px * var(--ui-scale, 1)) minmax(0,1fr) calc(320px * var(--ui-scale, 1))}
+html[data-app] .atlas:not(:has(.detail.has-selection)){grid-template-columns:calc(264px * var(--ui-scale, 1)) minmax(0,1fr)}
+html[data-app] .panel-heading{padding:calc(14px * var(--ui-scale, 1)) calc(16px * var(--ui-scale, 1)) calc(10px * var(--ui-scale, 1));gap:calc(12px * var(--ui-scale, 1))}
+html[data-app] .panel-heading .dial{width:calc(60px * var(--ui-scale, 1));height:calc(60px * var(--ui-scale, 1))}
+html[data-app] .panel-heading .dial-label{display:none}
+html[data-app] .panel-heading .dial-count{font-size:66px;transform:translateY(16px)}
+html[data-app] .panel-heading .eyebrow{display:none}
+html[data-app] .panel-heading h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+html[data-app] .panel-heading h1::after{display:none}
+html[data-app] .panel-heading .muted{font-size:calc(13px * var(--ui-scale, 1));line-height:1.45;color:var(--ink)}
+html[data-app] .filters{padding:calc(6px * var(--ui-scale, 1)) calc(16px * var(--ui-scale, 1)) calc(12px * var(--ui-scale, 1));gap:calc(8px * var(--ui-scale, 1))}
+html[data-app] .filters input[type=search],html[data-app] .filters select,html[data-app] .filters .region-trigger{min-height:calc(36px * var(--ui-scale, 1));height:calc(36px * var(--ui-scale, 1));padding-block:0;font-size:calc(14px * var(--ui-scale, 1))}
+html[data-app] .filters .segmented button{min-height:calc(32px * var(--ui-scale, 1));font-size:calc(13px * var(--ui-scale, 1));padding-block:0}
+html[data-app] .filters .check{font-size:calc(13px * var(--ui-scale, 1));max-width:none}
+html[data-app] .list-heading{padding-block:calc(8px * var(--ui-scale, 1));font-size:calc(12px * var(--ui-scale, 1))}
+html[data-app] .result{padding:calc(9px * var(--ui-scale, 1)) calc(16px * var(--ui-scale, 1));gap:calc(10px * var(--ui-scale, 1))}
+html[data-app] .result strong{font-size:calc(14px * var(--ui-scale, 1))}
+html[data-app] .result small{font-size:calc(12px * var(--ui-scale, 1))}
+html[data-app] .result .token{width:calc(30px * var(--ui-scale, 1));height:calc(30px * var(--ui-scale, 1))}
+html[data-app] .panel-foot{padding-block:calc(8px * var(--ui-scale, 1));font-size:calc(11px * var(--ui-scale, 1))}
