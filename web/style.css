@@ -333,3 +333,16 @@ html[data-overlay] .picker-chevron{margin:0 2px}
 /* The mini-map button reads as a button, like "My position". */
 .map-view-bar [data-open-overlay]{color:var(--ink);border:1px solid var(--edge);background:#232427}
 .map-view-bar [data-open-overlay]:hover{border-color:var(--gold)}
+/* Map controls on the map itself: view choice at the top left, mini-map at its right, as plain text. */
+.map-view-bar{display:none!important}
+.map-top{position:absolute;top:calc(12px * var(--ui-scale, 1));left:calc(16px * var(--ui-scale, 1));z-index:4;display:flex;align-items:center;gap:calc(18px * var(--ui-scale, 1))}
+#map .map-view-switch{display:flex;gap:calc(16px * var(--ui-scale, 1));padding:0;border:0;background:none}
+#map .map-view-switch button,#map .map-text-button{min-height:0;height:auto;padding:calc(4px * var(--ui-scale, 1)) 0;border:0!important;border-bottom:calc(2px * var(--ui-scale, 1)) solid transparent!important;border-radius:0;background:none!important;color:var(--muted)!important;font-size:calc(12px * var(--ui-scale, 1));letter-spacing:.1em;text-transform:uppercase;text-shadow:0 1px 3px #000}
+#map .map-view-switch button:hover,#map .map-text-button:hover{color:var(--ink)!important}
+#map .map-view-switch button[aria-pressed="true"],#map .map-text-button[aria-pressed="true"]{color:var(--gold)!important;border-bottom-color:var(--gold)!important}
+#map .map-text-button{padding-left:calc(18px * var(--ui-scale, 1));border-left:calc(1px * var(--ui-scale, 1)) solid var(--edge)!important}
+#map.is-world .map-top{background:#1b1c1ed9;padding:calc(2px * var(--ui-scale, 1)) calc(10px * var(--ui-scale, 1))}
+html[data-overlay] .map-top{display:none!important}
+/* Hyrule map: every region shows its name. */
+.world-region-label{display:block;top:calc(24px * var(--ui-scale, 1));padding:calc(1px * var(--ui-scale, 1)) calc(6px * var(--ui-scale, 1));font-size:calc(11px * var(--ui-scale, 1));line-height:1.5;letter-spacing:.03em;background:#1b1c1ee6;color:var(--ink);border:1px solid var(--edge);box-shadow:none;pointer-events:none}
+.world-region.current .world-region-label,.world-region:hover .world-region-label{border-color:var(--gold);color:var(--gold)}

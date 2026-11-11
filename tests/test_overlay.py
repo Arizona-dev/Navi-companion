@@ -19,7 +19,19 @@ class OverlayTests(unittest.TestCase):
                 connection.request('POST', '/api/overlay/open', '{"program": "evil.exe"}', {'Origin': 'http://' + host, 'Content-Type': 'application/json'})
                 response = connection.getresponse()
                 self.assertEqual(response.status, 200)
-                self.assertEqual(json.loads(response.read()), {'opened': True})
+                self.assertEqual(json.loads(response.read()), {'opened': True, 'open': True})
+                self.assertEqual(start.call_args.args[0], fixed)
+            headers = {'Origin': 'http://' + host, 'Content-Type': 'application/json'}
+            # The map button: closes the mini-map when its window exists, opens it otherwise.
+            with patch.object(server.subprocess, 'Popen') as start, patch.object(server, 'overlay_command', return_value=fixed),                  patch.object(server, 'overlay_window', return_value=1234), patch.object(server, 'close_overlay') as close:
+                connection.request('POST', '/api/overlay/toggle', '{}', headers)
+                self.assertEqual(json.loads(connection.getresponse().read()), {'open': False})
+                close.assert_called_once_with(1234); start.assert_not_called()
+                connection.request('GET', '/api/overlay')
+                self.assertEqual(json.loads(connection.getresponse().read()), {'open': True})
+            with patch.object(server.subprocess, 'Popen') as start, patch.object(server, 'overlay_command', return_value=fixed),                  patch.object(server, 'overlay_window', return_value=0):
+                connection.request('POST', '/api/overlay/toggle', '{}', headers)
+                self.assertEqual(json.loads(connection.getresponse().read()), {'opened': True, 'open': True})
                 self.assertEqual(start.call_args.args[0], fixed)
         finally:
             connection.close(); httpd.shutdown(); httpd.server_close()

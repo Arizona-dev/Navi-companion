@@ -2,7 +2,7 @@
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs
-import json, struct, base64, argparse, webbrowser, math, subprocess, os, re, sys
+import json, struct, base64, argparse, webbrowser, math, subprocess, os, re, sys, ctypes
 from quests import EPONA_SONG, quest_states
 from live import LiveTracker
 from map_position import locate_player
@@ -225,12 +225,26 @@ def overlay_command():
     path = BASE / 'Navi.exe'
     return [str(path), '--overlay'] if path.is_file() else None
 
+OVERLAY_TITLE = 'Navi \u2014 Mini-map'  # title of the mini-map window (app-src/Program.cs)
+
+def overlay_window():
+    """Handle of the open mini-map window, shown or hidden; 0 when there is none."""
+    try:
+        find = ctypes.windll.user32.FindWindowW
+        find.restype = ctypes.c_void_p
+        return find(None, OVERLAY_TITLE) or 0
+    except (AttributeError, OSError):
+        return 0
+
+def close_overlay(window):
+    ctypes.windll.user32.PostMessageW(ctypes.c_void_p(window), 0x10, 0, 0)  # WM_CLOSE
+
 class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         allowed = (f'127.0.0.1:{self.server.server_port}', f'localhost:{self.server.server_port}')
         if self.headers.get('Host') not in allowed or self.headers.get('Origin') not in tuple('http://' + h for h in allowed):
             self.send_error(403); return
-        if self.path not in ('/api/overlay/open', '/api/update/install') and not (self.path == '/api/quit' and MANAGED):
+        if self.path not in ('/api/overlay/open', '/api/overlay/toggle', '/api/update/install') and not (self.path == '/api/quit' and MANAGED):
             self.send_error(404); return
         if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
             self.send_error(415); return
@@ -248,13 +262,16 @@ class Handler(BaseHTTPRequestHandler):
                 # Only when started by the application window, which closes its own server.
                 threading.Timer(0.3, lambda: os._exit(0)).start()
                 data = json.dumps({'stopping': True}).encode()
+            elif self.path == '/api/overlay/toggle' and overlay_window():
+                close_overlay(overlay_window())
+                data = json.dumps({'open': False}).encode()
             else:
                 command = overlay_command()
                 if not command:
                     raise ValueError('Le programme de mini-carte est introuvable.')
                 subprocess.Popen(command, cwd=BASE, stdin=subprocess.DEVNULL,
                                  stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                data = json.dumps({'opened': True}).encode()
+                data = json.dumps({'opened': True, 'open': True}).encode()
             self.send_response(200)
         except (OSError, ValueError) as exc:
             data = json.dumps({'error': str(exc)}).encode()
@@ -274,6 +291,8 @@ class Handler(BaseHTTPRequestHandler):
                 live = LIVE.snapshot()
                 data = json.dumps({**live, 'player': locate_player(live.get('player'))}).encode()
                 mime = 'application/json'
+            elif url.path == '/api/overlay':
+                data = json.dumps({'open': bool(overlay_window())}).encode(); mime = 'application/json'
             elif url.path == '/api/setup':
                 data = json.dumps({'version': UPDATES.snapshot()['current'], 'images': dict(download_images.PROGRESS)}).encode()
                 mime = 'application/json'

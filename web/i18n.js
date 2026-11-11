@@ -558,6 +558,7 @@ const NAVI_EN = {
 "Suivre Link": "Follow Link",
 "Super grappin": "Longshot",
 "Mini-carte ↗": "Mini-map ↗",
+"Afficher ou fermer la mini-carte, toujours au-dessus du jeu": "Show or close the mini-map, always on top of the game",
 "Sur les blocs de glace": "On the ice blocks",
 "Sur les toits les plus hauts.": "On the highest rooftops.",
 "Sur place": "On site",

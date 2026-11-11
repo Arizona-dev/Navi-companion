@@ -438,6 +438,20 @@ async function openOverlay(){
  finally{buttons.forEach(b=>b.disabled=false);}
 }
 document.querySelectorAll('[data-open-overlay]').forEach(b=>b.onclick=openOverlay);
+// The button on the map shows the mini-map or closes it, and stays lit while it is open.
+async function syncOverlayToggle(){
+ try{const r=await fetch('/api/overlay',{cache:'no-store'});if(r.ok)$('overlay-toggle').setAttribute('aria-pressed',String((await r.json()).open));}catch{}
+}
+$('overlay-toggle').onclick=async()=>{
+ const b=$('overlay-toggle');b.disabled=true;
+ try{
+  const response=await fetch('/api/overlay/toggle',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
+  const result=await response.json();if(!response.ok)throw Error(result.error||T('Ouverture impossible'));
+  b.setAttribute('aria-pressed',String(result.open));
+ }catch(error){$('error').textContent=error.message;$('error').hidden=false;}
+ finally{b.disabled=false;}
+};
+if(!overlayMode){syncOverlayToggle();setInterval(syncOverlayToggle,2000);}
 if(overlayMode){$('player-center').textContent=T('Recentrer');$('status-filter').value='missing';}
 // Progress dial: main-story steps as a gold arc, the six medallions as points on the ring.
 function renderDial(done,total){
