@@ -20,7 +20,20 @@ namespace Navi
     // Both show the interface served by the local Navi server, which they start when needed.
     internal static class Program
     {
-        internal const string AppTitle = "Navi";
+        // Title of the application window, with the version of the VERSION file next to the program: "Navi 1.0.0".
+        internal static readonly string AppTitle = ReadTitle();
+
+        static string ReadTitle()
+        {
+            try
+            {
+                var folder = AppDomain.CurrentDomain.BaseDirectory;
+                var version = File.ReadAllText(Path.Combine(folder, "VERSION")).Trim();
+                if (Regex.IsMatch(version, @"^\d+(\.\d+){1,3}$")) return "Navi " + version;
+            }
+            catch (IOException) { } catch (UnauthorizedAccessException) { }
+            return "Navi";
+        }
         internal const string OverlayTitle = "Navi — Mini-map";
         internal const string AppMutex = @"Local\NaviCompanionApp";
         internal const string OverlayMutex = @"Local\NaviCompanionOverlay";
