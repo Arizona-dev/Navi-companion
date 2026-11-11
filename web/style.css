@@ -341,7 +341,8 @@ html[data-overlay] .picker-chevron{margin:0 2px}
 #map .map-view-switch button:hover,#map .map-text-button:hover{color:var(--ink)!important}
 #map .map-view-switch button[aria-pressed="true"],#map .map-text-button[aria-pressed="true"]{color:var(--gold)!important;border-bottom-color:var(--gold)!important}
 #map .map-text-button{padding-left:calc(18px * var(--ui-scale, 1));border-left:calc(1px * var(--ui-scale, 1)) solid var(--edge)!important}
-#map.is-world .map-top{background:#1b1c1ed9;padding:calc(2px * var(--ui-scale, 1)) calc(10px * var(--ui-scale, 1))}
+/* A dark backing keeps the buttons readable when the plan passes under them. */
+#map .map-top{background:#1b1c1ed9;padding:calc(2px * var(--ui-scale, 1)) calc(10px * var(--ui-scale, 1));left:calc(8px * var(--ui-scale, 1));top:calc(8px * var(--ui-scale, 1))}
 html[data-overlay] .map-top{display:none!important}
 /* Hyrule map: every region shows its name. */
 .world-region-label{display:block;top:calc(24px * var(--ui-scale, 1));padding:calc(1px * var(--ui-scale, 1)) calc(6px * var(--ui-scale, 1));font-size:calc(11px * var(--ui-scale, 1));line-height:1.5;letter-spacing:.03em;background:#1b1c1ee6;color:var(--ink);border:1px solid var(--edge);box-shadow:none;pointer-events:none}
