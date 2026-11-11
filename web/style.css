@@ -354,16 +354,19 @@ html[data-overlay] .map-top{display:none!important}
 .world-region[data-label="above"] .world-region-label{top:auto;bottom:calc(23px * var(--ui-scale, 1))}
 .world-region[data-label="right"] .world-region-label{top:50%;left:calc(26px * var(--ui-scale, 1));transform:translateY(-50%)}
 .world-region[data-label="left"] .world-region-label{top:50%;left:auto;right:calc(26px * var(--ui-scale, 1));transform:translateY(-50%)}
-/* Map table: plans and the map of Hyrule lie on an aged chart, with faint survey lines and darkened edges. */
+/* Map table: plans and the map of Hyrule share one sheet of aged parchment, in the tones of the Hyrule illustration,
+   so that the illustration seems to cover the whole frame and the region plans look drawn on the same sheet. */
 #map{background:
- radial-gradient(ellipse at 50% 46%,#0000 42%,#14110cb8 100%),
- repeating-linear-gradient(0deg,#0000 0 calc(95px * var(--ui-scale, 1)),#2a21121f calc(95px * var(--ui-scale, 1)) calc(96px * var(--ui-scale, 1))),
- repeating-linear-gradient(90deg,#0000 0 calc(95px * var(--ui-scale, 1)),#2a21121f calc(95px * var(--ui-scale, 1)) calc(96px * var(--ui-scale, 1))),
- radial-gradient(ellipse at 28% 30%,#9c917366,#0000 55%),
- radial-gradient(ellipse at 74% 72%,#5e554366,#0000 50%),
- #7d7460!important;box-shadow:inset 0 0 0 1px #00000066,inset 0 0 calc(60px * var(--ui-scale, 1)) #000000a6!important}
-/* The illustration melts into the chart instead of ending on a straight edge. */
-#map.is-world #world img{-webkit-mask-image:radial-gradient(ellipse 66% 66% at 50% 50%,#000 84%,#0000 100%);mask-image:radial-gradient(ellipse 66% 66% at 50% 50%,#000 84%,#0000 100%)}
+ radial-gradient(ellipse 75% 80% at 50% 50%,#0000 62%,#2a241a8c 100%),
+ radial-gradient(ellipse at 22% 28%,#a898786b,#0000 46%),
+ radial-gradient(ellipse at 78% 68%,#a595756b,#0000 44%),
+ radial-gradient(ellipse at 64% 20%,#7d705666,#0000 40%),
+ radial-gradient(ellipse at 30% 80%,#7f725966,#0000 42%),
+ repeating-linear-gradient(0deg,#0000 0 calc(95px * var(--ui-scale, 1)),#3a2e1814 calc(95px * var(--ui-scale, 1)) calc(96px * var(--ui-scale, 1))),
+ repeating-linear-gradient(90deg,#0000 0 calc(95px * var(--ui-scale, 1)),#3a2e1814 calc(95px * var(--ui-scale, 1)) calc(96px * var(--ui-scale, 1))),
+ #968669!important;box-shadow:inset 0 0 0 1px #00000066,inset 0 0 calc(46px * var(--ui-scale, 1)) #1a140a8c!important}
+/* The illustration has no visible edge: its four sides fade into the sheet. */
+#map.is-world #world img{-webkit-mask-image:linear-gradient(90deg,#0000,#000 9%,#000 91%,#0000),linear-gradient(#0000,#000 9%,#000 91%,#0000);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,#0000,#000 9%,#000 91%,#0000),linear-gradient(#0000,#000 9%,#000 91%,#0000);mask-composite:intersect}
 /* Captions on the chart keep a dark backing. */
 #map .map-legend,#map .map-credit{background:#1b1c1ed9!important;padding:calc(3px * var(--ui-scale, 1)) calc(9px * var(--ui-scale, 1))!important;color:#b9bbbf!important;text-shadow:none}
 #map .compass{color:#e4dcc0!important;text-shadow:0 1px 3px #000!important}
