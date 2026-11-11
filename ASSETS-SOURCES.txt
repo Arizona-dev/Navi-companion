@@ -1,5 +1,5 @@
-Visuels du jeu © Nintendo. Compagnon local non officiel.
-Icônes et illustration consultées sur Zelda Central :
+Game artwork © Nintendo. Unofficial local companion.
+Icons and illustration found on Zelda Central:
 https://zeldacentral.com/games/ocarina-of-time-remake/items-equipment/
 https://zeldacentral.com/games/ocarina-of-time-remake/100-completion-checklist/
 https://zeldacentral.com/games/ocarina-of-time-remake/
@@ -113,8 +113,9 @@ enemy-dark-link.webp — https://zeldacentral.com/wp-content/uploads/ootr/images
 enemy-iron-knuckle.webp — https://zeldacentral.com/wp-content/uploads/ootr/images/icons/enemy-iron-knuckle.webp
 character-malon.webp — https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-malon.webp
 character-happy-mask-shopkeeper.webp — https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-happy-mask-shopkeeper.webp
-item-pocket-egg-1.webp — https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-pocket-egg-1.webphyrule-keyart.webp — Illustration sans boîtier, © Nintendo, consultée sur https://www.pcgameshardware.de/screenshots/original/2026/09/Zelda-Ocarina-of-Time-Remake-pcgh_artwork.webp
-hyrule-user-art.png — Illustration fournie par l’utilisateur dans le chat, remplace le visuel du bloc Prochaine étape.
+item-pocket-egg-1.webp — https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-pocket-egg-1.webp
+hyrule-keyart.webp — Key art without the box frame, © Nintendo, found at https://www.pcgameshardware.de/screenshots/original/2026/09/Zelda-Ocarina-of-Time-Remake-pcgh_artwork.webp
+hyrule-user-art.png — Optional personal illustration for the "next step" block; not distributed. Without it, hyrule-keyart.webp is shown.
 
 Market adult map: https://objmap-oot.zeldamods.org/game_files/maps/Market_Adult_00.webp?v=6fc757e44ad6
 Verified against the Child view: same layer position and dimensions at the same zoom and center.
@@ -123,7 +124,7 @@ World map illustration (Nintendo, via VidaExtra): https://i.blogs.es/455c86/hshl
 Map parchment recreated in CSS from in-game reference: https://zeldacentral.com/games/ocarina-of-time-remake/maps/
 Player position format: Traiver/OOT-SW2SE PlayerStatus.SavePos (Vector3, 0xC884818D); last save only, no live memory reads.
 
-Plans *_FairyFountain.webp : projections des sols de la géométrie Nintendo
-publiée par Owl Object Map : https://objmap-oot.zeldamods.org/game_files/static_compound/
-Coordonnées des salles et points de fées : https://radar-oot.zeldamods.org/
-18 variantes de plans, 10 fontaines ; aucun tracé de salle inventé.
+*_FairyFountain.webp plans: floor projections of the Nintendo geometry
+published by Owl Object Map: https://objmap-oot.zeldamods.org/game_files/static_compound/
+Room coordinates and fairy spots: https://radar-oot.zeldamods.org/
+18 plan variants, 10 fountains; no room outline was invented.

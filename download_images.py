@@ -1,8 +1,8 @@
-"""Télécharge les images du jeu (icônes, plans) depuis leurs sources publiques.
+"""Download the game images (icons, maps) from their public sources.
 
-Les visuels © Nintendo ne sont pas distribués avec Navi. Ce script les récupère
-une fois, dans assets/ et maps/, d'après images-sources.json. Les fichiers déjà
-présents sont conservés ; relancer le script ne télécharge que ce qui manque.
+Nintendo's artwork is not distributed with Navi. This script fetches it once
+into assets/ and maps/, following images-sources.json. Files already present
+are kept; running the script again only downloads what is missing.
 """
 import hashlib
 import json
@@ -21,12 +21,12 @@ def missing_images(base=BASE):
 def download(entry, base=BASE):
     target = (base / entry['file']).resolve()
     if base not in target.parents or target.suffix not in ('.webp', '.png'):
-        raise ValueError('chemin refusé')
+        raise ValueError('path refused')
     request = urllib.request.Request(entry['url'], headers={'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(request, timeout=30) as response:
         data = response.read(20_000_000)
     if hashlib.sha256(data).hexdigest() != entry['sha256']:
-        raise ValueError('contenu différent de la version attendue')
+        raise ValueError('content differs from the expected version')
     target.parent.mkdir(exist_ok=True)
     partial = target.with_name(target.name + '.part')
     partial.write_bytes(data)
@@ -37,21 +37,21 @@ def main():
     todo = missing_images()
     if not todo:
         return 0
-    print(f'Téléchargement de {len(todo)} images du jeu (une seule fois)...', flush=True)
+    print(f'Downloading {len(todo)} game images (only once)...', flush=True)
     failed = []
     for index, entry in enumerate(todo, 1):
         try:
             download(entry)
         except (OSError, ValueError) as exc:
-            failed.append(f"  {entry['file']} : {exc}")
+            failed.append(f"  {entry['file']}: {exc}")
         if index % 20 == 0 or index == len(todo):
             print(f'  {index}/{len(todo)}', flush=True)
     if failed:
-        print(f'{len(failed)} images non récupérées (Navi fonctionne, elles manqueront à l\'écran) :')
+        print(f'{len(failed)} images could not be fetched (Navi works, they will be missing on screen):')
         print('\n'.join(failed[:15]))
-        print('Relancez Navi plus tard pour réessayer.')
+        print('Start Navi again later to retry.')
         return 1
-    print('Images prêtes.')
+    print('Images ready.')
     return 0
 
 

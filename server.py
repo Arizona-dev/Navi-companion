@@ -239,10 +239,10 @@ class Handler(BaseHTTPRequestHandler):
             elif url.path == '/api/state':
                 data = json.dumps(snapshot(parse_qs(url.query).get('slot',['latest'])[0])).encode()
                 mime = 'application/json'
-            elif url.path in ('/','/app.js','/style.css','/collectibles.json','/plans.json'):
+            elif url.path in ('/','/app.js','/i18n.js','/style.css','/collectibles.json','/plans.json'):
                 name = {'/':'index.html'}.get(url.path,url.path.lstrip('/'))
                 data = (BASE/name).read_bytes()
-                mime = {'/':'text/html','/app.js':'text/javascript','/style.css':'text/css'}.get(url.path,'application/json')
+                mime = {'/':'text/html','/app.js':'text/javascript','/i18n.js':'text/javascript','/style.css':'text/css'}.get(url.path,'application/json')
             elif url.path.startswith('/maps/') and url.path.endswith('.webp') and STATIC_IMAGE.fullmatch(url.path[6:]):
                 data=(BASE/'maps'/url.path[6:]).read_bytes();mime='image/webp'
             elif url.path.startswith('/assets/') and STATIC_IMAGE.fullmatch(url.path[8:]):
@@ -275,13 +275,13 @@ if __name__ == '__main__':
         server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler)
     except OSError:
         # Most likely Navi is already running (for instance started by the mini-map).
-        print(f'Le port {args.port} est déjà utilisé : Navi est probablement déjà lancé.',flush=True)
+        print(f'Port {args.port} is already in use: Navi is probably running already.',flush=True)
         if args.open: webbrowser.open(f'http://127.0.0.1:{args.port}')
         sys.exit(1)
     print(f'Navi : http://127.0.0.1:{args.port}',flush=True)
-    print(f'Sauvegardes : {ROOT}' if ROOT else SETUP_HELP,flush=True)
+    print(f'Saves: {ROOT}' if ROOT else 'Fritchii saves not found. Put the Navi folder inside the Fritchii folder (or next to it), or copy config.example.json to config.json and set save_root.',flush=True)
     # Game images are not shipped with Navi; fetch missing ones without delaying the server.
     import threading, importlib
-    threading.Thread(target=importlib.import_module('telecharger-images').main,daemon=True).start()
+    threading.Thread(target=importlib.import_module('download_images').main,daemon=True).start()
     if args.open: webbrowser.open(f'http://127.0.0.1:{args.port}')
     server.serve_forever()

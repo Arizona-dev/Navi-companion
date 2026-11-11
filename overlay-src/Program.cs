@@ -7,7 +7,7 @@ using Microsoft.Web.WebView2.WinForms;
 
 internal static class Program
 {
-    internal const string WindowTitle = "Navi — Mini-carte";
+    internal const string WindowTitle = "Navi — Mini-map";
     [STAThread]
     static void Main()
     {
@@ -33,6 +33,9 @@ internal sealed class OverlayWindow : Form
     readonly NotifyIcon tray;
     readonly string profile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "NaviCompanion");
     bool locked, lockHotkey, hideHotkey;
+    // Interface language: the choice saved from the tray menu, otherwise the Windows language.
+    bool french = System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "fr";
+    string L(string fr, string en) => french ? fr : en;
     Process? server;
     protected override bool ShowWithoutActivation => true;
 
@@ -59,15 +62,37 @@ internal sealed class OverlayWindow : Form
 
         Controls.Add(browser);
 
-        var menu = new ContextMenuStrip();
-        menu.Items.Add("Afficher / masquer · Ctrl+Alt+M", null, (_, _) => ToggleVisible());
-        menu.Items.Add("Verrouiller les clics · Ctrl+Alt+N", null, (_, _) => SetLocked(true));
-        menu.Items.Add("Déverrouiller la mini-carte", null, (_, _) => { SetLocked(false); Show(); });
-        menu.Items.Add("Fermer", null, (_, _) => Close());
-        tray = new NotifyIcon { Icon = SystemIcons.Information, Text = "Navi · Mini-carte", ContextMenuStrip = menu, Visible = true };
+        try { var saved = File.ReadAllText(Path.Combine(profile, "lang.txt")).Trim(); if (saved is "fr" or "en") french = saved == "fr"; }
+        catch (IOException) { } catch (UnauthorizedAccessException) { }
+        tray = new NotifyIcon { Icon = SystemIcons.Information, Text = L("Navi · Mini-carte", "Navi · Mini-map"), ContextMenuStrip = new ContextMenuStrip(), Visible = true };
+        BuildMenu();
         tray.DoubleClick += (_, _) => { SetLocked(false); Show(); };
         Shown += async (_, _) => await InitializeBrowser();
     }
+
+    void BuildMenu()
+    {
+        var menu = tray.ContextMenuStrip!;
+        menu.Items.Clear();
+        menu.Items.Add(L("Afficher / masquer · Ctrl+Alt+M", "Show / hide · Ctrl+Alt+M"), null, (_, _) => ToggleVisible());
+        menu.Items.Add(L("Verrouiller les clics · Ctrl+Alt+N", "Lock clicks · Ctrl+Alt+N"), null, (_, _) => SetLocked(true));
+        menu.Items.Add(L("Déverrouiller la mini-carte", "Unlock the mini-map"), null, (_, _) => { SetLocked(false); Show(); });
+        menu.Items.Add(L("Switch to English", "Passer en français"), null, (_, _) => SwitchLanguage());
+        menu.Items.Add(L("Fermer", "Close"), null, (_, _) => Close());
+    }
+
+    void SwitchLanguage()
+    {
+        french = !french;
+        try { File.WriteAllText(Path.Combine(profile, "lang.txt"), french ? "fr" : "en"); }
+        catch (IOException) { } catch (UnauthorizedAccessException) { }
+        BuildMenu();
+        tray.Text = locked ? LockedText() : L("Navi · Mini-carte", "Navi · Mini-map");
+        if (browser.CoreWebView2 != null) browser.Source = PageAddress();
+    }
+
+    Uri PageAddress() => new("http://127.0.0.1:8766/?overlay=1&lang=" + (french ? "fr" : "en"));
+    string LockedText() => lockHotkey ? L("Navi · Verrouillée · Ctrl+Alt+N", "Navi · Locked · Ctrl+Alt+N") : L("Navi · Verrouillée · clic droit ici", "Navi · Locked · right-click here");
 
     protected override void OnPaint(PaintEventArgs e)
     {
@@ -90,10 +115,10 @@ internal sealed class OverlayWindow : Form
                 try { using var response = await http.GetAsync("http://127.0.0.1:8766/"); ready = response.IsSuccessStatusCode && (await response.Content.ReadAsStringAsync()).Contains("Navi"); } catch (HttpRequestException) { } catch (TaskCanceledException) { }
                 if (ready) break;
                 if (server == null) server = StartServer();
-                else if (server.HasExited) throw new InvalidOperationException("Le serveur Navi s'est arrêté au démarrage. Le port 8766 est peut-être utilisé par un autre programme : lance Lancer-Navi.cmd pour voir le détail.");
+                else if (server.HasExited) throw new InvalidOperationException(L("Le serveur Navi s'est arrêté au démarrage. Le port 8766 est peut-être utilisé par un autre programme : lance Start-Navi.cmd pour voir le détail.", "The Navi server stopped while starting. Port 8766 may be used by another program: run Start-Navi.cmd to see the details."));
                 await Task.Delay(250);
             }
-            if (!ready) throw new InvalidOperationException("Navi ne répond pas. Lance Lancer-Navi.cmd puis rouvre la mini-carte.");
+            if (!ready) throw new InvalidOperationException(L("Navi ne répond pas. Lance Start-Navi.cmd puis rouvre la mini-carte.", "Navi is not responding. Run Start-Navi.cmd, then open the mini-map again."));
             var environment = await CoreWebView2Environment.CreateAsync(userDataFolder: Path.Combine(profile, "WebView2"));
             await browser.EnsureCoreWebView2Async(environment);
             var core = browser.CoreWebView2;
@@ -116,14 +141,14 @@ internal sealed class OverlayWindow : Form
                 if (!Uri.TryCreate(e.Uri, UriKind.Absolute, out var url) || url.Scheme != "http" || url.Host != "127.0.0.1" || url.Port != 8766)
                     e.Cancel = true;
             };
-            browser.Source = new Uri("http://127.0.0.1:8766/?overlay=1");
+            browser.Source = PageAddress();
             if (!lockHotkey || !hideHotkey)
-                tray.ShowBalloonTip(5000, "Navi", "Un raccourci Ctrl+Alt+N ou Ctrl+Alt+M est déjà pris par un autre programme. Utilise l'icône Navi près de l'horloge pour verrouiller, afficher ou fermer la mini-carte.", ToolTipIcon.Info);
+                tray.ShowBalloonTip(5000, "Navi", L("Un raccourci Ctrl+Alt+N ou Ctrl+Alt+M est déjà pris par un autre programme. Utilise l'icône Navi près de l'horloge pour verrouiller, afficher ou fermer la mini-carte.", "The Ctrl+Alt+N or Ctrl+Alt+M shortcut is already used by another program. Use the Navi icon near the clock to lock, show or close the mini-map."), ToolTipIcon.Info);
         }
         catch (Exception error)
         {
             if (IsDisposed || browser.IsDisposed) return;
-            tray.Text = "Navi · connexion indisponible";
+            tray.Text = L("Navi · connexion indisponible", "Navi · connection unavailable");
             var message = new Label { Dock = DockStyle.Fill, Text = error.Message, Padding = new Padding(20),
                 BackColor = Color.FromArgb(17, 26, 35), ForeColor = Color.White, Font = new Font("Segoe UI", 11) };
             browser.Controls.Add(message);
@@ -132,11 +157,11 @@ internal sealed class OverlayWindow : Form
 
     // Starts the local server without a console window. The Python launcher is tried
     // first: it exists even when Python was installed without being added to PATH.
-    static Process StartServer()
+    Process StartServer()
     {
         var root = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, ".."));
         var script = Path.Combine(root, "server.py");
-        if (!File.Exists(script)) throw new FileNotFoundException("Le serveur Navi est introuvable : le dossier overlay-app doit rester dans le dossier de Navi.");
+        if (!File.Exists(script)) throw new FileNotFoundException(L("Le serveur Navi est introuvable : le dossier overlay-app doit rester dans le dossier de Navi.", "The Navi server was not found: the overlay-app folder must stay inside the Navi folder."));
         foreach (var (program, option) in new[] { ("pyw.exe", "-3"), ("pythonw.exe", null as string) })
         {
             var launch = new ProcessStartInfo(program) { WorkingDirectory = root, UseShellExecute = false, CreateNoWindow = true };
@@ -145,7 +170,7 @@ internal sealed class OverlayWindow : Form
             try { if (Process.Start(launch) is Process started) return started; }
             catch (System.ComponentModel.Win32Exception) { }
         }
-        throw new InvalidOperationException("Python 3 est introuvable. Installe-le depuis https://www.python.org/downloads/ puis rouvre la mini-carte.");
+        throw new InvalidOperationException(L("Python 3 est introuvable. Installe-le depuis https://www.python.org/downloads/ puis rouvre la mini-carte.", "Python 3 was not found. Install it from https://www.python.org/downloads/ and open the mini-map again."));
     }
 
     void SetLocked(bool value)
@@ -157,7 +182,7 @@ internal sealed class OverlayWindow : Form
         style = value ? style | transparent | layered | noActivate : style & ~(transparent | noActivate);
         Native.SetWindowLongPtr(Handle, -20, new IntPtr(style));
         if (value) Native.SetLayeredWindowAttributes(Handle, 0, 255, 2);
-        tray.Text = value ? (lockHotkey ? "Navi · Verrouillée · Ctrl+Alt+N" : "Navi · Verrouillée · clic droit ici") : "Navi · Mini-carte";
+        tray.Text = value ? LockedText() : L("Navi · Mini-carte", "Navi · Mini-map");
         Native.SetWindowPos(Handle, new IntPtr(-1), 0, 0, 0, 0, 0x33);
     }
 
@@ -213,7 +238,7 @@ internal sealed class OverlayWindow : Form
         tray.Dispose();
         try { File.WriteAllText(Path.Combine(profile, "window.json"), JsonSerializer.Serialize(new[] { Left, Top, Width, Height })); } catch (IOException) { } catch (UnauthorizedAccessException) { }
         browser.Dispose();
-        // Stop the server only when this window started it; one launched by Lancer-Navi.cmd keeps running.
+        // Stop the server only when this window started it; one launched by Start-Navi.cmd keeps running.
         try { if (server is { HasExited: false }) server.Kill(entireProcessTree: true); }
         catch (InvalidOperationException) { } catch (System.ComponentModel.Win32Exception) { }
         base.OnFormClosed(e);
