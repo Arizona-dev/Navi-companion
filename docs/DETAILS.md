@@ -48,7 +48,7 @@
 
 ## Mini-map
 
-- From the map, click "Over the game", or run `Start-Navi-Overlay.cmd` (`Navi.exe --overlay`).
+- From the map, click "Mini-map", or run `Start-Navi-Overlay.cmd` (`Navi.exe --overlay`).
 - The window stays above other windows and keeps Link's position, heading and automatic floor tracking.
 - Move it with the thin golden handle on the top edge (no title bar). Resize from the corners and edges; Alt+F4 closes it.
 - The arrow button near +/− turns Follow Link on or off; it is golden when active.

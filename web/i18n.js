@@ -557,7 +557,7 @@ const NAVI_EN = {
 "Suis le passage derrière l’eau jusqu’au fragment.": "Follow the passage behind the water to the piece.",
 "Suivre Link": "Follow Link",
 "Super grappin": "Longshot",
-"Sur le jeu ↗": "Over the game ↗",
+"Mini-carte ↗": "Mini-map ↗",
 "Sur les blocs de glace": "On the ice blocks",
 "Sur les toits les plus hauts.": "On the highest rooftops.",
 "Sur place": "On site",

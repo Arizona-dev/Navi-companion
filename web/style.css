@@ -154,9 +154,9 @@ html[data-overlay] .follow-control{font-size:14px;white-space:nowrap}
 html[data-overlay] .map-toolbar{height:40px;min-height:40px;padding:3px 8px;gap:6px}
 html[data-overlay] .map-toolbar .eyebrow{display:none}
 html[data-overlay] .map-toolbar>div:first-child{flex:1;min-width:0}
-html[data-overlay] .map-toolbar>.picker-plan{min-width:86px;width:150px;max-width:45%;flex:0 1 150px}
+html[data-overlay] .map-toolbar>.picker-plan{min-width:0;width:auto;max-width:58%;flex:0 1 auto}
 html[data-overlay] .picker-plan .picker-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
-html[data-overlay] .region-trigger{font-size:13px;min-height:30px;height:30px;padding:3px 24px 3px 6px;min-width:0;width:100%}
+html[data-overlay] .region-trigger{font-size:13px;min-height:30px;height:30px;padding:3px 8px 3px 8px;gap:8px;min-width:0;width:100%}
 html[data-overlay] .region-trigger .chevron{width:9px;height:9px}
 html[data-overlay] .region-menu{min-width:0;width:min(300px,calc(100vw - 20px));max-height:60vh}
 html[data-overlay] #map{height:auto;min-height:0;flex:1;width:100%;border-radius:0}
@@ -167,10 +167,10 @@ html[data-overlay] .map-legend,html[data-overlay] #map-caption,html[data-overlay
 html[data-overlay] .map-credit{display:none!important}
 html[data-overlay] #player-center,html[data-overlay] #fit{display:none!important}
 html[data-overlay] .map-view-bar{display:none!important}
-#overlay-follow{display:none}
-html[data-overlay] #overlay-follow{display:grid;place-items:center}
-html[data-overlay] #overlay-follow[aria-pressed="true"]{background:#cbae6c;color:#393937;border-color:#8d743b;box-shadow:0 0 0 2px #33323055}
-html[data-overlay] #overlay-follow[aria-pressed="true"] svg{fill:currentColor}
+#overlay-follow{display:grid;place-items:center}
+.follow-control{display:none!important}
+#overlay-follow[aria-pressed="true"]{background:#c9ab63!important;color:#1b1c1e!important;border-color:#8d743b!important}
+#overlay-follow[aria-pressed="true"] svg{fill:currentColor}
 html[data-overlay] body[data-locked]::after{content:attr(data-locked);position:fixed;left:50%;bottom:8px;transform:translateX(-50%);z-index:50;padding:4px 10px;border:1px solid #8d743b;border-radius:2px;background:#1b1c1eee;color:#c9ab63;font-size:12px;letter-spacing:.04em;white-space:nowrap;pointer-events:none}
 html[data-overlay] .map-bottom{display:none!important}
 html[data-overlay] #player-status{font-size:14px;line-height:1.3}
@@ -327,3 +327,9 @@ html[data-app] .result .token{width:calc(30px * var(--ui-scale, 1));height:calc(
 #map .map-legend span::first-letter{color:var(--gold)}
 #map .map-credit{left:auto;right:calc(18px * var(--ui-scale, 1));bottom:calc(14px * var(--ui-scale, 1));padding:0!important;background:none!important;border:0!important;font-size:calc(11px * var(--ui-scale, 1));letter-spacing:.04em;color:#74767b!important;text-shadow:0 1px 3px #000;pointer-events:none}
 #map.is-world .map-credit{background:#1b1c1ed9!important;padding:calc(3px * var(--ui-scale, 1)) calc(8px * var(--ui-scale, 1))!important;color:var(--muted)!important}
+html[data-overlay] .picker-chevron{margin:0 2px}
+/* Following Link is the arrow button on the map, in the window as in the mini-map. */
+#map.is-world #overlay-follow{display:none}
+/* The mini-map button reads as a button, like "My position". */
+.map-view-bar [data-open-overlay]{color:var(--ink);border:1px solid var(--edge);background:#232427}
+.map-view-bar [data-open-overlay]:hover{border-color:var(--gold)}

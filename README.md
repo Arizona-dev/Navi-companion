@@ -49,7 +49,7 @@ Copy `config.example.json` to `config.json` and set the game's save folder in it
 
 ## Mini-map on top of the game
 
-Click **Over the game** from the map, or run `Start-Navi-Overlay.cmd`. The mini-map starts Navi by itself if needed.
+Click **Mini-map** from the map, or run `Start-Navi-Overlay.cmd`. The mini-map starts Navi by itself if needed.
 
 - Play in windowed or borderless fullscreen mode, otherwise the game covers it.
 - Move it with the golden handle on the top edge; resize it from the edges and corners.
