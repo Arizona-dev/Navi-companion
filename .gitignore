@@ -1,0 +1,25 @@
+# Réglage propre à chaque PC (voir config.example.json)
+config.json
+
+# Images du jeu © Nintendo : téléchargées par telecharger-images.py
+assets/*
+maps/*
+# Plans des fontaines : tracés produits pour Navi, sans source en ligne
+!maps/*_FairyFountain.webp
+# Illustration du bloc « Prochaine étape », fournie par l'auteur
+!assets/hyrule-user-art.png
+
+# Produits de compilation
+__pycache__/
+overlay-src/bin/
+overlay-src/obj/
+overlay-app/
+*.pdb
+*.part
+
+# Captures de travail à la racine (celles du README sont dans docs/)
+/*.jpg
+# Ancien test qui ne correspond plus au code
+test-map.cjs
+# Archives de publication
+dist/

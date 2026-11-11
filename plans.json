@@ -1,0 +1,8292 @@
+[
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State00",
+    "layers": [
+      {
+        "file": "BottomOfTheWell_B1_State00_Main.webp",
+        "left": -131.0,
+        "top": -117.68,
+        "width": 238.0,
+        "height": 171.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -131.0,
+        107.0
+      ],
+      "z": [
+        -117.68,
+        53.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      96.04,
+      138.441
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/00",
+    "layers": [
+      {
+        "file": "DeathMountainCrater_Child_00.webp",
+        "left": -106.0,
+        "top": -55.68,
+        "width": 188.0,
+        "height": 135.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -106.0,
+        82.0
+      ],
+      "z": [
+        -55.68,
+        79.68
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00",
+    "layers": [
+      {
+        "file": "DeathMountainTrail_Adult_00.webp",
+        "left": -216.0,
+        "top": -176.4,
+        "width": 390.0,
+        "height": 280.8
+      }
+    ],
+    "bounds": {
+      "x": [
+        -216.0,
+        174.0
+      ],
+      "z": [
+        -176.4,
+        104.4
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Child/00",
+    "layers": [
+      {
+        "file": "DeathMountainTrail_Child_00.webp",
+        "left": -216.0,
+        "top": -176.4,
+        "width": 390.0,
+        "height": 280.8
+      }
+    ],
+    "bounds": {
+      "x": [
+        -216.0,
+        174.0
+      ],
+      "z": [
+        -176.4,
+        104.4
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/00",
+    "layers": [
+      {
+        "file": "DesertColossus_Adult_00.webp",
+        "left": -240.5,
+        "top": -97.8,
+        "width": 305.0,
+        "height": 219.6
+      }
+    ],
+    "bounds": {
+      "x": [
+        -240.5,
+        64.5
+      ],
+      "z": [
+        -97.8,
+        121.8
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Child/00",
+    "layers": [
+      {
+        "file": "DesertColossus_Child_00.webp",
+        "left": -240.5,
+        "top": -97.8,
+        "width": 305.0,
+        "height": 219.6
+      }
+    ],
+    "bounds": {
+      "x": [
+        -240.5,
+        64.5
+      ],
+      "z": [
+        -97.8,
+        121.8
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/1F",
+    "layers": [
+      {
+        "file": "DodongoCavern_1F_Main.webp",
+        "left": -97.0,
+        "top": -122.16,
+        "width": 256.0,
+        "height": 184.32
+      }
+    ],
+    "bounds": {
+      "x": [
+        -97.0,
+        159.0
+      ],
+      "z": [
+        -122.16,
+        62.16
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      -3.5,
+      108.017
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/2F",
+    "layers": [
+      {
+        "file": "DodongoCavern_2F_Main.webp",
+        "left": -97.0,
+        "top": -122.16,
+        "width": 256.0,
+        "height": 184.32
+      }
+    ],
+    "bounds": {
+      "x": [
+        -97.0,
+        159.0
+      ],
+      "z": [
+        -122.16,
+        62.16
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      108.017,
+      128.775
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/5F_State00",
+    "layers": [
+      {
+        "file": "FireTemple_5F_State00_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "5F",
+    "heightRange": [
+      185.399,
+      208.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/3F",
+    "layers": [
+      {
+        "file": "FireTemple_3F_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      145.014,
+      166.91
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/1F_State00",
+    "layers": [
+      {
+        "file": "FireTemple_1F_State00_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      89.0,
+      126.954
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State00",
+    "layers": [
+      {
+        "file": "ForestTemple_2F_State00_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      112.198,
+      122.544
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/1F",
+    "layers": [
+      {
+        "file": "ForestTemple_1F_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      94.52,
+      112.198
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/B2",
+    "layers": [
+      {
+        "file": "ForestTemple_B2_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B2",
+    "heightRange": [
+      39.534,
+      69.165
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GanonCastle/GanonCastle/00",
+    "layers": [
+      {
+        "file": "GanonCastle_Adult_00.webp",
+        "left": -73.0,
+        "top": 200.52,
+        "width": 268.0,
+        "height": 192.96
+      }
+    ],
+    "bounds": {
+      "x": [
+        -73.0,
+        195.0
+      ],
+      "z": [
+        200.52,
+        393.48
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00",
+    "layers": [
+      {
+        "file": "GerudoFortress_Adult_00.webp",
+        "left": -84.0,
+        "top": -144.4,
+        "width": 340.0,
+        "height": 244.8
+      }
+    ],
+    "bounds": {
+      "x": [
+        -84.0,
+        256.0
+      ],
+      "z": [
+        -144.4,
+        100.4
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00",
+    "layers": [
+      {
+        "file": "GerudoValley_Adult_00.webp",
+        "left": -120.0,
+        "top": -99.4,
+        "width": 240.0,
+        "height": 172.8
+      }
+    ],
+    "bounds": {
+      "x": [
+        -120.0,
+        120.0
+      ],
+      "z": [
+        -99.4,
+        73.4
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Child/00",
+    "layers": [
+      {
+        "file": "GerudoValley_Child_00.webp",
+        "left": -120.0,
+        "top": -99.4,
+        "width": 240.0,
+        "height": 172.8
+      }
+    ],
+    "bounds": {
+      "x": [
+        -120.0,
+        120.0
+      ],
+      "z": [
+        -99.4,
+        73.4
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Adult/00",
+    "layers": [
+      {
+        "file": "GoronCity_Adult_00.webp",
+        "left": -83.0,
+        "top": -56.16,
+        "width": 156.0,
+        "height": 112.32
+      }
+    ],
+    "bounds": {
+      "x": [
+        -83.0,
+        73.0
+      ],
+      "z": [
+        -56.16,
+        56.16
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Child/00",
+    "layers": [
+      {
+        "file": "GoronCity_Child_00.webp",
+        "left": -83.0,
+        "top": -56.16,
+        "width": 156.0,
+        "height": 112.32
+      }
+    ],
+    "bounds": {
+      "x": [
+        -83.0,
+        73.0
+      ],
+      "z": [
+        -56.16,
+        56.16
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00",
+    "layers": [
+      {
+        "file": "Graveyard_Adult_00.webp",
+        "left": -56.0,
+        "top": -45.28,
+        "width": 148.0,
+        "height": 106.56
+      }
+    ],
+    "bounds": {
+      "x": [
+        -56.0,
+        92.0
+      ],
+      "z": [
+        -45.28,
+        61.28
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Child/00",
+    "layers": [
+      {
+        "file": "Graveyard_Child_00.webp",
+        "left": -56.0,
+        "top": -45.28,
+        "width": 148.0,
+        "height": 106.56
+      }
+    ],
+    "bounds": {
+      "x": [
+        -56.0,
+        92.0
+      ],
+      "z": [
+        -45.28,
+        61.28
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/HountedWasteland/HountedWasteland_Adult/00",
+    "layers": [
+      {
+        "file": "HountedWasteland_Adult_00.webp",
+        "left": -316.5,
+        "top": -284.2,
+        "width": 645.0,
+        "height": 464.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -316.5,
+        328.5
+      ],
+      "z": [
+        -284.2,
+        180.2
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/HyruleCastle/HyruleCastle/00",
+    "layers": [
+      {
+        "file": "HyruleCastle_Child_00.webp",
+        "left": -121.0,
+        "top": -167.12,
+        "width": 242.0,
+        "height": 174.24
+      }
+    ],
+    "bounds": {
+      "x": [
+        -121.0,
+        121.0
+      ],
+      "z": [
+        -167.12,
+        7.12
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "layers": [
+      {
+        "file": "HyruleField_Adult_00.webp",
+        "left": -391.0,
+        "top": -67.96,
+        "width": 736.0,
+        "height": 529.92
+      },
+      {
+        "file": "LakeHylia_Adult_00.webp",
+        "left": -411.0,
+        "top": 338.08,
+        "width": 422.0,
+        "height": 303.84
+      },
+      {
+        "file": "LonLonRanch_Adult_00.webp",
+        "left": -224.0,
+        "top": 139.64,
+        "width": 276.0,
+        "height": 198.72000000000003
+      }
+    ],
+    "bounds": {
+      "x": [
+        -391.0,
+        345.0
+      ],
+      "z": [
+        -67.96,
+        461.96
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00",
+    "layers": [
+      {
+        "file": "HyruleField_Child_00.webp",
+        "left": -391.0,
+        "top": -67.96,
+        "width": 736.0,
+        "height": 529.92
+      },
+      {
+        "file": "LakeHylia_Child_00.webp",
+        "left": -411.0,
+        "top": 338.08,
+        "width": 422.0,
+        "height": 303.84
+      },
+      {
+        "file": "LonLonRanch_Child_00.webp",
+        "left": -224.0,
+        "top": 139.64,
+        "width": 276.0,
+        "height": 198.72000000000003
+      }
+    ],
+    "bounds": {
+      "x": [
+        -391.0,
+        345.0
+      ],
+      "z": [
+        -67.96,
+        461.96
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/IceCavern/IceCavern/1F",
+    "layers": [
+      {
+        "file": "IceCavern_1F_Main.webp",
+        "left": -132.5,
+        "top": -91.32,
+        "width": 287.0,
+        "height": 206.64
+      }
+    ],
+    "bounds": {
+      "x": [
+        -132.5,
+        154.5
+      ],
+      "z": [
+        -91.32,
+        115.32
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      62.125,
+      135.115
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/B1",
+    "layers": [
+      {
+        "file": "InsideJabuJabuBelly_B1_Main.webp",
+        "left": -165.0,
+        "top": -210.08,
+        "width": 328.0,
+        "height": 236.16000000000003
+      }
+    ],
+    "bounds": {
+      "x": [
+        -165.0,
+        163.0
+      ],
+      "z": [
+        -210.08,
+        26.08
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      62.016,
+      88.524
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/1F",
+    "layers": [
+      {
+        "file": "InsideJabuJabuBelly_1F_Main.webp",
+        "left": -165.0,
+        "top": -210.08,
+        "width": 328.0,
+        "height": 236.16000000000003
+      }
+    ],
+    "bounds": {
+      "x": [
+        -165.0,
+        163.0
+      ],
+      "z": [
+        -210.08,
+        26.08
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      88.524,
+      95.925
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/2F",
+    "layers": [
+      {
+        "file": "InsideJabuJabuBelly_2F_Main.webp",
+        "left": -165.0,
+        "top": -210.08,
+        "width": 328.0,
+        "height": 236.16000000000003
+      }
+    ],
+    "bounds": {
+      "x": [
+        -165.0,
+        163.0
+      ],
+      "z": [
+        -210.08,
+        26.08
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      95.925,
+      122.83
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/3F_State00",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_3F_State00_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      118.0,
+      140.779
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State00",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_B1_State00_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      73.0,
+      93.5
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00",
+    "layers": [
+      {
+        "file": "KakarikoVillage_Adult_00.webp",
+        "left": -173.0,
+        "top": -46.56,
+        "width": 246.0,
+        "height": 177.12
+      }
+    ],
+    "bounds": {
+      "x": [
+        -173.0,
+        73.0
+      ],
+      "z": [
+        -46.56,
+        130.56
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00",
+    "layers": [
+      {
+        "file": "KakarikoVillage_Child_00.webp",
+        "left": -173.0,
+        "top": -46.56,
+        "width": 246.0,
+        "height": 177.12
+      }
+    ],
+    "bounds": {
+      "x": [
+        -173.0,
+        73.0
+      ],
+      "z": [
+        -46.56,
+        130.56
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Adult/00",
+    "layers": [
+      {
+        "file": "KokiriForest_Adult_00.webp",
+        "left": -155.0,
+        "top": -120.0,
+        "width": 300.0,
+        "height": 216.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.0,
+        145.0
+      ],
+      "z": [
+        -120.0,
+        96.0
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Child/00",
+    "layers": [
+      {
+        "file": "KokiriForest_Child_00.webp",
+        "left": -155.0,
+        "top": -120.0,
+        "width": 300.0,
+        "height": 216.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.0,
+        145.0
+      ],
+      "z": [
+        -120.0,
+        96.0
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Adult/00",
+    "layers": [
+      {
+        "file": "LostWood_Adult_00.webp",
+        "left": -194.0,
+        "top": -145.0,
+        "width": 400.0,
+        "height": 288.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -194.0,
+        206.0
+      ],
+      "z": [
+        -145.0,
+        143.0
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00",
+    "layers": [
+      {
+        "file": "LostWood_Child_00.webp",
+        "left": -194.0,
+        "top": -145.0,
+        "width": 400.0,
+        "height": 288.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -194.0,
+        206.0
+      ],
+      "z": [
+        -145.0,
+        143.0
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00",
+    "layers": [
+      {
+        "file": "Market_Child_00.webp",
+        "left": -107.0,
+        "top": -74.04,
+        "width": 214.0,
+        "height": 154.08
+      }
+    ],
+    "bounds": {
+      "x": [
+        -107.0,
+        107.0
+      ],
+      "z": [
+        -74.04,
+        80.04
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SacredForestMeadow/SacredForestMeadow_Adult/00",
+    "layers": [
+      {
+        "file": "SacredForestMeadow_Adult_00.webp",
+        "left": -170.5,
+        "top": -139.12,
+        "width": 317.0,
+        "height": 228.24
+      }
+    ],
+    "bounds": {
+      "x": [
+        -170.5,
+        146.5
+      ],
+      "z": [
+        -139.12,
+        89.12
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B2",
+    "layers": [
+      {
+        "file": "ShadowTemple_B2_Main.webp",
+        "left": -238.5,
+        "top": -148.88,
+        "width": 433.0,
+        "height": 311.76
+      }
+    ],
+    "bounds": {
+      "x": [
+        -238.5,
+        194.5
+      ],
+      "z": [
+        -148.88,
+        162.88
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B2",
+    "heightRange": [
+      72.853,
+      89.854
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B3",
+    "layers": [
+      {
+        "file": "ShadowTemple_B3_Main.webp",
+        "left": -238.5,
+        "top": -148.88,
+        "width": 433.0,
+        "height": 311.76
+      }
+    ],
+    "bounds": {
+      "x": [
+        -238.5,
+        194.5
+      ],
+      "z": [
+        -148.88,
+        162.88
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B3",
+    "heightRange": [
+      49.342,
+      72.853
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B4_State00",
+    "layers": [
+      {
+        "file": "ShadowTemple_B4_State00_Main.webp",
+        "left": -238.5,
+        "top": -148.88,
+        "width": 433.0,
+        "height": 311.76
+      }
+    ],
+    "bounds": {
+      "x": [
+        -238.5,
+        194.5
+      ],
+      "z": [
+        -148.88,
+        162.88
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B4",
+    "heightRange": [
+      -51.0,
+      49.342
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/1F",
+    "layers": [
+      {
+        "file": "SpiritTemple_1F_Main.webp",
+        "left": -101.0,
+        "top": -96.72,
+        "width": 202.0,
+        "height": 145.44
+      }
+    ],
+    "bounds": {
+      "x": [
+        -101.0,
+        101.0
+      ],
+      "z": [
+        -96.72,
+        48.72
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      24.0,
+      113.764
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/3F_State00",
+    "layers": [
+      {
+        "file": "SpiritTemple_3F_State00_Main.webp",
+        "left": -101.0,
+        "top": -96.72,
+        "width": 202.0,
+        "height": 145.44
+      }
+    ],
+    "bounds": {
+      "x": [
+        -101.0,
+        101.0
+      ],
+      "z": [
+        -96.72,
+        48.72
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      128.0,
+      150.269
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/2F",
+    "layers": [
+      {
+        "file": "SpiritTemple_2F_Main.webp",
+        "left": -101.0,
+        "top": -96.72,
+        "width": 202.0,
+        "height": 145.44
+      }
+    ],
+    "bounds": {
+      "x": [
+        -101.0,
+        101.0
+      ],
+      "z": [
+        -96.72,
+        48.72
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      113.764,
+      128.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/3F_Lv1",
+    "layers": [
+      {
+        "file": "WaterTemple_3F_Lv1_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      115.61,
+      171.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/2F_Lv1",
+    "layers": [
+      {
+        "file": "WaterTemple_2F_Lv1_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      108.7,
+      115.61
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/B1_Lv1",
+    "layers": [
+      {
+        "file": "WaterTemple_B1_Lv1_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      43.7,
+      96.974
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv1_State00",
+    "layers": [
+      {
+        "file": "WaterTemple_1F_Lv1_State00_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      96.974,
+      108.7
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraDomain/ZoraDomain_Adult_Alternative/00",
+    "layers": [
+      {
+        "file": "ZoraDomain_Adult_00.webp",
+        "left": -45.5,
+        "top": -68.36,
+        "width": 151.0,
+        "height": 108.72
+      }
+    ],
+    "bounds": {
+      "x": [
+        -45.5,
+        105.5
+      ],
+      "z": [
+        -68.36,
+        40.36
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/00",
+    "layers": [
+      {
+        "file": "ZoraFountain_Adult_00.webp",
+        "left": -67.5,
+        "top": -83.2,
+        "width": 195.0,
+        "height": 140.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -67.5,
+        127.5
+      ],
+      "z": [
+        -83.2,
+        57.2
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Child/00",
+    "layers": [
+      {
+        "file": "ZoraFountain_Child_00.webp",
+        "left": -67.5,
+        "top": -83.2,
+        "width": 195.0,
+        "height": 140.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -67.5,
+        127.5
+      ],
+      "z": [
+        -83.2,
+        57.2
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00",
+    "layers": [
+      {
+        "file": "ZoraRiver_Adult_00.webp",
+        "left": -112.5,
+        "top": -110.4,
+        "width": 265.0,
+        "height": 190.8
+      }
+    ],
+    "bounds": {
+      "x": [
+        -112.5,
+        152.5
+      ],
+      "z": [
+        -110.4,
+        80.4
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00",
+    "layers": [
+      {
+        "file": "ZoraRiver_Child_00.webp",
+        "left": -112.5,
+        "top": -110.4,
+        "width": 265.0,
+        "height": 190.8
+      }
+    ],
+    "bounds": {
+      "x": [
+        -112.5,
+        152.5
+      ],
+      "z": [
+        -110.4,
+        80.4
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Adult/00",
+    "layers": [
+      {
+        "file": "DeathMountainCrater_Adult_00.webp",
+        "left": -106.0,
+        "top": -55.68,
+        "width": 188.0,
+        "height": 135.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -106.0,
+        82.0
+      ],
+      "z": [
+        -55.68,
+        79.68
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraDomain/ZoraDomain_Child/00",
+    "layers": [
+      {
+        "file": "ZoraDomain_Child_00.webp",
+        "left": -45.5,
+        "top": -68.36,
+        "width": 151.0,
+        "height": 108.72
+      }
+    ],
+    "bounds": {
+      "x": [
+        -45.5,
+        105.5
+      ],
+      "z": [
+        -68.36,
+        40.36
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Adult/00",
+    "layers": [
+      {
+        "file": "Market_Adult_00.webp",
+        "left": -107.0,
+        "top": -74.04,
+        "width": 214.0,
+        "height": 154.08
+      }
+    ],
+    "bounds": {
+      "x": [
+        -107.0,
+        107.0
+      ],
+      "z": [
+        -74.04,
+        80.04
+      ]
+    },
+    "kind": "field",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B2",
+    "layers": [
+      {
+        "file": "BottomOfTheWell_B2_Main.webp",
+        "left": -131.0,
+        "top": -117.68,
+        "width": 238.0,
+        "height": 171.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -131.0,
+        107.0
+      ],
+      "z": [
+        -117.68,
+        53.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B2",
+    "heightRange": [
+      75.829,
+      96.04
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State01",
+    "layers": [
+      {
+        "file": "BottomOfTheWell_B1_State01_Main.webp",
+        "left": -131.0,
+        "top": -117.68,
+        "width": 238.0,
+        "height": 171.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -131.0,
+        107.0
+      ],
+      "z": [
+        -117.68,
+        53.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      96.04,
+      138.441
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/1F_State01",
+    "layers": [
+      {
+        "file": "FireTemple_1F_State01_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      89.0,
+      126.954
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/2F_State00",
+    "layers": [
+      {
+        "file": "FireTemple_2F_State00_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      126.954,
+      145.014
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/2F_State01",
+    "layers": [
+      {
+        "file": "FireTemple_2F_State01_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      126.954,
+      145.014
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/4F",
+    "layers": [
+      {
+        "file": "FireTemple_4F_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "4F",
+    "heightRange": [
+      166.91,
+      185.399
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/5F_State01",
+    "layers": [
+      {
+        "file": "FireTemple_5F_State01_Main.webp",
+        "left": -93.0,
+        "top": -82.2,
+        "width": 220.0,
+        "height": 158.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -93.0,
+        127.0
+      ],
+      "z": [
+        -82.2,
+        76.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "5F",
+    "heightRange": [
+      185.399,
+      208.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/B1",
+    "layers": [
+      {
+        "file": "ForestTemple_B1_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      69.165,
+      94.52
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State01",
+    "layers": [
+      {
+        "file": "ForestTemple_2F_State01_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      112.198,
+      122.544
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State02",
+    "layers": [
+      {
+        "file": "ForestTemple_2F_State02_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      112.198,
+      122.544
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State03",
+    "layers": [
+      {
+        "file": "ForestTemple_2F_State03_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      112.198,
+      122.544
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/3F_State00",
+    "layers": [
+      {
+        "file": "ForestTemple_3F_State00_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      122.544,
+      169.324
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/3F_State01",
+    "layers": [
+      {
+        "file": "ForestTemple_3F_State01_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      122.544,
+      169.324
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/3F_State02",
+    "layers": [
+      {
+        "file": "ForestTemple_3F_State02_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      122.544,
+      169.324
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/3F_State03",
+    "layers": [
+      {
+        "file": "ForestTemple_3F_State03_Main.webp",
+        "left": -125.5,
+        "top": -82.2,
+        "width": 245.0,
+        "height": 176.4
+      }
+    ],
+    "bounds": {
+      "x": [
+        -125.5,
+        119.5
+      ],
+      "z": [
+        -82.2,
+        94.2
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      122.544,
+      169.324
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GerudoTrainingGround/GerudoTrainingGround/00",
+    "layers": [],
+    "bounds": {
+      "x": [
+        -73.505,
+        89.002
+      ],
+      "z": [
+        -153.549,
+        26.794
+      ]
+    },
+    "kind": "dungeon",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideGanonCastle/InsideGanonCastle/00",
+    "layers": [],
+    "bounds": {
+      "x": [
+        -102.021,
+        111.052
+      ],
+      "z": [
+        -152.584,
+        120.495
+      ]
+    },
+    "kind": "dungeon",
+    "floor": null,
+    "heightRange": null
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B2_State00",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_B2_State00_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B2",
+    "heightRange": [
+      39.0,
+      73.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State01",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_B1_State01_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      73.0,
+      93.5
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/1F_State00",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_1F_State00_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      93.5,
+      106.5
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/1F_State01",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_1F_State01_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      93.5,
+      106.5
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/2F_State00",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_2F_State00_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      106.5,
+      118.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/2F_State01",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_2F_State01_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      106.5,
+      118.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/3F_State01",
+    "layers": [
+      {
+        "file": "InsideTheDekuTree_3F_State01_Main.webp",
+        "left": -98.5,
+        "top": -27.0,
+        "width": 125.0,
+        "height": 90.0
+      }
+    ],
+    "bounds": {
+      "x": [
+        -98.5,
+        26.5
+      ],
+      "z": [
+        -27.0,
+        63.0
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      118.0,
+      140.779
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B4_State01",
+    "layers": [
+      {
+        "file": "ShadowTemple_B4_State01_Main.webp",
+        "left": -238.5,
+        "top": -148.88,
+        "width": 433.0,
+        "height": 311.76
+      }
+    ],
+    "bounds": {
+      "x": [
+        -238.5,
+        194.5
+      ],
+      "z": [
+        -148.88,
+        162.88
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B4",
+    "heightRange": [
+      -51.0,
+      49.342
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B1",
+    "layers": [
+      {
+        "file": "ShadowTemple_B1_Main.webp",
+        "left": -238.5,
+        "top": -148.88,
+        "width": 433.0,
+        "height": 311.76
+      }
+    ],
+    "bounds": {
+      "x": [
+        -238.5,
+        194.5
+      ],
+      "z": [
+        -148.88,
+        162.88
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      89.854,
+      116.336
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/3F_State01",
+    "layers": [
+      {
+        "file": "SpiritTemple_3F_State01_Main.webp",
+        "left": -101.0,
+        "top": -96.72,
+        "width": 202.0,
+        "height": 145.44
+      }
+    ],
+    "bounds": {
+      "x": [
+        -101.0,
+        101.0
+      ],
+      "z": [
+        -96.72,
+        48.72
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      128.0,
+      150.269
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/3F_State02",
+    "layers": [
+      {
+        "file": "SpiritTemple_3F_State02_Main.webp",
+        "left": -101.0,
+        "top": -96.72,
+        "width": 202.0,
+        "height": 145.44
+      }
+    ],
+    "bounds": {
+      "x": [
+        -101.0,
+        101.0
+      ],
+      "z": [
+        -96.72,
+        48.72
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      128.0,
+      150.269
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/4F_State00",
+    "layers": [
+      {
+        "file": "SpiritTemple_4F_State00_Main.webp",
+        "left": -101.0,
+        "top": -96.72,
+        "width": 202.0,
+        "height": 145.44
+      }
+    ],
+    "bounds": {
+      "x": [
+        -101.0,
+        101.0
+      ],
+      "z": [
+        -96.72,
+        48.72
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "4F",
+    "heightRange": [
+      150.269,
+      177.295
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/4F_State01",
+    "layers": [
+      {
+        "file": "SpiritTemple_4F_State01_Main.webp",
+        "left": -101.0,
+        "top": -96.72,
+        "width": 202.0,
+        "height": 145.44
+      }
+    ],
+    "bounds": {
+      "x": [
+        -101.0,
+        101.0
+      ],
+      "z": [
+        -96.72,
+        48.72
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "4F",
+    "heightRange": [
+      150.269,
+      177.295
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/B1_Lv2",
+    "layers": [
+      {
+        "file": "WaterTemple_B1_Lv2_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      43.7,
+      96.974
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/B1_Lv3",
+    "layers": [
+      {
+        "file": "WaterTemple_B1_Lv3_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "B1",
+    "heightRange": [
+      43.7,
+      96.974
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv1_State01",
+    "layers": [
+      {
+        "file": "WaterTemple_1F_Lv1_State01_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      96.974,
+      108.7
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv2_State00",
+    "layers": [
+      {
+        "file": "WaterTemple_1F_Lv2_State00_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      96.974,
+      108.7
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv2_State01",
+    "layers": [
+      {
+        "file": "WaterTemple_1F_Lv2_State01_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      96.974,
+      108.7
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv3_State00",
+    "layers": [
+      {
+        "file": "WaterTemple_1F_Lv3_State00_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      96.974,
+      108.7
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv3_State01",
+    "layers": [
+      {
+        "file": "WaterTemple_1F_Lv3_State01_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "1F",
+    "heightRange": [
+      96.974,
+      108.7
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/2F_Lv2",
+    "layers": [
+      {
+        "file": "WaterTemple_2F_Lv2_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      108.7,
+      115.61
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/2F_Lv3",
+    "layers": [
+      {
+        "file": "WaterTemple_2F_Lv3_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "2F",
+    "heightRange": [
+      108.7,
+      115.61
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/3F_Lv2",
+    "layers": [
+      {
+        "file": "WaterTemple_3F_Lv2_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      115.61,
+      171.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/3F_Lv3",
+    "layers": [
+      {
+        "file": "WaterTemple_3F_Lv3_Main.webp",
+        "left": -155.5,
+        "top": -139.68,
+        "width": 263.0,
+        "height": 189.36
+      }
+    ],
+    "bounds": {
+      "x": [
+        -155.5,
+        107.5
+      ],
+      "z": [
+        -139.68,
+        49.68
+      ]
+    },
+    "kind": "dungeon",
+    "floor": "3F",
+    "heightRange": [
+      115.61,
+      171.0
+    ]
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Adult/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "DeathMountainCrater_Adult_FairyFountain.webp",
+        "left": -107.38413058687567,
+        "top": 18.601915867043218,
+        "width": 57.94747868473406,
+        "height": 57.94373457979819
+      }
+    ],
+    "bounds": {
+      "x": [
+        -107.38413058687567,
+        -49.43665190214161
+      ],
+      "z": [
+        18.601915867043218,
+        76.5456504468414
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -105.598,
+            43.61
+          ],
+          [
+            -105.823,
+            45.758
+          ],
+          [
+            -105.884,
+            47.918
+          ],
+          [
+            -105.77,
+            50.069
+          ],
+          [
+            -105.492,
+            52.204
+          ],
+          [
+            -105.044,
+            54.319
+          ],
+          [
+            -104.434,
+            56.39
+          ],
+          [
+            -103.659,
+            58.404
+          ],
+          [
+            -102.732,
+            60.35
+          ],
+          [
+            -101.659,
+            62.218
+          ],
+          [
+            -100.438,
+            63.996
+          ],
+          [
+            -99.077,
+            65.675
+          ],
+          [
+            -97.593,
+            67.242
+          ],
+          [
+            -95.991,
+            68.684
+          ],
+          [
+            -94.285,
+            69.997
+          ],
+          [
+            -92.473,
+            71.175
+          ],
+          [
+            -90.577,
+            72.209
+          ],
+          [
+            -88.609,
+            73.084
+          ],
+          [
+            -86.58,
+            73.805
+          ],
+          [
+            -84.493,
+            74.366
+          ],
+          [
+            -82.368,
+            74.76
+          ],
+          [
+            -80.224,
+            74.989
+          ],
+          [
+            -78.068,
+            75.046
+          ],
+          [
+            -75.918,
+            74.931
+          ],
+          [
+            -73.778,
+            74.657
+          ],
+          [
+            -71.668,
+            74.207
+          ],
+          [
+            -69.596,
+            73.595
+          ],
+          [
+            -67.578,
+            72.825
+          ],
+          [
+            -65.633,
+            71.894
+          ],
+          [
+            -63.768,
+            70.82
+          ],
+          [
+            -61.99,
+            69.6
+          ],
+          [
+            -60.311,
+            68.242
+          ],
+          [
+            -58.74,
+            66.758
+          ],
+          [
+            -57.301,
+            65.156
+          ],
+          [
+            -55.985,
+            63.447
+          ],
+          [
+            -54.81,
+            61.639
+          ],
+          [
+            -53.778,
+            59.743
+          ],
+          [
+            -52.897,
+            57.77
+          ],
+          [
+            -52.177,
+            55.741
+          ],
+          [
+            -51.616,
+            53.659
+          ],
+          [
+            -51.223,
+            51.534
+          ],
+          [
+            -50.997,
+            49.385
+          ],
+          [
+            -50.937,
+            47.23
+          ],
+          [
+            -51.051,
+            45.079
+          ],
+          [
+            -51.329,
+            42.939
+          ],
+          [
+            -51.777,
+            40.824
+          ],
+          [
+            -52.649,
+            38.26
+          ],
+          [
+            -53.213,
+            38.555
+          ],
+          [
+            -53.357,
+            38.514
+          ],
+          [
+            -53.482,
+            38.021
+          ],
+          [
+            -54.938,
+            35.246
+          ],
+          [
+            -56.398,
+            32.468
+          ],
+          [
+            -56.726,
+            32.098
+          ],
+          [
+            -56.693,
+            31.952
+          ],
+          [
+            -56.121,
+            31.649
+          ],
+          [
+            -57.74,
+            29.474
+          ],
+          [
+            -59.221,
+            27.909
+          ],
+          [
+            -60.826,
+            26.463
+          ],
+          [
+            -62.539,
+            25.148
+          ],
+          [
+            -64.347,
+            23.969
+          ],
+          [
+            -66.243,
+            22.939
+          ],
+          [
+            -68.212,
+            22.062
+          ],
+          [
+            -70.245,
+            21.339
+          ],
+          [
+            -72.332,
+            20.78
+          ],
+          [
+            -74.453,
+            20.384
+          ],
+          [
+            -76.597,
+            20.159
+          ],
+          [
+            -78.751,
+            20.102
+          ],
+          [
+            -80.903,
+            20.212
+          ],
+          [
+            -83.043,
+            20.491
+          ],
+          [
+            -85.153,
+            20.941
+          ],
+          [
+            -87.225,
+            21.552
+          ],
+          [
+            -89.239,
+            22.323
+          ],
+          [
+            -91.184,
+            23.248
+          ],
+          [
+            -93.057,
+            24.33
+          ],
+          [
+            -94.839,
+            25.551
+          ],
+          [
+            -96.513,
+            26.905
+          ],
+          [
+            -98.081,
+            28.389
+          ],
+          [
+            -99.523,
+            29.992
+          ],
+          [
+            -100.836,
+            31.697
+          ],
+          [
+            -102.011,
+            33.509
+          ],
+          [
+            -103.043,
+            35.405
+          ],
+          [
+            -103.924,
+            37.377
+          ],
+          [
+            -104.644,
+            39.406
+          ],
+          [
+            -105.205,
+            41.489
+          ],
+          [
+            -105.598,
+            43.61
+          ]
+        ]
+      ],
+      "heightRange": [
+        117.5129140154116,
+        128.20999999999998
+      ],
+      "anchor": [
+        -76.57,
+        122.21,
+        46.61
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/DeathMountainCrater_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "DeathMountainCrater_Child_FairyFountain.webp",
+        "left": -107.38413058687567,
+        "top": 18.601915867043218,
+        "width": 57.94747868473406,
+        "height": 57.94373457979819
+      }
+    ],
+    "bounds": {
+      "x": [
+        -107.38413058687567,
+        -49.43665190214161
+      ],
+      "z": [
+        18.601915867043218,
+        76.5456504468414
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -105.598,
+            43.61
+          ],
+          [
+            -105.823,
+            45.758
+          ],
+          [
+            -105.884,
+            47.918
+          ],
+          [
+            -105.77,
+            50.069
+          ],
+          [
+            -105.492,
+            52.204
+          ],
+          [
+            -105.044,
+            54.319
+          ],
+          [
+            -104.434,
+            56.39
+          ],
+          [
+            -103.659,
+            58.404
+          ],
+          [
+            -102.732,
+            60.35
+          ],
+          [
+            -101.659,
+            62.218
+          ],
+          [
+            -100.438,
+            63.996
+          ],
+          [
+            -99.077,
+            65.675
+          ],
+          [
+            -97.593,
+            67.242
+          ],
+          [
+            -95.991,
+            68.684
+          ],
+          [
+            -94.285,
+            69.997
+          ],
+          [
+            -92.473,
+            71.175
+          ],
+          [
+            -90.577,
+            72.209
+          ],
+          [
+            -88.609,
+            73.084
+          ],
+          [
+            -86.58,
+            73.805
+          ],
+          [
+            -84.493,
+            74.366
+          ],
+          [
+            -82.368,
+            74.76
+          ],
+          [
+            -80.224,
+            74.989
+          ],
+          [
+            -78.068,
+            75.046
+          ],
+          [
+            -75.918,
+            74.931
+          ],
+          [
+            -73.778,
+            74.657
+          ],
+          [
+            -71.668,
+            74.207
+          ],
+          [
+            -69.596,
+            73.595
+          ],
+          [
+            -67.578,
+            72.825
+          ],
+          [
+            -65.633,
+            71.894
+          ],
+          [
+            -63.768,
+            70.82
+          ],
+          [
+            -61.99,
+            69.6
+          ],
+          [
+            -60.311,
+            68.242
+          ],
+          [
+            -58.74,
+            66.758
+          ],
+          [
+            -57.301,
+            65.156
+          ],
+          [
+            -55.985,
+            63.447
+          ],
+          [
+            -54.81,
+            61.639
+          ],
+          [
+            -53.778,
+            59.743
+          ],
+          [
+            -52.897,
+            57.77
+          ],
+          [
+            -52.177,
+            55.741
+          ],
+          [
+            -51.616,
+            53.659
+          ],
+          [
+            -51.223,
+            51.534
+          ],
+          [
+            -50.997,
+            49.385
+          ],
+          [
+            -50.937,
+            47.23
+          ],
+          [
+            -51.051,
+            45.079
+          ],
+          [
+            -51.329,
+            42.939
+          ],
+          [
+            -51.777,
+            40.824
+          ],
+          [
+            -52.649,
+            38.26
+          ],
+          [
+            -53.213,
+            38.555
+          ],
+          [
+            -53.357,
+            38.514
+          ],
+          [
+            -53.482,
+            38.021
+          ],
+          [
+            -54.938,
+            35.246
+          ],
+          [
+            -56.398,
+            32.468
+          ],
+          [
+            -56.726,
+            32.098
+          ],
+          [
+            -56.693,
+            31.952
+          ],
+          [
+            -56.121,
+            31.649
+          ],
+          [
+            -57.74,
+            29.474
+          ],
+          [
+            -59.221,
+            27.909
+          ],
+          [
+            -60.826,
+            26.463
+          ],
+          [
+            -62.539,
+            25.148
+          ],
+          [
+            -64.347,
+            23.969
+          ],
+          [
+            -66.243,
+            22.939
+          ],
+          [
+            -68.212,
+            22.062
+          ],
+          [
+            -70.245,
+            21.339
+          ],
+          [
+            -72.332,
+            20.78
+          ],
+          [
+            -74.453,
+            20.384
+          ],
+          [
+            -76.597,
+            20.159
+          ],
+          [
+            -78.751,
+            20.102
+          ],
+          [
+            -80.903,
+            20.212
+          ],
+          [
+            -83.043,
+            20.491
+          ],
+          [
+            -85.153,
+            20.941
+          ],
+          [
+            -87.225,
+            21.552
+          ],
+          [
+            -89.239,
+            22.323
+          ],
+          [
+            -91.184,
+            23.248
+          ],
+          [
+            -93.057,
+            24.33
+          ],
+          [
+            -94.839,
+            25.551
+          ],
+          [
+            -96.513,
+            26.905
+          ],
+          [
+            -98.081,
+            28.389
+          ],
+          [
+            -99.523,
+            29.992
+          ],
+          [
+            -100.836,
+            31.697
+          ],
+          [
+            -102.011,
+            33.509
+          ],
+          [
+            -103.043,
+            35.405
+          ],
+          [
+            -103.924,
+            37.377
+          ],
+          [
+            -104.644,
+            39.406
+          ],
+          [
+            -105.205,
+            41.489
+          ],
+          [
+            -105.598,
+            43.61
+          ]
+        ]
+      ],
+      "heightRange": [
+        117.5129140154116,
+        128.20999999999998
+      ],
+      "anchor": [
+        -76.57,
+        122.21,
+        46.61
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/DeathMountainCrater_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "DeathMountainTrail_Adult_FairyFountain.webp",
+        "left": -63.67085909975029,
+        "top": -220.0663146101803,
+        "width": 57.91999946905121,
+        "height": 57.91184895086323
+      }
+    ],
+    "bounds": {
+      "x": [
+        -63.67085909975029,
+        -5.750859630699076
+      ],
+      "z": [
+        -220.0663146101803,
+        -162.15446565931708
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -61.981,
+            -194.456
+          ],
+          [
+            -62.158,
+            -192.307
+          ],
+          [
+            -62.171,
+            -190.145
+          ],
+          [
+            -62.006,
+            -188.001
+          ],
+          [
+            -61.683,
+            -185.87
+          ],
+          [
+            -61.189,
+            -183.769
+          ],
+          [
+            -60.529,
+            -181.708
+          ],
+          [
+            -59.713,
+            -179.717
+          ],
+          [
+            -58.743,
+            -177.791
+          ],
+          [
+            -57.621,
+            -175.945
+          ],
+          [
+            -56.36,
+            -174.194
+          ],
+          [
+            -54.966,
+            -172.548
+          ],
+          [
+            -53.451,
+            -171.017
+          ],
+          [
+            -51.816,
+            -169.607
+          ],
+          [
+            -50.076,
+            -168.336
+          ],
+          [
+            -48.238,
+            -167.198
+          ],
+          [
+            -46.317,
+            -166.209
+          ],
+          [
+            -44.327,
+            -165.378
+          ],
+          [
+            -42.284,
+            -164.697
+          ],
+          [
+            -40.188,
+            -164.188
+          ],
+          [
+            -38.058,
+            -163.838
+          ],
+          [
+            -35.91,
+            -163.663
+          ],
+          [
+            -33.748,
+            -163.654
+          ],
+          [
+            -31.598,
+            -163.813
+          ],
+          [
+            -28.934,
+            -164.337
+          ],
+          [
+            -29.152,
+            -164.942
+          ],
+          [
+            -29.078,
+            -165.072
+          ],
+          [
+            -28.589,
+            -165.126
+          ],
+          [
+            -22.693,
+            -167.268
+          ],
+          [
+            -22.275,
+            -167.544
+          ],
+          [
+            -22.14,
+            -167.479
+          ],
+          [
+            -21.923,
+            -166.884
+          ],
+          [
+            -19.55,
+            -168.195
+          ],
+          [
+            -17.799,
+            -169.456
+          ],
+          [
+            -16.151,
+            -170.856
+          ],
+          [
+            -14.614,
+            -172.373
+          ],
+          [
+            -13.21,
+            -174.007
+          ],
+          [
+            -11.936,
+            -175.739
+          ],
+          [
+            -10.801,
+            -177.577
+          ],
+          [
+            -9.81,
+            -179.498
+          ],
+          [
+            -8.976,
+            -181.489
+          ],
+          [
+            -8.297,
+            -183.537
+          ],
+          [
+            -7.789,
+            -185.634
+          ],
+          [
+            -7.441,
+            -187.769
+          ],
+          [
+            -7.263,
+            -189.914
+          ],
+          [
+            -7.251,
+            -192.076
+          ],
+          [
+            -7.416,
+            -194.22
+          ],
+          [
+            -7.738,
+            -196.351
+          ],
+          [
+            -8.233,
+            -198.451
+          ],
+          [
+            -8.893,
+            -200.512
+          ],
+          [
+            -9.709,
+            -202.504
+          ],
+          [
+            -10.679,
+            -204.429
+          ],
+          [
+            -11.8,
+            -206.276
+          ],
+          [
+            -13.058,
+            -208.03
+          ],
+          [
+            -14.453,
+            -209.676
+          ],
+          [
+            -15.97,
+            -211.204
+          ],
+          [
+            -17.605,
+            -212.613
+          ],
+          [
+            -19.346,
+            -213.885
+          ],
+          [
+            -21.184,
+            -215.023
+          ],
+          [
+            -23.098,
+            -216.012
+          ],
+          [
+            -25.088,
+            -216.843
+          ],
+          [
+            -27.138,
+            -217.524
+          ],
+          [
+            -29.234,
+            -218.033
+          ],
+          [
+            -31.364,
+            -218.383
+          ],
+          [
+            -33.512,
+            -218.558
+          ],
+          [
+            -35.669,
+            -218.566
+          ],
+          [
+            -37.817,
+            -218.409
+          ],
+          [
+            -39.947,
+            -218.085
+          ],
+          [
+            -42.051,
+            -217.587
+          ],
+          [
+            -44.109,
+            -216.929
+          ],
+          [
+            -46.106,
+            -216.115
+          ],
+          [
+            -48.033,
+            -215.143
+          ],
+          [
+            -49.873,
+            -214.025
+          ],
+          [
+            -51.622,
+            -212.765
+          ],
+          [
+            -53.271,
+            -211.365
+          ],
+          [
+            -54.808,
+            -209.847
+          ],
+          [
+            -56.212,
+            -208.214
+          ],
+          [
+            -57.486,
+            -206.481
+          ],
+          [
+            -58.62,
+            -204.643
+          ],
+          [
+            -59.611,
+            -202.722
+          ],
+          [
+            -60.448,
+            -200.727
+          ],
+          [
+            -61.118,
+            -198.683
+          ],
+          [
+            -61.632,
+            -196.592
+          ],
+          [
+            -61.981,
+            -194.456
+          ]
+        ]
+      ],
+      "heightRange": [
+        206.51917856107423,
+        217.22
+      ],
+      "anchor": [
+        -34,
+        211.22,
+        -189.16
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/DeathMountainTrail_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Child/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "DeathMountainTrail_Child_FairyFountain.webp",
+        "left": -63.67085909975029,
+        "top": -220.0663146101803,
+        "width": 57.91999946905121,
+        "height": 57.91184895086323
+      }
+    ],
+    "bounds": {
+      "x": [
+        -63.67085909975029,
+        -5.750859630699076
+      ],
+      "z": [
+        -220.0663146101803,
+        -162.15446565931708
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -61.981,
+            -194.456
+          ],
+          [
+            -62.158,
+            -192.307
+          ],
+          [
+            -62.171,
+            -190.145
+          ],
+          [
+            -62.006,
+            -188.001
+          ],
+          [
+            -61.683,
+            -185.87
+          ],
+          [
+            -61.189,
+            -183.769
+          ],
+          [
+            -60.529,
+            -181.708
+          ],
+          [
+            -59.713,
+            -179.717
+          ],
+          [
+            -58.743,
+            -177.791
+          ],
+          [
+            -57.621,
+            -175.945
+          ],
+          [
+            -56.36,
+            -174.194
+          ],
+          [
+            -54.966,
+            -172.548
+          ],
+          [
+            -53.451,
+            -171.017
+          ],
+          [
+            -51.816,
+            -169.607
+          ],
+          [
+            -50.076,
+            -168.336
+          ],
+          [
+            -48.238,
+            -167.198
+          ],
+          [
+            -46.317,
+            -166.209
+          ],
+          [
+            -44.327,
+            -165.378
+          ],
+          [
+            -42.284,
+            -164.697
+          ],
+          [
+            -40.188,
+            -164.188
+          ],
+          [
+            -38.058,
+            -163.838
+          ],
+          [
+            -35.91,
+            -163.663
+          ],
+          [
+            -33.748,
+            -163.654
+          ],
+          [
+            -31.598,
+            -163.813
+          ],
+          [
+            -28.934,
+            -164.337
+          ],
+          [
+            -29.152,
+            -164.942
+          ],
+          [
+            -29.078,
+            -165.072
+          ],
+          [
+            -28.589,
+            -165.126
+          ],
+          [
+            -22.693,
+            -167.268
+          ],
+          [
+            -22.275,
+            -167.544
+          ],
+          [
+            -22.14,
+            -167.479
+          ],
+          [
+            -21.923,
+            -166.884
+          ],
+          [
+            -19.55,
+            -168.195
+          ],
+          [
+            -17.799,
+            -169.456
+          ],
+          [
+            -16.151,
+            -170.856
+          ],
+          [
+            -14.614,
+            -172.373
+          ],
+          [
+            -13.21,
+            -174.007
+          ],
+          [
+            -11.936,
+            -175.739
+          ],
+          [
+            -10.801,
+            -177.577
+          ],
+          [
+            -9.81,
+            -179.498
+          ],
+          [
+            -8.976,
+            -181.489
+          ],
+          [
+            -8.297,
+            -183.537
+          ],
+          [
+            -7.789,
+            -185.634
+          ],
+          [
+            -7.441,
+            -187.769
+          ],
+          [
+            -7.263,
+            -189.914
+          ],
+          [
+            -7.251,
+            -192.076
+          ],
+          [
+            -7.416,
+            -194.22
+          ],
+          [
+            -7.738,
+            -196.351
+          ],
+          [
+            -8.233,
+            -198.451
+          ],
+          [
+            -8.893,
+            -200.512
+          ],
+          [
+            -9.709,
+            -202.504
+          ],
+          [
+            -10.679,
+            -204.429
+          ],
+          [
+            -11.8,
+            -206.276
+          ],
+          [
+            -13.058,
+            -208.03
+          ],
+          [
+            -14.453,
+            -209.676
+          ],
+          [
+            -15.97,
+            -211.204
+          ],
+          [
+            -17.605,
+            -212.613
+          ],
+          [
+            -19.346,
+            -213.885
+          ],
+          [
+            -21.184,
+            -215.023
+          ],
+          [
+            -23.098,
+            -216.012
+          ],
+          [
+            -25.088,
+            -216.843
+          ],
+          [
+            -27.138,
+            -217.524
+          ],
+          [
+            -29.234,
+            -218.033
+          ],
+          [
+            -31.364,
+            -218.383
+          ],
+          [
+            -33.512,
+            -218.558
+          ],
+          [
+            -35.669,
+            -218.566
+          ],
+          [
+            -37.817,
+            -218.409
+          ],
+          [
+            -39.947,
+            -218.085
+          ],
+          [
+            -42.051,
+            -217.587
+          ],
+          [
+            -44.109,
+            -216.929
+          ],
+          [
+            -46.106,
+            -216.115
+          ],
+          [
+            -48.033,
+            -215.143
+          ],
+          [
+            -49.873,
+            -214.025
+          ],
+          [
+            -51.622,
+            -212.765
+          ],
+          [
+            -53.271,
+            -211.365
+          ],
+          [
+            -54.808,
+            -209.847
+          ],
+          [
+            -56.212,
+            -208.214
+          ],
+          [
+            -57.486,
+            -206.481
+          ],
+          [
+            -58.62,
+            -204.643
+          ],
+          [
+            -59.611,
+            -202.722
+          ],
+          [
+            -60.448,
+            -200.727
+          ],
+          [
+            -61.118,
+            -198.683
+          ],
+          [
+            -61.632,
+            -196.592
+          ],
+          [
+            -61.981,
+            -194.456
+          ]
+        ]
+      ],
+      "heightRange": [
+        206.51917856107423,
+        217.22
+      ],
+      "anchor": [
+        -34,
+        211.22,
+        -189.16
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/DeathMountainTrail_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "DesertColossus_Adult_FairyFountain.webp",
+        "left": -78.03273655366135,
+        "top": -108.97613532775475,
+        "width": 57.94687196289607,
+        "height": 57.61364473089426
+      }
+    ],
+    "bounds": {
+      "x": [
+        -78.03273655366135,
+        -20.08586459076528
+      ],
+      "z": [
+        -108.97613532775475,
+        -51.36249059686049
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -76.449,
+            -82.16
+          ],
+          [
+            -76.533,
+            -79.998
+          ],
+          [
+            -76.449,
+            -77.841
+          ],
+          [
+            -76.198,
+            -75.702
+          ],
+          [
+            -75.773,
+            -73.589
+          ],
+          [
+            -75.191,
+            -71.509
+          ],
+          [
+            -74.442,
+            -69.483
+          ],
+          [
+            -73.539,
+            -67.531
+          ],
+          [
+            -72.489,
+            -65.649
+          ],
+          [
+            -71.287,
+            -63.855
+          ],
+          [
+            -69.952,
+            -62.16
+          ],
+          [
+            -68.489,
+            -60.572
+          ],
+          [
+            -66.904,
+            -59.106
+          ],
+          [
+            -65.205,
+            -57.769
+          ],
+          [
+            -63.411,
+            -56.575
+          ],
+          [
+            -61.533,
+            -55.52
+          ],
+          [
+            -59.573,
+            -54.618
+          ],
+          [
+            -57.55,
+            -53.868
+          ],
+          [
+            -55.47,
+            -53.287
+          ],
+          [
+            -52.792,
+            -52.862
+          ],
+          [
+            -52.79,
+            -53.508
+          ],
+          [
+            -52.676,
+            -53.605
+          ],
+          [
+            -52.197,
+            -53.487
+          ],
+          [
+            -45.922,
+            -53.487
+          ],
+          [
+            -45.431,
+            -53.604
+          ],
+          [
+            -45.327,
+            -53.497
+          ],
+          [
+            -45.327,
+            -52.862
+          ],
+          [
+            -42.648,
+            -53.287
+          ],
+          [
+            -40.569,
+            -53.868
+          ],
+          [
+            -38.546,
+            -54.618
+          ],
+          [
+            -36.586,
+            -55.52
+          ],
+          [
+            -34.707,
+            -56.575
+          ],
+          [
+            -32.914,
+            -57.768
+          ],
+          [
+            -31.22,
+            -59.106
+          ],
+          [
+            -29.63,
+            -60.572
+          ],
+          [
+            -28.166,
+            -62.16
+          ],
+          [
+            -26.831,
+            -63.855
+          ],
+          [
+            -25.636,
+            -65.649
+          ],
+          [
+            -24.58,
+            -67.531
+          ],
+          [
+            -23.675,
+            -69.488
+          ],
+          [
+            -22.926,
+            -71.513
+          ],
+          [
+            -22.346,
+            -73.584
+          ],
+          [
+            -21.922,
+            -75.697
+          ],
+          [
+            -21.67,
+            -77.841
+          ],
+          [
+            -21.586,
+            -80.003
+          ],
+          [
+            -21.67,
+            -82.16
+          ],
+          [
+            -21.921,
+            -84.299
+          ],
+          [
+            -22.345,
+            -86.412
+          ],
+          [
+            -22.928,
+            -88.492
+          ],
+          [
+            -23.676,
+            -90.518
+          ],
+          [
+            -24.582,
+            -92.474
+          ],
+          [
+            -25.636,
+            -94.352
+          ],
+          [
+            -26.831,
+            -96.146
+          ],
+          [
+            -28.169,
+            -97.844
+          ],
+          [
+            -29.634,
+            -99.432
+          ],
+          [
+            -31.217,
+            -100.892
+          ],
+          [
+            -32.91,
+            -102.23
+          ],
+          [
+            -34.707,
+            -103.426
+          ],
+          [
+            -36.59,
+            -104.483
+          ],
+          [
+            -38.546,
+            -105.383
+          ],
+          [
+            -40.569,
+            -106.133
+          ],
+          [
+            -42.647,
+            -106.714
+          ],
+          [
+            -44.76,
+            -107.138
+          ],
+          [
+            -46.9,
+            -107.388
+          ],
+          [
+            -49.062,
+            -107.476
+          ],
+          [
+            -51.214,
+            -107.389
+          ],
+          [
+            -53.354,
+            -107.139
+          ],
+          [
+            -55.472,
+            -106.714
+          ],
+          [
+            -57.55,
+            -106.133
+          ],
+          [
+            -59.573,
+            -105.383
+          ],
+          [
+            -61.533,
+            -104.481
+          ],
+          [
+            -63.411,
+            -103.426
+          ],
+          [
+            -65.205,
+            -102.232
+          ],
+          [
+            -66.904,
+            -100.895
+          ],
+          [
+            -68.489,
+            -99.429
+          ],
+          [
+            -69.949,
+            -97.844
+          ],
+          [
+            -71.285,
+            -96.15
+          ],
+          [
+            -72.486,
+            -94.356
+          ],
+          [
+            -73.539,
+            -92.47
+          ],
+          [
+            -74.444,
+            -90.513
+          ],
+          [
+            -75.192,
+            -88.488
+          ],
+          [
+            -75.772,
+            -86.417
+          ],
+          [
+            -76.197,
+            -84.304
+          ],
+          [
+            -76.449,
+            -82.16
+          ]
+        ]
+      ],
+      "heightRange": [
+        96.80059490348668,
+        107.5
+      ],
+      "anchor": [
+        -49.06,
+        101.5,
+        -77.93
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/DesertColossus_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Child/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "DesertColossus_Child_FairyFountain.webp",
+        "left": -78.03273655366135,
+        "top": -108.97613532775475,
+        "width": 57.94687196289607,
+        "height": 57.61364473089426
+      }
+    ],
+    "bounds": {
+      "x": [
+        -78.03273655366135,
+        -20.08586459076528
+      ],
+      "z": [
+        -108.97613532775475,
+        -51.36249059686049
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -76.449,
+            -82.16
+          ],
+          [
+            -76.533,
+            -79.998
+          ],
+          [
+            -76.449,
+            -77.841
+          ],
+          [
+            -76.198,
+            -75.702
+          ],
+          [
+            -75.773,
+            -73.589
+          ],
+          [
+            -75.191,
+            -71.509
+          ],
+          [
+            -74.442,
+            -69.483
+          ],
+          [
+            -73.539,
+            -67.531
+          ],
+          [
+            -72.489,
+            -65.649
+          ],
+          [
+            -71.287,
+            -63.855
+          ],
+          [
+            -69.952,
+            -62.16
+          ],
+          [
+            -68.489,
+            -60.572
+          ],
+          [
+            -66.904,
+            -59.106
+          ],
+          [
+            -65.205,
+            -57.769
+          ],
+          [
+            -63.411,
+            -56.575
+          ],
+          [
+            -61.533,
+            -55.52
+          ],
+          [
+            -59.573,
+            -54.618
+          ],
+          [
+            -57.55,
+            -53.868
+          ],
+          [
+            -55.47,
+            -53.287
+          ],
+          [
+            -52.792,
+            -52.862
+          ],
+          [
+            -52.79,
+            -53.508
+          ],
+          [
+            -52.676,
+            -53.605
+          ],
+          [
+            -52.197,
+            -53.487
+          ],
+          [
+            -45.922,
+            -53.487
+          ],
+          [
+            -45.431,
+            -53.604
+          ],
+          [
+            -45.327,
+            -53.497
+          ],
+          [
+            -45.327,
+            -52.862
+          ],
+          [
+            -42.648,
+            -53.287
+          ],
+          [
+            -40.569,
+            -53.868
+          ],
+          [
+            -38.546,
+            -54.618
+          ],
+          [
+            -36.586,
+            -55.52
+          ],
+          [
+            -34.707,
+            -56.575
+          ],
+          [
+            -32.914,
+            -57.768
+          ],
+          [
+            -31.22,
+            -59.106
+          ],
+          [
+            -29.63,
+            -60.572
+          ],
+          [
+            -28.166,
+            -62.16
+          ],
+          [
+            -26.831,
+            -63.855
+          ],
+          [
+            -25.636,
+            -65.649
+          ],
+          [
+            -24.58,
+            -67.531
+          ],
+          [
+            -23.675,
+            -69.488
+          ],
+          [
+            -22.926,
+            -71.513
+          ],
+          [
+            -22.346,
+            -73.584
+          ],
+          [
+            -21.922,
+            -75.697
+          ],
+          [
+            -21.67,
+            -77.841
+          ],
+          [
+            -21.586,
+            -80.003
+          ],
+          [
+            -21.67,
+            -82.16
+          ],
+          [
+            -21.921,
+            -84.299
+          ],
+          [
+            -22.345,
+            -86.412
+          ],
+          [
+            -22.928,
+            -88.492
+          ],
+          [
+            -23.676,
+            -90.518
+          ],
+          [
+            -24.582,
+            -92.474
+          ],
+          [
+            -25.636,
+            -94.352
+          ],
+          [
+            -26.831,
+            -96.146
+          ],
+          [
+            -28.169,
+            -97.844
+          ],
+          [
+            -29.634,
+            -99.432
+          ],
+          [
+            -31.217,
+            -100.892
+          ],
+          [
+            -32.91,
+            -102.23
+          ],
+          [
+            -34.707,
+            -103.426
+          ],
+          [
+            -36.59,
+            -104.483
+          ],
+          [
+            -38.546,
+            -105.383
+          ],
+          [
+            -40.569,
+            -106.133
+          ],
+          [
+            -42.647,
+            -106.714
+          ],
+          [
+            -44.76,
+            -107.138
+          ],
+          [
+            -46.9,
+            -107.388
+          ],
+          [
+            -49.062,
+            -107.476
+          ],
+          [
+            -51.214,
+            -107.389
+          ],
+          [
+            -53.354,
+            -107.139
+          ],
+          [
+            -55.472,
+            -106.714
+          ],
+          [
+            -57.55,
+            -106.133
+          ],
+          [
+            -59.573,
+            -105.383
+          ],
+          [
+            -61.533,
+            -104.481
+          ],
+          [
+            -63.411,
+            -103.426
+          ],
+          [
+            -65.205,
+            -102.232
+          ],
+          [
+            -66.904,
+            -100.895
+          ],
+          [
+            -68.489,
+            -99.429
+          ],
+          [
+            -69.949,
+            -97.844
+          ],
+          [
+            -71.285,
+            -96.15
+          ],
+          [
+            -72.486,
+            -94.356
+          ],
+          [
+            -73.539,
+            -92.47
+          ],
+          [
+            -74.444,
+            -90.513
+          ],
+          [
+            -75.192,
+            -88.488
+          ],
+          [
+            -75.772,
+            -86.417
+          ],
+          [
+            -76.197,
+            -84.304
+          ],
+          [
+            -76.449,
+            -82.16
+          ]
+        ]
+      ],
+      "heightRange": [
+        96.80059490348668,
+        107.5
+      ],
+      "anchor": [
+        -49.06,
+        101.5,
+        -77.93
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/DesertColossus_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/GanonCastle/GanonCastle/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "GanonCastle_FairyFountain.webp",
+        "left": 112.35119369620874,
+        "top": 283.20591072966175,
+        "width": 57.8610395462464,
+        "height": 57.94914450900848
+      }
+    ],
+    "bounds": {
+      "x": [
+        112.35119369620874,
+        170.21223324245514
+      ],
+      "z": [
+        283.20591072966175,
+        341.15505523867023
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            113.851,
+            312.563
+          ],
+          [
+            114.486,
+            312.468
+          ],
+          [
+            114.599,
+            312.566
+          ],
+          [
+            114.555,
+            313.055
+          ],
+          [
+            115.495,
+            319.258
+          ],
+          [
+            115.685,
+            319.726
+          ],
+          [
+            115.594,
+            319.845
+          ],
+          [
+            114.967,
+            319.941
+          ],
+          [
+            115.788,
+            322.535
+          ],
+          [
+            116.676,
+            324.496
+          ],
+          [
+            117.718,
+            326.384
+          ],
+          [
+            118.905,
+            328.183
+          ],
+          [
+            120.227,
+            329.884
+          ],
+          [
+            121.684,
+            331.482
+          ],
+          [
+            123.26,
+            332.959
+          ],
+          [
+            124.947,
+            334.306
+          ],
+          [
+            126.729,
+            335.513
+          ],
+          [
+            128.606,
+            336.58
+          ],
+          [
+            130.558,
+            337.498
+          ],
+          [
+            132.578,
+            338.258
+          ],
+          [
+            134.65,
+            338.854
+          ],
+          [
+            136.761,
+            339.291
+          ],
+          [
+            138.902,
+            339.557
+          ],
+          [
+            141.059,
+            339.655
+          ],
+          [
+            143.212,
+            339.585
+          ],
+          [
+            145.354,
+            339.348
+          ],
+          [
+            147.474,
+            338.943
+          ],
+          [
+            149.557,
+            338.368
+          ],
+          [
+            151.587,
+            337.631
+          ],
+          [
+            153.554,
+            336.746
+          ],
+          [
+            155.442,
+            335.702
+          ],
+          [
+            157.239,
+            334.513
+          ],
+          [
+            158.944,
+            333.192
+          ],
+          [
+            160.539,
+            331.74
+          ],
+          [
+            162.014,
+            330.164
+          ],
+          [
+            163.36,
+            328.481
+          ],
+          [
+            164.571,
+            326.696
+          ],
+          [
+            165.634,
+            324.818
+          ],
+          [
+            166.55,
+            322.861
+          ],
+          [
+            167.312,
+            320.842
+          ],
+          [
+            167.908,
+            318.773
+          ],
+          [
+            168.347,
+            316.662
+          ],
+          [
+            168.612,
+            314.518
+          ],
+          [
+            168.712,
+            312.36
+          ],
+          [
+            168.643,
+            310.207
+          ],
+          [
+            168.4,
+            308.063
+          ],
+          [
+            167.999,
+            305.947
+          ],
+          [
+            167.421,
+            303.864
+          ],
+          [
+            166.691,
+            301.832
+          ],
+          [
+            165.798,
+            299.87
+          ],
+          [
+            164.756,
+            297.982
+          ],
+          [
+            163.574,
+            296.182
+          ],
+          [
+            162.247,
+            294.481
+          ],
+          [
+            160.795,
+            292.884
+          ],
+          [
+            159.219,
+            291.406
+          ],
+          [
+            157.532,
+            290.06
+          ],
+          [
+            155.749,
+            288.85
+          ],
+          [
+            153.871,
+            287.783
+          ],
+          [
+            151.92,
+            286.869
+          ],
+          [
+            149.896,
+            286.108
+          ],
+          [
+            147.828,
+            285.513
+          ],
+          [
+            145.718,
+            285.075
+          ],
+          [
+            143.576,
+            284.809
+          ],
+          [
+            141.419,
+            284.706
+          ],
+          [
+            139.262,
+            284.776
+          ],
+          [
+            137.12,
+            285.018
+          ],
+          [
+            135.005,
+            285.423
+          ],
+          [
+            132.921,
+            285.996
+          ],
+          [
+            130.886,
+            286.734
+          ],
+          [
+            128.925,
+            287.62
+          ],
+          [
+            127.037,
+            288.664
+          ],
+          [
+            125.238,
+            289.85
+          ],
+          [
+            123.535,
+            291.173
+          ],
+          [
+            121.94,
+            292.631
+          ],
+          [
+            120.468,
+            294.203
+          ],
+          [
+            119.119,
+            295.885
+          ],
+          [
+            117.908,
+            297.67
+          ],
+          [
+            116.84,
+            299.548
+          ],
+          [
+            115.923,
+            301.505
+          ],
+          [
+            115.162,
+            303.523
+          ],
+          [
+            114.566,
+            305.593
+          ],
+          [
+            114.132,
+            307.704
+          ],
+          [
+            113.862,
+            309.849
+          ],
+          [
+            113.851,
+            312.563
+          ]
+        ]
+      ],
+      "heightRange": [
+        80.46398001068131,
+        91.16
+      ],
+      "anchor": [
+        139.19,
+        85.16,
+        312.49
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/GanonCastle/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "Graveyard_Adult_FairyFountain.webp",
+        "left": -32.727739348275875,
+        "top": 22.653888822766476,
+        "width": 41.30727007099698,
+        "height": 23.178048671788396
+      }
+    ],
+    "bounds": {
+      "x": [
+        -32.727739348275875,
+        8.579530722721103
+      ],
+      "z": [
+        22.653888822766476,
+        45.83193749455487
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -31.228,
+            30.082
+          ],
+          [
+            -31.228,
+            38.404
+          ],
+          [
+            -25.299,
+            44.332
+          ],
+          [
+            -16.911,
+            44.332
+          ],
+          [
+            -10.595,
+            38.017
+          ],
+          [
+            -10.859,
+            37.874
+          ],
+          [
+            -10.776,
+            37.7
+          ],
+          [
+            -5.582,
+            37.698
+          ],
+          [
+            -5.579,
+            37.072
+          ],
+          [
+            -5.461,
+            36.976
+          ],
+          [
+            7.08,
+            36.976
+          ],
+          [
+            7.08,
+            24.294
+          ],
+          [
+            -0.181,
+            24.294
+          ],
+          [
+            -0.181,
+            31.011
+          ],
+          [
+            -0.278,
+            31.129
+          ],
+          [
+            -5.307,
+            31.131
+          ],
+          [
+            -5.422,
+            31.046
+          ],
+          [
+            -5.427,
+            30.788
+          ],
+          [
+            -10.786,
+            30.779
+          ],
+          [
+            -10.84,
+            30.602
+          ],
+          [
+            -10.595,
+            30.474
+          ],
+          [
+            -16.914,
+            24.154
+          ],
+          [
+            -25.299,
+            24.154
+          ],
+          [
+            -31.228,
+            30.082
+          ]
+        ]
+      ],
+      "heightRange": [
+        81.98625917448692,
+        89.09
+      ],
+      "anchor": [
+        -21.22,
+        83.09,
+        34.28
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/Graveyard_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Child/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "Graveyard_Child_FairyFountain.webp",
+        "left": -32.72654900933876,
+        "top": 22.65486817730983,
+        "width": 41.30527556634689,
+        "height": 23.179778737578488
+      }
+    ],
+    "bounds": {
+      "x": [
+        -32.72654900933876,
+        8.578726557008128
+      ],
+      "z": [
+        22.65486817730983,
+        45.83464691488832
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -31.227,
+            30.084
+          ],
+          [
+            -31.227,
+            38.405
+          ],
+          [
+            -25.295,
+            44.335
+          ],
+          [
+            -16.91,
+            44.335
+          ],
+          [
+            -10.594,
+            38.016
+          ],
+          [
+            -10.856,
+            37.874
+          ],
+          [
+            -10.773,
+            37.7
+          ],
+          [
+            -5.584,
+            37.698
+          ],
+          [
+            -5.581,
+            37.071
+          ],
+          [
+            -5.464,
+            36.974
+          ],
+          [
+            7.079,
+            36.974
+          ],
+          [
+            7.079,
+            24.297
+          ],
+          [
+            -0.184,
+            24.297
+          ],
+          [
+            -0.185,
+            31.012
+          ],
+          [
+            -0.281,
+            31.13
+          ],
+          [
+            -5.309,
+            31.132
+          ],
+          [
+            -5.424,
+            31.047
+          ],
+          [
+            -5.429,
+            30.788
+          ],
+          [
+            -10.788,
+            30.779
+          ],
+          [
+            -10.842,
+            30.601
+          ],
+          [
+            -10.594,
+            30.474
+          ],
+          [
+            -16.913,
+            24.155
+          ],
+          [
+            -25.295,
+            24.155
+          ],
+          [
+            -31.227,
+            30.084
+          ]
+        ]
+      ],
+      "heightRange": [
+        81.98586819256886,
+        89.09
+      ],
+      "anchor": [
+        -21.22,
+        83.09,
+        34.28
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/Graveyard_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/HyruleCastle/HyruleCastle/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "HyruleCastle_FairyFountain.webp",
+        "left": 91.52063210471155,
+        "top": -106.3360785812728,
+        "width": 57.92552776772624,
+        "height": 57.927152083666186
+      }
+    ],
+    "bounds": {
+      "x": [
+        91.52063210471155,
+        149.4461598724378
+      ],
+      "z": [
+        -106.3360785812728,
+        -48.408926497606615
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            93.047,
+            -78.811
+          ],
+          [
+            93.021,
+            -76.651
+          ],
+          [
+            93.304,
+            -73.955
+          ],
+          [
+            93.919,
+            -74.119
+          ],
+          [
+            94.05,
+            -74.047
+          ],
+          [
+            94.064,
+            -73.543
+          ],
+          [
+            94.876,
+            -70.509
+          ],
+          [
+            95.687,
+            -67.482
+          ],
+          [
+            95.925,
+            -67.049
+          ],
+          [
+            95.861,
+            -66.914
+          ],
+          [
+            95.235,
+            -66.744
+          ],
+          [
+            96.339,
+            -64.267
+          ],
+          [
+            97.44,
+            -62.414
+          ],
+          [
+            98.687,
+            -60.652
+          ],
+          [
+            100.063,
+            -58.991
+          ],
+          [
+            101.572,
+            -57.447
+          ],
+          [
+            103.191,
+            -56.022
+          ],
+          [
+            104.918,
+            -54.731
+          ],
+          [
+            106.746,
+            -53.578
+          ],
+          [
+            108.659,
+            -52.574
+          ],
+          [
+            110.639,
+            -51.721
+          ],
+          [
+            112.68,
+            -51.031
+          ],
+          [
+            114.771,
+            -50.499
+          ],
+          [
+            116.897,
+            -50.134
+          ],
+          [
+            119.041,
+            -49.937
+          ],
+          [
+            121.198,
+            -49.909
+          ],
+          [
+            123.35,
+            -50.049
+          ],
+          [
+            125.49,
+            -50.357
+          ],
+          [
+            127.594,
+            -50.834
+          ],
+          [
+            129.658,
+            -51.475
+          ],
+          [
+            131.659,
+            -52.272
+          ],
+          [
+            133.594,
+            -53.227
+          ],
+          [
+            135.446,
+            -54.33
+          ],
+          [
+            137.208,
+            -55.575
+          ],
+          [
+            138.867,
+            -56.959
+          ],
+          [
+            140.416,
+            -58.463
+          ],
+          [
+            141.836,
+            -60.085
+          ],
+          [
+            143.127,
+            -61.813
+          ],
+          [
+            144.277,
+            -63.637
+          ],
+          [
+            145.284,
+            -65.545
+          ],
+          [
+            146.134,
+            -67.527
+          ],
+          [
+            146.828,
+            -69.569
+          ],
+          [
+            147.356,
+            -71.662
+          ],
+          [
+            147.72,
+            -73.789
+          ],
+          [
+            147.92,
+            -75.938
+          ],
+          [
+            147.946,
+            -78.093
+          ],
+          [
+            147.808,
+            -80.248
+          ],
+          [
+            147.498,
+            -82.38
+          ],
+          [
+            147.024,
+            -84.48
+          ],
+          [
+            146.383,
+            -86.55
+          ],
+          [
+            145.584,
+            -88.553
+          ],
+          [
+            144.625,
+            -90.483
+          ],
+          [
+            143.527,
+            -92.337
+          ],
+          [
+            142.277,
+            -94.097
+          ],
+          [
+            140.901,
+            -95.758
+          ],
+          [
+            139.395,
+            -97.298
+          ],
+          [
+            137.775,
+            -98.723
+          ],
+          [
+            136.049,
+            -100.014
+          ],
+          [
+            134.22,
+            -101.167
+          ],
+          [
+            132.307,
+            -102.171
+          ],
+          [
+            130.328,
+            -103.024
+          ],
+          [
+            128.286,
+            -103.713
+          ],
+          [
+            126.196,
+            -104.246
+          ],
+          [
+            124.07,
+            -104.611
+          ],
+          [
+            121.922,
+            -104.813
+          ],
+          [
+            119.764,
+            -104.836
+          ],
+          [
+            117.616,
+            -104.696
+          ],
+          [
+            115.481,
+            -104.388
+          ],
+          [
+            113.373,
+            -103.911
+          ],
+          [
+            111.309,
+            -103.27
+          ],
+          [
+            109.303,
+            -102.473
+          ],
+          [
+            107.372,
+            -101.518
+          ],
+          [
+            105.517,
+            -100.413
+          ],
+          [
+            103.755,
+            -99.167
+          ],
+          [
+            102.095,
+            -97.792
+          ],
+          [
+            100.551,
+            -96.282
+          ],
+          [
+            99.131,
+            -94.66
+          ],
+          [
+            97.842,
+            -92.936
+          ],
+          [
+            96.69,
+            -91.108
+          ],
+          [
+            95.682,
+            -89.2
+          ],
+          [
+            94.832,
+            -87.218
+          ],
+          [
+            94.138,
+            -85.176
+          ],
+          [
+            93.611,
+            -83.087
+          ],
+          [
+            93.243,
+            -80.961
+          ],
+          [
+            93.047,
+            -78.811
+          ]
+        ]
+      ],
+      "heightRange": [
+        104.12791865415427,
+        114.83
+      ],
+      "anchor": [
+        118.48,
+        108.83,
+        -76.84
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/HyruleCastle/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "HyruleField_Adult_FairyFountain.webp",
+        "left": -24.815762399731593,
+        "top": 163.09326799989307,
+        "width": 23.176855050474124,
+        "height": 45.2761237247673
+      }
+    ],
+    "bounds": {
+      "x": [
+        -24.815762399731593,
+        -1.638907349257467
+      ],
+      "z": [
+        163.09326799989307,
+        208.36939172466037
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -23.316,
+            192.555
+          ],
+          [
+            -23.316,
+            200.941
+          ],
+          [
+            -17.387,
+            206.869
+          ],
+          [
+            -9.068,
+            206.869
+          ],
+          [
+            -3.139,
+            200.941
+          ],
+          [
+            -3.139,
+            192.555
+          ],
+          [
+            -9.455,
+            186.237
+          ],
+          [
+            -9.596,
+            186.497
+          ],
+          [
+            -9.77,
+            186.414
+          ],
+          [
+            -9.773,
+            181.101
+          ],
+          [
+            -10.355,
+            181.037
+          ],
+          [
+            -10.369,
+            179.602
+          ],
+          [
+            -10.726,
+            179.506
+          ],
+          [
+            -10.729,
+            174.817
+          ],
+          [
+            -10.844,
+            174.718
+          ],
+          [
+            -10.846,
+            174.213
+          ],
+          [
+            -10.739,
+            174.105
+          ],
+          [
+            -8.683,
+            174.104
+          ],
+          [
+            -8.683,
+            166.276
+          ],
+          [
+            -8.467,
+            165.458
+          ],
+          [
+            -8.668,
+            165.306
+          ],
+          [
+            -8.683,
+            165.038
+          ],
+          [
+            -10.617,
+            165.035
+          ],
+          [
+            -10.713,
+            164.928
+          ],
+          [
+            -10.655,
+            164.711
+          ],
+          [
+            -11.281,
+            164.593
+          ],
+          [
+            -11.547,
+            164.683
+          ],
+          [
+            -11.727,
+            165.037
+          ],
+          [
+            -15.683,
+            165.037
+          ],
+          [
+            -15.938,
+            164.716
+          ],
+          [
+            -16.212,
+            165.035
+          ],
+          [
+            -17.752,
+            165.038
+          ],
+          [
+            -17.752,
+            167.604
+          ],
+          [
+            -17.894,
+            167.831
+          ],
+          [
+            -17.752,
+            168.314
+          ],
+          [
+            -17.752,
+            171.281
+          ],
+          [
+            -17.954,
+            171.443
+          ],
+          [
+            -18.121,
+            171.977
+          ],
+          [
+            -17.754,
+            172.459
+          ],
+          [
+            -17.752,
+            174.104
+          ],
+          [
+            -15.716,
+            174.105
+          ],
+          [
+            -15.608,
+            174.213
+          ],
+          [
+            -15.61,
+            174.718
+          ],
+          [
+            -15.726,
+            174.817
+          ],
+          [
+            -15.728,
+            179.752
+          ],
+          [
+            -15.958,
+            179.848
+          ],
+          [
+            -15.978,
+            181.076
+          ],
+          [
+            -16.682,
+            181.129
+          ],
+          [
+            -16.684,
+            186.414
+          ],
+          [
+            -16.858,
+            186.497
+          ],
+          [
+            -17.0,
+            186.237
+          ],
+          [
+            -23.316,
+            192.555
+          ]
+        ]
+      ],
+      "heightRange": [
+        131.7003646143282,
+        138.8
+      ],
+      "anchor": [
+        -13.23,
+        132.8,
+        196.61
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/HyruleField_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "HyruleField_Child_FairyFountain.webp",
+        "left": -24.815762399731593,
+        "top": 163.09326799989307,
+        "width": 23.176855050474124,
+        "height": 45.2761237247673
+      }
+    ],
+    "bounds": {
+      "x": [
+        -24.815762399731593,
+        -1.638907349257467
+      ],
+      "z": [
+        163.09326799989307,
+        208.36939172466037
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -23.316,
+            192.555
+          ],
+          [
+            -23.316,
+            200.941
+          ],
+          [
+            -17.387,
+            206.869
+          ],
+          [
+            -9.068,
+            206.869
+          ],
+          [
+            -3.139,
+            200.941
+          ],
+          [
+            -3.139,
+            192.555
+          ],
+          [
+            -9.455,
+            186.237
+          ],
+          [
+            -9.596,
+            186.497
+          ],
+          [
+            -9.77,
+            186.414
+          ],
+          [
+            -9.773,
+            181.101
+          ],
+          [
+            -10.355,
+            181.037
+          ],
+          [
+            -10.369,
+            179.602
+          ],
+          [
+            -10.726,
+            179.506
+          ],
+          [
+            -10.729,
+            174.817
+          ],
+          [
+            -10.844,
+            174.718
+          ],
+          [
+            -10.846,
+            174.213
+          ],
+          [
+            -10.739,
+            174.105
+          ],
+          [
+            -8.683,
+            174.104
+          ],
+          [
+            -8.683,
+            166.276
+          ],
+          [
+            -8.467,
+            165.458
+          ],
+          [
+            -8.668,
+            165.306
+          ],
+          [
+            -8.683,
+            165.038
+          ],
+          [
+            -10.617,
+            165.035
+          ],
+          [
+            -10.713,
+            164.928
+          ],
+          [
+            -10.655,
+            164.711
+          ],
+          [
+            -11.281,
+            164.593
+          ],
+          [
+            -11.547,
+            164.683
+          ],
+          [
+            -11.727,
+            165.037
+          ],
+          [
+            -15.683,
+            165.037
+          ],
+          [
+            -15.938,
+            164.716
+          ],
+          [
+            -16.212,
+            165.035
+          ],
+          [
+            -17.752,
+            165.038
+          ],
+          [
+            -17.752,
+            167.604
+          ],
+          [
+            -17.894,
+            167.831
+          ],
+          [
+            -17.752,
+            168.314
+          ],
+          [
+            -17.752,
+            171.281
+          ],
+          [
+            -17.954,
+            171.443
+          ],
+          [
+            -18.121,
+            171.977
+          ],
+          [
+            -17.754,
+            172.459
+          ],
+          [
+            -17.752,
+            174.104
+          ],
+          [
+            -15.716,
+            174.105
+          ],
+          [
+            -15.608,
+            174.213
+          ],
+          [
+            -15.61,
+            174.718
+          ],
+          [
+            -15.726,
+            174.817
+          ],
+          [
+            -15.728,
+            179.752
+          ],
+          [
+            -15.958,
+            179.848
+          ],
+          [
+            -15.978,
+            181.076
+          ],
+          [
+            -16.682,
+            181.129
+          ],
+          [
+            -16.684,
+            186.414
+          ],
+          [
+            -16.858,
+            186.497
+          ],
+          [
+            -17.0,
+            186.237
+          ],
+          [
+            -23.316,
+            192.555
+          ]
+        ]
+      ],
+      "heightRange": [
+        131.69900411993592,
+        138.8
+      ],
+      "anchor": [
+        -13.23,
+        132.8,
+        196.61
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/HyruleField_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SacredForestMeadow/SacredForestMeadow_Adult/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "SacredForestMeadow_Adult_FairyFountain.webp",
+        "left": -15.739156433847269,
+        "top": -4.480750841959729,
+        "width": 23.17791608862123,
+        "height": 45.27599483371985
+      }
+    ],
+    "bounds": {
+      "x": [
+        -15.739156433847269,
+        7.4387596547739605
+      ],
+      "z": [
+        -4.480750841959729,
+        40.795243991760124
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -14.239,
+            33.367
+          ],
+          [
+            -8.314,
+            39.295
+          ],
+          [
+            0.007,
+            39.295
+          ],
+          [
+            5.939,
+            33.367
+          ],
+          [
+            5.939,
+            24.982
+          ],
+          [
+            -0.379,
+            18.662
+          ],
+          [
+            -0.522,
+            18.925
+          ],
+          [
+            -0.696,
+            18.843
+          ],
+          [
+            -0.698,
+            13.527
+          ],
+          [
+            -1.276,
+            13.464
+          ],
+          [
+            -1.291,
+            12.028
+          ],
+          [
+            -1.65,
+            11.932
+          ],
+          [
+            -1.653,
+            7.244
+          ],
+          [
+            -1.769,
+            7.145
+          ],
+          [
+            -1.771,
+            6.642
+          ],
+          [
+            -1.664,
+            6.534
+          ],
+          [
+            0.392,
+            6.533
+          ],
+          [
+            0.392,
+            -1.295
+          ],
+          [
+            0.61,
+            -2.114
+          ],
+          [
+            0.408,
+            -2.268
+          ],
+          [
+            0.392,
+            -2.535
+          ],
+          [
+            -1.541,
+            -2.538
+          ],
+          [
+            -1.637,
+            -2.645
+          ],
+          [
+            -1.579,
+            -2.862
+          ],
+          [
+            -2.204,
+            -2.981
+          ],
+          [
+            -2.471,
+            -2.889
+          ],
+          [
+            -2.652,
+            -2.536
+          ],
+          [
+            -6.606,
+            -2.536
+          ],
+          [
+            -6.866,
+            -2.857
+          ],
+          [
+            -7.138,
+            -2.538
+          ],
+          [
+            -8.676,
+            -2.535
+          ],
+          [
+            -8.676,
+            0.02
+          ],
+          [
+            -8.82,
+            0.26
+          ],
+          [
+            -8.676,
+            0.741
+          ],
+          [
+            -8.677,
+            3.706
+          ],
+          [
+            -8.882,
+            3.87
+          ],
+          [
+            -9.042,
+            4.406
+          ],
+          [
+            -8.678,
+            4.886
+          ],
+          [
+            -8.676,
+            6.533
+          ],
+          [
+            -6.637,
+            6.534
+          ],
+          [
+            -6.529,
+            6.642
+          ],
+          [
+            -6.531,
+            7.145
+          ],
+          [
+            -6.652,
+            7.244
+          ],
+          [
+            -6.654,
+            12.178
+          ],
+          [
+            -6.882,
+            12.275
+          ],
+          [
+            -6.903,
+            13.502
+          ],
+          [
+            -7.606,
+            13.555
+          ],
+          [
+            -7.609,
+            18.834
+          ],
+          [
+            -7.783,
+            18.917
+          ],
+          [
+            -7.921,
+            18.662
+          ],
+          [
+            -14.239,
+            24.982
+          ],
+          [
+            -14.239,
+            33.367
+          ]
+        ]
+      ],
+      "heightRange": [
+        82.04374938582437,
+        89.14
+      ],
+      "anchor": [
+        -4.15,
+        83.14,
+        29.04
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/SacredForestMeadow_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SacredForestMeadow/SacredForestMeadow_Child/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "SacredForestMeadow_Child_FairyFountain.webp",
+        "left": -15.739156433847269,
+        "top": -4.480750841959729,
+        "width": 23.17791608862123,
+        "height": 45.27599483371985
+      }
+    ],
+    "bounds": {
+      "x": [
+        -15.739156433847269,
+        7.4387596547739605
+      ],
+      "z": [
+        -4.480750841959729,
+        40.795243991760124
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -14.239,
+            33.367
+          ],
+          [
+            -8.314,
+            39.295
+          ],
+          [
+            0.007,
+            39.295
+          ],
+          [
+            5.939,
+            33.367
+          ],
+          [
+            5.939,
+            24.982
+          ],
+          [
+            -0.379,
+            18.662
+          ],
+          [
+            -0.522,
+            18.925
+          ],
+          [
+            -0.696,
+            18.843
+          ],
+          [
+            -0.698,
+            13.527
+          ],
+          [
+            -1.276,
+            13.464
+          ],
+          [
+            -1.291,
+            12.028
+          ],
+          [
+            -1.65,
+            11.932
+          ],
+          [
+            -1.653,
+            7.244
+          ],
+          [
+            -1.769,
+            7.145
+          ],
+          [
+            -1.771,
+            6.642
+          ],
+          [
+            -1.664,
+            6.534
+          ],
+          [
+            0.392,
+            6.533
+          ],
+          [
+            0.392,
+            -1.295
+          ],
+          [
+            0.61,
+            -2.114
+          ],
+          [
+            0.408,
+            -2.268
+          ],
+          [
+            0.392,
+            -2.535
+          ],
+          [
+            -1.541,
+            -2.538
+          ],
+          [
+            -1.637,
+            -2.645
+          ],
+          [
+            -1.579,
+            -2.862
+          ],
+          [
+            -2.204,
+            -2.981
+          ],
+          [
+            -2.471,
+            -2.889
+          ],
+          [
+            -2.652,
+            -2.536
+          ],
+          [
+            -6.606,
+            -2.536
+          ],
+          [
+            -6.866,
+            -2.857
+          ],
+          [
+            -7.138,
+            -2.538
+          ],
+          [
+            -8.676,
+            -2.535
+          ],
+          [
+            -8.676,
+            0.02
+          ],
+          [
+            -8.82,
+            0.26
+          ],
+          [
+            -8.676,
+            0.741
+          ],
+          [
+            -8.677,
+            3.706
+          ],
+          [
+            -8.882,
+            3.87
+          ],
+          [
+            -9.042,
+            4.406
+          ],
+          [
+            -8.678,
+            4.886
+          ],
+          [
+            -8.676,
+            6.533
+          ],
+          [
+            -6.637,
+            6.534
+          ],
+          [
+            -6.529,
+            6.642
+          ],
+          [
+            -6.531,
+            7.145
+          ],
+          [
+            -6.652,
+            7.244
+          ],
+          [
+            -6.654,
+            12.178
+          ],
+          [
+            -6.882,
+            12.275
+          ],
+          [
+            -6.903,
+            13.502
+          ],
+          [
+            -7.606,
+            13.555
+          ],
+          [
+            -7.609,
+            18.834
+          ],
+          [
+            -7.783,
+            18.917
+          ],
+          [
+            -7.921,
+            18.662
+          ],
+          [
+            -14.239,
+            24.982
+          ],
+          [
+            -14.239,
+            33.367
+          ]
+        ]
+      ],
+      "heightRange": [
+        82.04374938582437,
+        89.14
+      ],
+      "anchor": [
+        -4.15,
+        83.14,
+        29.04
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/SacredForestMeadow_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "ZoraFountain_Adult_FairyFountain.webp",
+        "left": 33.52468749373264,
+        "top": 72.61938492690524,
+        "width": 57.948617625065594,
+        "height": 57.609747083353625
+      }
+    ],
+    "bounds": {
+      "x": [
+        33.52468749373264,
+        91.47330511879824
+      ],
+      "z": [
+        72.61938492690524,
+        130.22913201025887
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            35.11,
+            99.099
+          ],
+          [
+            35.025,
+            101.258
+          ],
+          [
+            35.11,
+            103.413
+          ],
+          [
+            35.362,
+            105.552
+          ],
+          [
+            35.786,
+            107.668
+          ],
+          [
+            36.368,
+            109.745
+          ],
+          [
+            37.118,
+            111.768
+          ],
+          [
+            38.02,
+            113.731
+          ],
+          [
+            39.076,
+            115.613
+          ],
+          [
+            40.271,
+            117.404
+          ],
+          [
+            41.607,
+            119.098
+          ],
+          [
+            43.073,
+            120.685
+          ],
+          [
+            44.658,
+            122.152
+          ],
+          [
+            46.353,
+            123.485
+          ],
+          [
+            48.146,
+            124.682
+          ],
+          [
+            50.028,
+            125.738
+          ],
+          [
+            51.988,
+            126.641
+          ],
+          [
+            54.013,
+            127.388
+          ],
+          [
+            56.086,
+            127.971
+          ],
+          [
+            58.2,
+            128.392
+          ],
+          [
+            60.339,
+            128.647
+          ],
+          [
+            62.499,
+            128.729
+          ],
+          [
+            64.659,
+            128.647
+          ],
+          [
+            66.802,
+            128.392
+          ],
+          [
+            68.916,
+            127.97
+          ],
+          [
+            70.994,
+            127.387
+          ],
+          [
+            73.015,
+            126.64
+          ],
+          [
+            74.974,
+            125.736
+          ],
+          [
+            76.852,
+            124.682
+          ],
+          [
+            78.645,
+            123.485
+          ],
+          [
+            80.344,
+            122.149
+          ],
+          [
+            81.925,
+            120.685
+          ],
+          [
+            83.392,
+            119.101
+          ],
+          [
+            84.728,
+            117.408
+          ],
+          [
+            85.925,
+            115.609
+          ],
+          [
+            86.98,
+            113.727
+          ],
+          [
+            87.884,
+            111.767
+          ],
+          [
+            88.63,
+            109.745
+          ],
+          [
+            89.215,
+            107.673
+          ],
+          [
+            89.635,
+            105.557
+          ],
+          [
+            89.892,
+            103.414
+          ],
+          [
+            89.973,
+            101.258
+          ],
+          [
+            89.892,
+            99.098
+          ],
+          [
+            89.636,
+            96.96
+          ],
+          [
+            89.216,
+            94.844
+          ],
+          [
+            88.63,
+            92.767
+          ],
+          [
+            87.882,
+            90.74
+          ],
+          [
+            86.978,
+            88.781
+          ],
+          [
+            85.925,
+            86.903
+          ],
+          [
+            84.731,
+            85.108
+          ],
+          [
+            83.395,
+            83.414
+          ],
+          [
+            81.925,
+            81.827
+          ],
+          [
+            80.34,
+            80.364
+          ],
+          [
+            78.649,
+            79.029
+          ],
+          [
+            76.856,
+            77.832
+          ],
+          [
+            74.974,
+            76.776
+          ],
+          [
+            73.015,
+            75.872
+          ],
+          [
+            70.989,
+            75.124
+          ],
+          [
+            68.91,
+            74.541
+          ],
+          [
+            66.233,
+            74.119
+          ],
+          [
+            66.231,
+            74.766
+          ],
+          [
+            66.117,
+            74.863
+          ],
+          [
+            65.636,
+            74.745
+          ],
+          [
+            59.362,
+            74.745
+          ],
+          [
+            58.869,
+            74.863
+          ],
+          [
+            58.766,
+            74.755
+          ],
+          [
+            58.765,
+            74.119
+          ],
+          [
+            56.088,
+            74.541
+          ],
+          [
+            54.013,
+            75.124
+          ],
+          [
+            51.988,
+            75.871
+          ],
+          [
+            50.024,
+            76.776
+          ],
+          [
+            48.146,
+            77.83
+          ],
+          [
+            46.353,
+            79.027
+          ],
+          [
+            44.658,
+            80.364
+          ],
+          [
+            43.07,
+            81.83
+          ],
+          [
+            41.607,
+            83.414
+          ],
+          [
+            40.274,
+            85.104
+          ],
+          [
+            39.076,
+            86.9
+          ],
+          [
+            38.02,
+            88.781
+          ],
+          [
+            37.118,
+            90.745
+          ],
+          [
+            36.368,
+            92.767
+          ],
+          [
+            35.786,
+            94.844
+          ],
+          [
+            35.363,
+            96.955
+          ],
+          [
+            35.11,
+            99.099
+          ]
+        ]
+      ],
+      "heightRange": [
+        99.55919221789884,
+        110.26
+      ],
+      "anchor": [
+        62.5,
+        104.26,
+        99.18
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/ZoraFountain_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Child/FairyFountain",
+    "label": "Fontaine de la Grande Fée",
+    "layers": [
+      {
+        "file": "ZoraFountain_Child_FairyFountain.webp",
+        "left": 33.52468740971642,
+        "top": 72.62075715686355,
+        "width": 57.94861794015944,
+        "height": 57.61323212008928
+      }
+    ],
+    "bounds": {
+      "x": [
+        33.52468740971642,
+        91.47330534987586
+      ],
+      "z": [
+        72.62075715686355,
+        130.23398927695283
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            36.37,
+            92.767
+          ],
+          [
+            35.787,
+            94.844
+          ],
+          [
+            35.362,
+            96.961
+          ],
+          [
+            35.11,
+            99.1
+          ],
+          [
+            35.025,
+            101.255
+          ],
+          [
+            35.11,
+            103.419
+          ],
+          [
+            35.363,
+            105.562
+          ],
+          [
+            35.787,
+            107.674
+          ],
+          [
+            36.368,
+            109.746
+          ],
+          [
+            37.118,
+            111.773
+          ],
+          [
+            38.02,
+            113.732
+          ],
+          [
+            39.076,
+            115.618
+          ],
+          [
+            40.274,
+            117.409
+          ],
+          [
+            41.607,
+            119.103
+          ],
+          [
+            43.07,
+            120.687
+          ],
+          [
+            44.654,
+            122.15
+          ],
+          [
+            46.349,
+            123.488
+          ],
+          [
+            48.146,
+            124.687
+          ],
+          [
+            50.028,
+            125.739
+          ],
+          [
+            51.983,
+            126.641
+          ],
+          [
+            54.013,
+            127.389
+          ],
+          [
+            56.086,
+            127.976
+          ],
+          [
+            58.2,
+            128.397
+          ],
+          [
+            60.343,
+            128.652
+          ],
+          [
+            62.499,
+            128.734
+          ],
+          [
+            64.659,
+            128.652
+          ],
+          [
+            66.802,
+            128.397
+          ],
+          [
+            68.916,
+            127.975
+          ],
+          [
+            70.989,
+            127.389
+          ],
+          [
+            73.015,
+            126.641
+          ],
+          [
+            74.974,
+            125.737
+          ],
+          [
+            76.856,
+            124.685
+          ],
+          [
+            78.649,
+            123.488
+          ],
+          [
+            80.34,
+            122.153
+          ],
+          [
+            81.925,
+            120.69
+          ],
+          [
+            83.392,
+            119.106
+          ],
+          [
+            84.728,
+            117.409
+          ],
+          [
+            85.929,
+            115.613
+          ],
+          [
+            86.978,
+            113.732
+          ],
+          [
+            87.882,
+            111.777
+          ],
+          [
+            88.632,
+            109.751
+          ],
+          [
+            89.216,
+            107.669
+          ],
+          [
+            89.636,
+            105.557
+          ],
+          [
+            89.892,
+            103.419
+          ],
+          [
+            89.973,
+            101.259
+          ],
+          [
+            89.892,
+            99.1
+          ],
+          [
+            89.636,
+            96.961
+          ],
+          [
+            89.216,
+            94.849
+          ],
+          [
+            88.634,
+            92.772
+          ],
+          [
+            87.884,
+            90.746
+          ],
+          [
+            86.978,
+            88.782
+          ],
+          [
+            85.926,
+            86.901
+          ],
+          [
+            84.728,
+            85.11
+          ],
+          [
+            83.395,
+            83.416
+          ],
+          [
+            81.928,
+            81.832
+          ],
+          [
+            80.344,
+            80.369
+          ],
+          [
+            78.649,
+            79.031
+          ],
+          [
+            76.852,
+            77.831
+          ],
+          [
+            74.97,
+            76.779
+          ],
+          [
+            73.015,
+            75.878
+          ],
+          [
+            70.989,
+            75.129
+          ],
+          [
+            68.91,
+            74.542
+          ],
+          [
+            66.233,
+            74.121
+          ],
+          [
+            66.232,
+            74.757
+          ],
+          [
+            66.129,
+            74.864
+          ],
+          [
+            65.636,
+            74.746
+          ],
+          [
+            59.362,
+            74.746
+          ],
+          [
+            58.885,
+            74.864
+          ],
+          [
+            58.771,
+            74.767
+          ],
+          [
+            58.769,
+            74.121
+          ],
+          [
+            56.088,
+            74.542
+          ],
+          [
+            54.013,
+            75.129
+          ],
+          [
+            51.988,
+            75.876
+          ],
+          [
+            50.024,
+            76.781
+          ],
+          [
+            48.142,
+            77.834
+          ],
+          [
+            46.349,
+            79.031
+          ],
+          [
+            44.658,
+            80.366
+          ],
+          [
+            43.073,
+            81.828
+          ],
+          [
+            41.61,
+            83.412
+          ],
+          [
+            40.274,
+            85.11
+          ],
+          [
+            39.076,
+            86.901
+          ],
+          [
+            38.02,
+            88.782
+          ],
+          [
+            37.12,
+            90.742
+          ],
+          [
+            36.37,
+            92.767
+          ]
+        ]
+      ],
+      "heightRange": [
+        99.55422903791867,
+        110.25
+      ],
+      "anchor": [
+        62.5,
+        104.25,
+        99.18
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/ZoraFountain_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "ZoraRiver_Adult_FairyFountain.webp",
+        "left": -2.2845758350847167,
+        "top": -40.21010038875145,
+        "width": 44.59403722480554,
+        "height": 31.419873561762557
+      }
+    ],
+    "bounds": {
+      "x": [
+        -2.2845758350847167,
+        42.30946138972082
+      ],
+      "z": [
+        -40.21010038875145,
+        -8.790226826988892
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -0.785,
+            -18.509
+          ],
+          [
+            0.03,
+            -16.757
+          ],
+          [
+            -0.026,
+            -16.625
+          ],
+          [
+            -0.246,
+            -16.586
+          ],
+          [
+            -0.089,
+            -15.967
+          ],
+          [
+            0.104,
+            -15.762
+          ],
+          [
+            0.501,
+            -15.751
+          ],
+          [
+            2.174,
+            -12.164
+          ],
+          [
+            1.99,
+            -11.794
+          ],
+          [
+            2.395,
+            -11.685
+          ],
+          [
+            3.048,
+            -10.29
+          ],
+          [
+            5.364,
+            -11.37
+          ],
+          [
+            5.642,
+            -11.341
+          ],
+          [
+            6.02,
+            -11.676
+          ],
+          [
+            8.708,
+            -12.929
+          ],
+          [
+            8.943,
+            -12.815
+          ],
+          [
+            9.498,
+            -12.893
+          ],
+          [
+            9.777,
+            -13.425
+          ],
+          [
+            11.267,
+            -14.123
+          ],
+          [
+            10.407,
+            -15.97
+          ],
+          [
+            10.469,
+            -16.118
+          ],
+          [
+            10.916,
+            -16.324
+          ],
+          [
+            11.057,
+            -16.256
+          ],
+          [
+            15.529,
+            -18.34
+          ],
+          [
+            15.716,
+            -18.174
+          ],
+          [
+            16.929,
+            -18.719
+          ],
+          [
+            17.272,
+            -18.104
+          ],
+          [
+            21.973,
+            -20.292
+          ],
+          [
+            22.122,
+            -20.17
+          ],
+          [
+            21.948,
+            -19.934
+          ],
+          [
+            30.342,
+            -16.879
+          ],
+          [
+            37.94,
+            -20.418
+          ],
+          [
+            40.809,
+            -28.298
+          ],
+          [
+            37.291,
+            -35.841
+          ],
+          [
+            29.413,
+            -38.71
+          ],
+          [
+            21.812,
+            -35.165
+          ],
+          [
+            18.757,
+            -26.77
+          ],
+          [
+            19.057,
+            -26.752
+          ],
+          [
+            19.056,
+            -26.56
+          ],
+          [
+            14.332,
+            -24.356
+          ],
+          [
+            14.521,
+            -23.804
+          ],
+          [
+            13.13,
+            -23.14
+          ],
+          [
+            13.193,
+            -22.775
+          ],
+          [
+            8.942,
+            -20.791
+          ],
+          [
+            8.902,
+            -20.64
+          ],
+          [
+            8.448,
+            -20.426
+          ],
+          [
+            8.305,
+            -20.478
+          ],
+          [
+            7.435,
+            -22.342
+          ],
+          [
+            0.337,
+            -19.032
+          ],
+          [
+            -0.491,
+            -18.884
+          ],
+          [
+            -0.546,
+            -18.638
+          ],
+          [
+            -0.785,
+            -18.509
+          ]
+        ]
+      ],
+      "heightRange": [
+        75.22648218509194,
+        82.32
+      ],
+      "anchor": [
+        29.75,
+        76.32,
+        -27.73
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/ZoraRiver_Adult/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/FairyFountain",
+    "label": "Fontaine des fées",
+    "layers": [
+      {
+        "file": "ZoraRiver_Child_FairyFountain.webp",
+        "left": -2.2845758350847167,
+        "top": -40.21010038875145,
+        "width": 44.59403722480554,
+        "height": 31.419873561762557
+      }
+    ],
+    "bounds": {
+      "x": [
+        -2.2845758350847167,
+        42.30946138972082
+      ],
+      "z": [
+        -40.21010038875145,
+        -8.790226826988892
+      ]
+    },
+    "kind": "interior",
+    "floor": null,
+    "heightRange": null,
+    "interior": {
+      "polygons": [
+        [
+          [
+            -0.785,
+            -18.509
+          ],
+          [
+            0.03,
+            -16.757
+          ],
+          [
+            -0.026,
+            -16.625
+          ],
+          [
+            -0.246,
+            -16.586
+          ],
+          [
+            -0.089,
+            -15.967
+          ],
+          [
+            0.104,
+            -15.762
+          ],
+          [
+            0.501,
+            -15.751
+          ],
+          [
+            2.174,
+            -12.164
+          ],
+          [
+            1.99,
+            -11.794
+          ],
+          [
+            2.395,
+            -11.685
+          ],
+          [
+            3.048,
+            -10.29
+          ],
+          [
+            5.364,
+            -11.37
+          ],
+          [
+            5.642,
+            -11.341
+          ],
+          [
+            6.02,
+            -11.676
+          ],
+          [
+            8.708,
+            -12.929
+          ],
+          [
+            8.943,
+            -12.815
+          ],
+          [
+            9.498,
+            -12.893
+          ],
+          [
+            9.777,
+            -13.425
+          ],
+          [
+            11.267,
+            -14.123
+          ],
+          [
+            10.407,
+            -15.97
+          ],
+          [
+            10.469,
+            -16.118
+          ],
+          [
+            10.916,
+            -16.324
+          ],
+          [
+            11.057,
+            -16.256
+          ],
+          [
+            15.529,
+            -18.34
+          ],
+          [
+            15.716,
+            -18.174
+          ],
+          [
+            16.929,
+            -18.719
+          ],
+          [
+            17.272,
+            -18.104
+          ],
+          [
+            21.973,
+            -20.292
+          ],
+          [
+            22.122,
+            -20.17
+          ],
+          [
+            21.948,
+            -19.934
+          ],
+          [
+            30.342,
+            -16.879
+          ],
+          [
+            37.94,
+            -20.418
+          ],
+          [
+            40.809,
+            -28.298
+          ],
+          [
+            37.291,
+            -35.841
+          ],
+          [
+            29.413,
+            -38.71
+          ],
+          [
+            21.812,
+            -35.165
+          ],
+          [
+            18.757,
+            -26.77
+          ],
+          [
+            19.057,
+            -26.752
+          ],
+          [
+            19.056,
+            -26.56
+          ],
+          [
+            14.332,
+            -24.356
+          ],
+          [
+            14.521,
+            -23.804
+          ],
+          [
+            13.13,
+            -23.14
+          ],
+          [
+            13.193,
+            -22.775
+          ],
+          [
+            8.942,
+            -20.791
+          ],
+          [
+            8.902,
+            -20.64
+          ],
+          [
+            8.448,
+            -20.426
+          ],
+          [
+            8.305,
+            -20.478
+          ],
+          [
+            7.435,
+            -22.342
+          ],
+          [
+            0.337,
+            -19.032
+          ],
+          [
+            -0.491,
+            -18.884
+          ],
+          [
+            -0.546,
+            -18.638
+          ],
+          [
+            -0.785,
+            -18.509
+          ]
+        ]
+      ],
+      "heightRange": [
+        75.22648218509194,
+        82.32
+      ],
+      "anchor": [
+        29.75,
+        76.32,
+        -27.73
+      ],
+      "source": "https://objmap-oot.zeldamods.org/game_files/static_compound/ZoraRiver_Child/manifest.json"
+    },
+    "padding": 2
+  },
+  {
+    "id": "https://objmap-oot.zeldamods.org/#/map/SacredForestMeadow/SacredForestMeadow_Child/00",
+    "kind": "field",
+    "bounds": {
+      "x": [
+        -170.5,
+        146.5
+      ],
+      "z": [
+        -139.12,
+        89.12
+      ]
+    },
+    "floor": null,
+    "heightRange": null,
+    "layers": [
+      {
+        "file": "SacredForestMeadow_Child_00.webp",
+        "left": -170.5,
+        "top": -139.12,
+        "width": 317.0,
+        "height": 228.24
+      }
+    ]
+  }
+]

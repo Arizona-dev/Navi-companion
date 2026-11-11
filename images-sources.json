@@ -1,0 +1,1067 @@
+[
+ {
+  "file": "assets/boss-barinade.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-barinade.webp",
+  "sha256": "b022bc10365511912c44031dac548c5d296efe99d6ecdb80d5c3cbd829b64875"
+ },
+ {
+  "file": "assets/boss-bongo-bongo.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-bongo-bongo.webp",
+  "sha256": "a8a83c3d27a4f649ceefdb49285be306490869aeba4389b5cc2851b8fc33f4a7"
+ },
+ {
+  "file": "assets/boss-ganondorf.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-ganondorf.webp",
+  "sha256": "397cacc953d9b7a4b9a1ba7a7dafffe60b78a2a09f639dd02d898b1e61437ab5"
+ },
+ {
+  "file": "assets/boss-gohma.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-gohma.webp",
+  "sha256": "55706bde645f231041085f9a5ba031760f8d78521ab6439d6eb3866559dd59a6"
+ },
+ {
+  "file": "assets/boss-great-moblin.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-great-moblin.webp",
+  "sha256": "4cacb89c046c0e40deee44159f2b425559962b5dcf595f5b8827951727117355"
+ },
+ {
+  "file": "assets/boss-king-dodongo.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-king-dodongo.webp",
+  "sha256": "7ee7f92d0ca34681fafc6f8f304f3597be20b79e0c5568303dfba60b76b9425d"
+ },
+ {
+  "file": "assets/boss-morpha.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-morpha.webp",
+  "sha256": "d2a2f022d701c99363ac6e8ad2297dccf120fc114149c4c1d6490c5f284e0bf4"
+ },
+ {
+  "file": "assets/boss-phantom-ganon.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-phantom-ganon.webp",
+  "sha256": "e9a58a49356dfdc40f27abc2b547bae2c5f8cb4b96850d2f121764dc8cad82da"
+ },
+ {
+  "file": "assets/boss-twinrova.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-twinrova.webp",
+  "sha256": "bb7a8e925a79180ad8f03f96355e514060e1dcff81917649336d383702013bbe"
+ },
+ {
+  "file": "assets/boss-volvagia.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/boss-volvagia.webp",
+  "sha256": "107e7f9c4df5783b3bbf13a78ece0efaacb420351e6f4ca2f9c9d8d0e9709d25"
+ },
+ {
+  "file": "assets/character-cucco.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-cucco.webp",
+  "sha256": "c21b104b7471b63d05dd481201e7c30d03777f0ee47854819051eec09adb2281"
+ },
+ {
+  "file": "assets/character-epona.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-epona.webp",
+  "sha256": "f967318899b61e9e8b96570092827f47f4754ea0b62e70740daa79243ed13705"
+ },
+ {
+  "file": "assets/character-great-deku-tree.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-great-deku-tree.webp",
+  "sha256": "ec25752d19b8d5a1f12c0a79e641aa7a9dc2d8f84a7b1c3fad894526bd58bb11"
+ },
+ {
+  "file": "assets/character-great-fairy.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-great-fairy.webp",
+  "sha256": "546b9daeec504a208d96d20f8406242e88ae5f8bdc3614e59942fcbd73e844ed"
+ },
+ {
+  "file": "assets/character-happy-mask-shopkeeper.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-happy-mask-shopkeeper.webp",
+  "sha256": "590ec4720bef830d75b0a5aaf3d33a4b0ecf12e359e4018b2fd40a56f6db39f7"
+ },
+ {
+  "file": "assets/character-kaepora-gaebora.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-kaepora-gaebora.webp",
+  "sha256": "8b30c508e67d90bc5cb84d75f2b6ee0db6b8fe3a1bac451bde5ebde45203149b"
+ },
+ {
+  "file": "assets/character-malon.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-malon.webp",
+  "sha256": "f09da02a4269db894f40a42c76f9e08286a455fcfd5533225ecc8879d7e3ca21"
+ },
+ {
+  "file": "assets/character-poe-collector.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-poe-collector.webp",
+  "sha256": "7292203e40c226adf712840b15c27658e9e9119f158db33b61f227b4beed6117"
+ },
+ {
+  "file": "assets/character-running-man.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-running-man.webp",
+  "sha256": "2961ecc70c8149a65bc9e5ae161c04c0311a2efff98a959a87c4294aff3e3130"
+ },
+ {
+  "file": "assets/character-talon.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/character-talon.webp",
+  "sha256": "507402d6a984b7b4637f44223be57c8e9991700a537941421be9e7d5e0ca9bd1"
+ },
+ {
+  "file": "assets/enemy-big-poe.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/enemy-big-poe.webp",
+  "sha256": "472c9b0040e07be6d1f1267f46f2c5be1a504224a6d4bb768e719475a12efbac"
+ },
+ {
+  "file": "assets/enemy-dark-link.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/enemy-dark-link.webp",
+  "sha256": "e511935b011e40e6a03d6e461d52033b00722b6496a967e00c78261f073a4ade"
+ },
+ {
+  "file": "assets/enemy-deku-baba.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/enemy-deku-baba.webp",
+  "sha256": "c48254f16b7c7c79fdd407fb4d8b98e44a248e4f3534d88abc091629f3a2c642"
+ },
+ {
+  "file": "assets/enemy-iron-knuckle.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/enemy-iron-knuckle.webp",
+  "sha256": "8ab9892e3ad96f3c0de50c72848bb636852141bf771a0874b370b2029803a3b7"
+ },
+ {
+  "file": "assets/hyrule-world.webp",
+  "url": "https://i.blogs.es/455c86/hshlxu3wcaacawz/1366_2000.webp",
+  "sha256": "47cb32db0079a6a90ca12b0c1d7398fe4a1156977e803a9ab2344c1119973fb0"
+ },
+ {
+  "file": "assets/item-adults-wallet-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-adults-wallet-1.webp",
+  "sha256": "247f4929bb0d7a29a21da94f45756b6ac6b89863cbd49d6bb0c39c6b3247f7ae"
+ },
+ {
+  "file": "assets/item-bigger-bomb-bag-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bigger-bomb-bag-1.webp",
+  "sha256": "0193cb9487cbd98e3763bc1ebef091dd7e82beb2a5966156b30ac1a12a90e396"
+ },
+ {
+  "file": "assets/item-bigger-deku-stick-bag-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bigger-deku-stick-bag-1.webp",
+  "sha256": "05bb12c437a0d8671cc23069a9d1d1619c2421e3450bbfadf594ae622154c2bb"
+ },
+ {
+  "file": "assets/item-bigger-quiver-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bigger-quiver-1.webp",
+  "sha256": "ddcd4f9ac05eaf668e44c43d2979fdfbe6503c8d2a8d986f7405d337e895d2af"
+ },
+ {
+  "file": "assets/item-biggest-bomb-bag-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-biggest-bomb-bag-1.webp",
+  "sha256": "9eff1aae0d8f21642e156556bf2f991007e4f84ad3d73966480773777f8eda1e"
+ },
+ {
+  "file": "assets/item-biggest-deku-seed-bag-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-biggest-deku-seed-bag-1.webp",
+  "sha256": "b06992761c711a24cf52d544bcc497375da47eca4fc7d53ec5536371a494cdad"
+ },
+ {
+  "file": "assets/item-biggest-quiver-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-biggest-quiver-1.webp",
+  "sha256": "7fb9151ea1b84c591f3c7ab4bbb81abf3c790535ae17b6735c3740c18da46a16"
+ },
+ {
+  "file": "assets/item-biggoron-sword.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-biggoron-sword.webp",
+  "sha256": "fdd664601d92da080d2386198b2e903ec85d53a0f97cf702f2eabb6311f5e3c0"
+ },
+ {
+  "file": "assets/item-blue-fire-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-blue-fire-1.webp",
+  "sha256": "f5007b5939070f4638f73a0085b21aaf5387f398c16f040daa11073fc4289320"
+ },
+ {
+  "file": "assets/item-bomb-bag.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bomb-bag.webp",
+  "sha256": "dfb6996a9afcd671c455b449e984911f776be5874532b5087f2b08c74061e9a1"
+ },
+ {
+  "file": "assets/item-bomb.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bomb.webp",
+  "sha256": "10fc831e68352c10d7b71e05136a3899d3ea527232c3ed97efdef8977e5fe27e"
+ },
+ {
+  "file": "assets/item-bombchu-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bombchu-1.webp",
+  "sha256": "beb737b3f4273cbc007e0e7dcedec7555a564609674ba267d61f47920beaf2f4"
+ },
+ {
+  "file": "assets/item-boomerang.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-boomerang.webp",
+  "sha256": "af991fb62955120e8fc10c52849f98aa806f00902be8637ab57b93fbc03c7bcc"
+ },
+ {
+  "file": "assets/item-bottle-with-rutos-letter-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bottle-with-rutos-letter-1.webp",
+  "sha256": "9b95debe9ac95b035ce05a26eab46d2db26062b0bec692cc708572f0251bb4ef"
+ },
+ {
+  "file": "assets/item-bug-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bug-1.webp",
+  "sha256": "6d4bed2d57a83a2b3712ccc7f7c1766500f4b2356581b523044257861b66f6b6"
+ },
+ {
+  "file": "assets/item-bunny-hood-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-bunny-hood-1.webp",
+  "sha256": "82275ee3085be11d91cb1a61ffeee39c5cadca5da705ae420e8c6ecbe3adf31c"
+ },
+ {
+  "file": "assets/item-deku-nut.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-deku-nut.webp",
+  "sha256": "bad5c56363da570cc790b181be04ed9111a08f64d6c04ffc543f8e13c9a0792a"
+ },
+ {
+  "file": "assets/item-deku-shield.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-deku-shield.webp",
+  "sha256": "f859d342a85b1ba8a5662767cb821447b0e0f79e276276a7d01f538daa63909d"
+ },
+ {
+  "file": "assets/item-deku-stick.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-deku-stick.webp",
+  "sha256": "87ff19895161534d733f56aa37d5296de59c2d5db7a3a99ac62b7ecc28f7d7d5"
+ },
+ {
+  "file": "assets/item-dins-fire.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-dins-fire.webp",
+  "sha256": "54124b3b8898d5d5f06b6783eafa598278eacf09daf8e11d973dac3112e9a89e"
+ },
+ {
+  "file": "assets/item-echo-gem.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-echo-gem.webp",
+  "sha256": "ad019276fb4991b991a001e37aab5e8279786dad4592f9d91ca4763aa11e3ded"
+ },
+ {
+  "file": "assets/item-empty-bottle.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-empty-bottle.webp",
+  "sha256": "af12c0297347a372f7729326de2b88b264d783dfb64784c8b707ba9587e61704"
+ },
+ {
+  "file": "assets/item-fairy-bow.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-fairy-bow.webp",
+  "sha256": "0f302debf1131275bc44e6592e5715e9c0a7d6f3b4c92a994ad8abb4698c31f1"
+ },
+ {
+  "file": "assets/item-fairy-ocarina.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-fairy-ocarina.webp",
+  "sha256": "f030c96ee76320272d5e0cfa00d0cdb7cb4383146c4418fe4c5b5b49f82d2f0e"
+ },
+ {
+  "file": "assets/item-fairy-slingshot.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-fairy-slingshot.webp",
+  "sha256": "1071751666b6fab53b3104c93cb91cf45c8296b084ec8bdcf512b2fca42927b5"
+ },
+ {
+  "file": "assets/item-farores-wind-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-farores-wind-1.webp",
+  "sha256": "503731443532d6744df8052a3b3de57265c9c1043d431ad1c9ed9bef1dea5540"
+ },
+ {
+  "file": "assets/item-fire-arrow-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-fire-arrow-1.webp",
+  "sha256": "916735dde85666c1db1b833b7d3929e941b1a5352294138f086317173c14cd02"
+ },
+ {
+  "file": "assets/item-fire-medallion-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-fire-medallion-1.webp",
+  "sha256": "5a567880af4f608444cf25c607cc1d76cdf5d30db6a0aa86230d9d1d4df3d04d"
+ },
+ {
+  "file": "assets/item-forest-medallion-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-forest-medallion-1.webp",
+  "sha256": "ef371bf5a55afb91c66a66505d8847752269bf52cf1c3b2e332105545d3c6b5b"
+ },
+ {
+  "file": "assets/item-giants-knife-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-giants-knife-1.webp",
+  "sha256": "b0250f758b28e2bc9c94f89a45a23aa712657258955c0389182ed71b68640e7d"
+ },
+ {
+  "file": "assets/item-giants-wallet-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-giants-wallet-1.webp",
+  "sha256": "d69434e263cd53eb0846ab75d1ca30c055c217e2ea85bbe3aaef913a6295407e"
+ },
+ {
+  "file": "assets/item-gift-of-doubled-magic.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-gift-of-doubled-magic.webp",
+  "sha256": "b0a7dfc8a268b2029d4b297d686889339e618621a50c3b6705f04d3b8ab3ae9f"
+ },
+ {
+  "file": "assets/item-gift-of-halved-damage.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-gift-of-halved-damage.webp",
+  "sha256": "16a523999ebcab0028e2fa8c6dbb04ae7a4cab1c510a7e54024dfe87408e83a4"
+ },
+ {
+  "file": "assets/item-gold-rupee-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-gold-rupee-1.webp",
+  "sha256": "98c230500c0210444bf0a51297a0290f27a2cb0d58aa0ca5b18d7acdb3305453"
+ },
+ {
+  "file": "assets/item-golden-gauntlets-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-golden-gauntlets-1.webp",
+  "sha256": "54aac63904d6cea9bf946a1aa7e9cc52e78e18de69c2f24ceeac2ab86ea8983e"
+ },
+ {
+  "file": "assets/item-golden-scale-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-golden-scale-1.webp",
+  "sha256": "5fc5695f0c973739c1cd2196f3ce86c93b5863ba604c7d63e3fbe37dfe0e83e4"
+ },
+ {
+  "file": "assets/item-golden-skull-token-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-golden-skull-token-1.webp",
+  "sha256": "33091e4e01eace865ee761ccd3b8bd3d53fff898b6ee390928b98407b73048ee"
+ },
+ {
+  "file": "assets/item-goron-bracelet-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-goron-bracelet-1.webp",
+  "sha256": "76e90fc632d8879b3fe7eab1d6ea57b2ededc24a769551827dcb7263a6a0f880"
+ },
+ {
+  "file": "assets/item-goron-ruby.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-goron-ruby.webp",
+  "sha256": "d25cac9e33b7b2289d6833293551a69bf2a6983a9dc99e4039d9c28bdd3b0b72"
+ },
+ {
+  "file": "assets/item-goron-tunic-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-goron-tunic-1.webp",
+  "sha256": "d86e396c5ac90b362d3674429db973e1ee122122d2ca4645cc840f62cd01a65b"
+ },
+ {
+  "file": "assets/item-heart-container.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-heart-container.webp",
+  "sha256": "db9486bbce1a94c1ff287874ccb11744573d0d75de6811e657002041f103e01b"
+ },
+ {
+  "file": "assets/item-heros-clothes.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-heros-clothes.webp",
+  "sha256": "a74d4bb517c6524031e2e763bed80264bfe79c85f549a3debd73e3203fdc79c1"
+ },
+ {
+  "file": "assets/item-hookshot.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-hookshot.webp",
+  "sha256": "ba5fdeaa7f6e8ee612654440cb49873824c34e9dbd6928f1ed30eed71bb06b94"
+ },
+ {
+  "file": "assets/item-hover-boots-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-hover-boots-1.webp",
+  "sha256": "6d0922577ade279eddd7b4390772ffd4049a9b1bd117fd81938ecd2d18192fa5"
+ },
+ {
+  "file": "assets/item-hylian-shield.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-hylian-shield.webp",
+  "sha256": "96d992ea5b3d5a51fb4395fe6324f0094a99b4c1e1649f7583395b656e70efff"
+ },
+ {
+  "file": "assets/item-ice-arrow-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-ice-arrow-1.webp",
+  "sha256": "5c602a43f6990a797af6988be5852018ce8c995170262e938be0ff36ba2ae14d"
+ },
+ {
+  "file": "assets/item-iron-boots.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-iron-boots.webp",
+  "sha256": "d4296dadbe0b31cbc9f49df30f5a33754c2fa1027cfa1143a8b91f81306817fe"
+ },
+ {
+  "file": "assets/item-keaton-mask-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-keaton-mask-1.webp",
+  "sha256": "7c066de0b9d5a26a10215713a425fe53751db49caa00fea2bb25f1d845f1b7f7"
+ },
+ {
+  "file": "assets/item-kokiri-emerald.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-kokiri-emerald.webp",
+  "sha256": "26ad76b829ff0f2d717fc3987d0e2e407925add14c41d69f4de54d6a7498c26e"
+ },
+ {
+  "file": "assets/item-kokiri-sword.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-kokiri-sword.webp",
+  "sha256": "fe2fec4ac0393008b8ffe34a321663536f30df7b0806ab3d096ed495498082dc"
+ },
+ {
+  "file": "assets/item-lenses-of-truth-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-lenses-of-truth-1.webp",
+  "sha256": "100f025f9a5001c8ac15032b594d1e1a103c25bbe4fa892da4aec39b9edcf8ac"
+ },
+ {
+  "file": "assets/item-light-arrow-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-light-arrow-1.webp",
+  "sha256": "e178ac1f46bc133e8d11bc16fd870cc3ef9888c6fd120d336379283cc9d2f96f"
+ },
+ {
+  "file": "assets/item-light-medallion-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-light-medallion-1.webp",
+  "sha256": "507bc10e1b2f64e6419a9a8389b6719bbe9301e950a75640708b844c1fb6cb57"
+ },
+ {
+  "file": "assets/item-lon-lon-milk-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-lon-lon-milk-1.webp",
+  "sha256": "32ec561f0e9459ce53bb71db96b139677cb49e84cde36fb57dd9c2725c2bfcfd"
+ },
+ {
+  "file": "assets/item-longshot-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-longshot-1.webp",
+  "sha256": "e09a422181c19e17a0f3de62ce55f1ced883f99bb6d92161f77219e42c95da0f"
+ },
+ {
+  "file": "assets/item-magic-beans.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-magic-beans.webp",
+  "sha256": "ccce1d2f80b7ff0610ecf8793127580067e22ea44934ed66661e05553f7644f3"
+ },
+ {
+  "file": "assets/item-mask-of-truth-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-mask-of-truth-1.webp",
+  "sha256": "471d86700386b7335fe69d7a993127750757c0e8faebdd4e7ec4c3bd3f5d2a3f"
+ },
+ {
+  "file": "assets/item-master-sword.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-master-sword.webp",
+  "sha256": "1d5b0f57bb86151a11e3fb1703772c6cfbdee050b2ccf4b85e0a9addc357843b"
+ },
+ {
+  "file": "assets/item-megaton-hammer-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-megaton-hammer-1.webp",
+  "sha256": "074a33d4bed3727ca81e1e76d791fd27bfb082b1848627b44d23ade93cf6ca24"
+ },
+ {
+  "file": "assets/item-mirror-shield-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-mirror-shield-1.webp",
+  "sha256": "24f7a33e6691f4f46f7539f6fcb15dcf911c99d46da7150d2dcd8e0b58713b2b"
+ },
+ {
+  "file": "assets/item-nayrus-love-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-nayrus-love-1.webp",
+  "sha256": "4858329c68692677a967c2f52e33d39d282e9b0b06dd19f32f12e728e177eced"
+ },
+ {
+  "file": "assets/item-ocarina-of-time.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-ocarina-of-time.webp",
+  "sha256": "4165c675bb1d5bfceb77f74db8ee92ac46818959b1e7880fa6288c63a03d40a2"
+ },
+ {
+  "file": "assets/item-piece-of-heart-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-piece-of-heart-1.webp",
+  "sha256": "a6bc3d2f3becd8cfe7cceea4ce442003c598cde3085c4b05f4adb1d4f78bc1df"
+ },
+ {
+  "file": "assets/item-pocket-egg-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-pocket-egg-1.webp",
+  "sha256": "cb892600cafaadeb26fe94601dac469e482bd136ade396d39de77b401ec00b92"
+ },
+ {
+  "file": "assets/item-shadow-medallion-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-shadow-medallion-1.webp",
+  "sha256": "3a89fc5d5662f57616d0c77b66e0d4b5acfc643c34f49eb9801b20b925f5964e"
+ },
+ {
+  "file": "assets/item-silver-gauntlets-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-silver-gauntlets-1.webp",
+  "sha256": "5780a7c741f8ca975864964afd55221f72bf9cb736e9c86f443933a5a2a93387"
+ },
+ {
+  "file": "assets/item-silver-scale-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-silver-scale-1.webp",
+  "sha256": "de50df8f0c246672f6bfeacfbac2671262ccae7d387ca1460e5abe50526110ea"
+ },
+ {
+  "file": "assets/item-skull-mask-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-skull-mask-1.webp",
+  "sha256": "04f3c513ce2fbc5f917d9e2f4c03b72f02886cc6a517a33d92b3a5a86e28cbc0"
+ },
+ {
+  "file": "assets/item-spirit-medallion-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-spirit-medallion-1.webp",
+  "sha256": "b2ed7750e81785c6b85c419f554b35569ee3ed551b769c121d4c4f27732208e4"
+ },
+ {
+  "file": "assets/item-spooky-mask-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-spooky-mask-1.webp",
+  "sha256": "af45463df66de46d934c828fd2588cfc858cabbc74b1652fa610b5bff7061e98"
+ },
+ {
+  "file": "assets/item-water-medallion-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-water-medallion-1.webp",
+  "sha256": "9ea6ea20450ef5af53e811b3fc7fbe4637ffcb16d296e0bed01846879d80055b"
+ },
+ {
+  "file": "assets/item-zora-sapphire.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-zora-sapphire.webp",
+  "sha256": "7c2123f6f4f7373cc2a516c88d0a5f83e908d5a5af44074419426934213bab43"
+ },
+ {
+  "file": "assets/item-zora-tunic-1.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/item-zora-tunic-1.webp",
+  "sha256": "7b5f9a542ebb432d59508b3c9a9844deccac95e2efa1bccde06ba3c94ff472a2"
+ },
+ {
+  "file": "assets/song-bolero-of-fire.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-bolero-of-fire.webp",
+  "sha256": "8e8d47533917ed47a74ea0e7be26a9be6d5dbdd8db1c4121d3f3c739319c34c4"
+ },
+ {
+  "file": "assets/song-eponas-song.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-eponas-song.webp",
+  "sha256": "fb9e4fcdf7026832e97922d849df356be5c273914df37bb796a1e64f6a05a458"
+ },
+ {
+  "file": "assets/song-minuet-of-forest.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-minuet-of-forest.webp",
+  "sha256": "9a8e1a7df07cbcfb97199dfcbe64c1015cccb3fe0de9490071e052a4f74d5a3c"
+ },
+ {
+  "file": "assets/song-nocturne-of-shadow.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-nocturne-of-shadow.webp",
+  "sha256": "35ae3da83954a21872e488666ab278703439e38981329dee8408e2c11a5d2ca8"
+ },
+ {
+  "file": "assets/song-prelude-of-light.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-prelude-of-light.webp",
+  "sha256": "90b3e5bdc93d3136315eff9c9a53e95d01ab02161bb31e8cc95145400068439f"
+ },
+ {
+  "file": "assets/song-requiem-of-spirit.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-requiem-of-spirit.webp",
+  "sha256": "9c72c6c34acfd53456e34c18c6f37b215d95aafa04969a2e1119c8402a16c3ab"
+ },
+ {
+  "file": "assets/song-sarias-song.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-sarias-song.webp",
+  "sha256": "0b0dbab67a71b3725b2539e4cd0376beb04294baf3bffd28384b1305b7717e10"
+ },
+ {
+  "file": "assets/song-scarecrow-song.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-scarecrow-song.webp",
+  "sha256": "8f70aa46159215fdf0075626859ffbe94600a74f6ca3afe06d3d1d1e3083e234"
+ },
+ {
+  "file": "assets/song-serenade-of-water.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-serenade-of-water.webp",
+  "sha256": "ca52efb55566b0496e161d47ad2d5c1f8c7b8f565a2db4a6d18795f047981b55"
+ },
+ {
+  "file": "assets/song-song-of-storms.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-song-of-storms.webp",
+  "sha256": "6b79bcf38fcd2b13d6842400c398ba0729d8f218bf080720aeb08220acfd8e84"
+ },
+ {
+  "file": "assets/song-song-of-time.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-song-of-time.webp",
+  "sha256": "8bbbea2f9975a594c55d72fab1c93f80d33e0d6bd14f3f3c2694a36cfbefd5b7"
+ },
+ {
+  "file": "assets/song-suns-song.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-suns-song.webp",
+  "sha256": "6f0d6a89029a2bfd1fc0b7ac48a254785ef5e0577d8b42804935747024a1addf"
+ },
+ {
+  "file": "assets/song-zeldas-lullaby.webp",
+  "url": "https://zeldacentral.com/wp-content/uploads/ootr/images/icons/song-zeldas-lullaby.webp",
+  "sha256": "68a7076df09ac7ddafb58e04d093b07887ac9fd2d41bf3d20a0361c077e846a8"
+ },
+ {
+  "file": "maps/BottomOfTheWell_B1_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/BottomOfTheWell_B1_State00_Main.webp",
+  "sha256": "2287e40be65f5b0003ac89c891854eec90bec51fe142eb892857e11a9ae037e5"
+ },
+ {
+  "file": "maps/BottomOfTheWell_B1_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/BottomOfTheWell_B1_State01_Main.webp",
+  "sha256": "42ae3cf68ddc3a8de6bdc8bf32d03ea8f439f6d0209edc558f7215b77a1c392f"
+ },
+ {
+  "file": "maps/BottomOfTheWell_B2_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/BottomOfTheWell_B2_Main.webp",
+  "sha256": "005152f81d05f0871ae8314bcedfca758c579d53d8f0283bc06b6993d7c08352"
+ },
+ {
+  "file": "maps/DeathMountainCrater_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DeathMountainCrater_Adult_00.webp",
+  "sha256": "c51232582db4f6a390c1cf524716a5f669c83408ba2f060efd8db542576d7176"
+ },
+ {
+  "file": "maps/DeathMountainCrater_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DeathMountainCrater_Child_00.webp",
+  "sha256": "653709afcfc601c83cbe829cac810500a9e942ae25921c7c41464db6a401dbdf"
+ },
+ {
+  "file": "maps/DeathMountainTrail_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DeathMountainTrail_Adult_00.webp",
+  "sha256": "d4bd20e6da772d08e1b3b3e9eb9ad60e94af8a9c954a2060ab87ab9a983818d2"
+ },
+ {
+  "file": "maps/DeathMountainTrail_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DeathMountainTrail_Child_00.webp",
+  "sha256": "d4bd20e6da772d08e1b3b3e9eb9ad60e94af8a9c954a2060ab87ab9a983818d2"
+ },
+ {
+  "file": "maps/DesertColossus_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DesertColossus_Adult_00.webp",
+  "sha256": "fd6ffc5658da936fd7b70b770f9af22c5c43d5c80582bda17ff4acbb1a347877"
+ },
+ {
+  "file": "maps/DesertColossus_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DesertColossus_Child_00.webp",
+  "sha256": "fd6ffc5658da936fd7b70b770f9af22c5c43d5c80582bda17ff4acbb1a347877"
+ },
+ {
+  "file": "maps/DodongoCavern_1F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DodongoCavern_1F_Main.webp",
+  "sha256": "89c3332c6634e2b15aa43d7f4691c4abeb97205407a4655547c3e7a6fe5517ed"
+ },
+ {
+  "file": "maps/DodongoCavern_2F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/DodongoCavern_2F_Main.webp",
+  "sha256": "13b3e3a98b3e3437e5ec81dfca4d4d8d7aaaddfac13170e80326e4fce01a666c"
+ },
+ {
+  "file": "maps/FireTemple_1F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_1F_State00_Main.webp",
+  "sha256": "ba0ad7b18a1cc0208cdab7b8f8843c25ef0c6123631b83dc5654b36640c4e45d"
+ },
+ {
+  "file": "maps/FireTemple_1F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_1F_State01_Main.webp",
+  "sha256": "b7a555357ae912db97f84011b1e5d3f0abaa497b780d92ab28c564984f6eee53"
+ },
+ {
+  "file": "maps/FireTemple_2F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_2F_State00_Main.webp",
+  "sha256": "44c9e290efd2b312317692d21327aebe636836596ebae92ce6797fdf5333c29e"
+ },
+ {
+  "file": "maps/FireTemple_2F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_2F_State01_Main.webp",
+  "sha256": "45ee5d6a0c2251774f5e41aa032a44904d342af8e2cf319c4ddad47c5ac28c4e"
+ },
+ {
+  "file": "maps/FireTemple_3F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_3F_Main.webp",
+  "sha256": "3b224c22e1cfc71227ae766922b43cce364bb0e5aaf60ac99e23a509dd0ab0e2"
+ },
+ {
+  "file": "maps/FireTemple_4F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_4F_Main.webp",
+  "sha256": "9cb63dec014640f985ac71a1c2f9f9bbadd517a161caa85d11b561844515b4d7"
+ },
+ {
+  "file": "maps/FireTemple_5F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_5F_State00_Main.webp",
+  "sha256": "770c2b8c4e7b6e758b674368e0b52dfda35a34639d7d2e6e6a8b999940c0c4da"
+ },
+ {
+  "file": "maps/FireTemple_5F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/FireTemple_5F_State01_Main.webp",
+  "sha256": "218946147a6cbc98f2602c8adc8606b0ff710fff4a30239dba1c6ea822b83fa4"
+ },
+ {
+  "file": "maps/ForestTemple_1F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_1F_Main.webp",
+  "sha256": "6d5b625dbc36645162abbfbcb015aa97a46b406092c3af012b663de1c5ccfd9b"
+ },
+ {
+  "file": "maps/ForestTemple_2F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_2F_State00_Main.webp",
+  "sha256": "8f96835d47618e9cb084bc8700c2ec11834b50ac36c2e4b5665b42fb70962b94"
+ },
+ {
+  "file": "maps/ForestTemple_2F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_2F_State01_Main.webp",
+  "sha256": "8f96835d47618e9cb084bc8700c2ec11834b50ac36c2e4b5665b42fb70962b94"
+ },
+ {
+  "file": "maps/ForestTemple_2F_State02_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_2F_State02_Main.webp",
+  "sha256": "8f96835d47618e9cb084bc8700c2ec11834b50ac36c2e4b5665b42fb70962b94"
+ },
+ {
+  "file": "maps/ForestTemple_2F_State03_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_2F_State03_Main.webp",
+  "sha256": "8f96835d47618e9cb084bc8700c2ec11834b50ac36c2e4b5665b42fb70962b94"
+ },
+ {
+  "file": "maps/ForestTemple_3F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_3F_State00_Main.webp",
+  "sha256": "4eb4ef7e2e5acbfbf2f34b31d61d9f5949c8bfb8b832ad66c07c04e0641a31c8"
+ },
+ {
+  "file": "maps/ForestTemple_3F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_3F_State01_Main.webp",
+  "sha256": "46a4de0b69b7626d804e3597d9ebe88170c2dec80ef9252977e2853736f68dcd"
+ },
+ {
+  "file": "maps/ForestTemple_3F_State02_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_3F_State02_Main.webp",
+  "sha256": "182c9e6d6c99f4fd4e8ed004105d92584ab46b1a546844eb6a5714eefed62586"
+ },
+ {
+  "file": "maps/ForestTemple_3F_State03_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_3F_State03_Main.webp",
+  "sha256": "2edf2b2ef51aaa5bbf9441039867691e37960326be5966288e54f7bc8c7b72e5"
+ },
+ {
+  "file": "maps/ForestTemple_B1_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_B1_Main.webp",
+  "sha256": "b510f51226a9063dd39248ee556c7cb90a9a857cdcac7295de74bd9790520c4d"
+ },
+ {
+  "file": "maps/ForestTemple_B2_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ForestTemple_B2_Main.webp",
+  "sha256": "c975ade2793d262505eae4b8c61114695adf9a7e60d0f85fd21c32f2f79586c3"
+ },
+ {
+  "file": "maps/GanonCastle_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/GanonCastle_Adult_00.webp",
+  "sha256": "e1dc1e4de3613cc245f1f659f31f2201df728213b20fdd60e1d86ccb32e6eaaa"
+ },
+ {
+  "file": "maps/GerudoFortress_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/GerudoFortress_Adult_00.webp",
+  "sha256": "10335b08c98ad9e6456770a98ffdfa2359696483100d5aedea0091e770cebe34"
+ },
+ {
+  "file": "maps/GerudoValley_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/GerudoValley_Adult_00.webp",
+  "sha256": "d472e106cc4c3a2d96f55caf5ebfd4ec4f5dd0feaad2c37e96d2ba50a6c3b006"
+ },
+ {
+  "file": "maps/GerudoValley_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/GerudoValley_Child_00.webp",
+  "sha256": "4ae5d47cde7c4b8a3675358ff1903bd0f13e5079d52a8af47539c7056ad751d9"
+ },
+ {
+  "file": "maps/GoronCity_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/GoronCity_Adult_00.webp",
+  "sha256": "f8a0fa74d8078f4ba38f5c4b1aa19f1c84761cea315b53ce1813c9fd8ccc82c6"
+ },
+ {
+  "file": "maps/GoronCity_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/GoronCity_Child_00.webp",
+  "sha256": "9e5eaae960e2e1207605b399bfc9f66baca8d025cd5246accad14f5af1a2cacf"
+ },
+ {
+  "file": "maps/Graveyard_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/Graveyard_Adult_00.webp",
+  "sha256": "dc4f33203dc000bec8f33756c80a6d92c3319ae5b0a650bc452ee290222e222d"
+ },
+ {
+  "file": "maps/Graveyard_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/Graveyard_Child_00.webp",
+  "sha256": "1c51ddffb9d2397b6c8e710639b7c6d7bb740291ddba980fbb0d9f6b453e9332"
+ },
+ {
+  "file": "maps/HountedWasteland_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/HountedWasteland_Adult_00.webp",
+  "sha256": "0c9432c9201c9cf6b61ebb52b025c93b67d8a1f2b3d3b39affa02e26d1f8cfc1"
+ },
+ {
+  "file": "maps/HyruleCastle_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/HyruleCastle_Child_00.webp",
+  "sha256": "e2b6083a5a4c598dd551911044922e445dea471b5760347193adc5f5010c40b4"
+ },
+ {
+  "file": "maps/HyruleField_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/HyruleField_Adult_00.webp",
+  "sha256": "a38a9c8615a386f5406de3155fb177a11a692dfa617275ff9a8a7db871946478"
+ },
+ {
+  "file": "maps/HyruleField_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/HyruleField_Child_00.webp",
+  "sha256": "1cfe7ffa6c8fd96c4329100b05238fd1fd4da3af00f4bcc5bd63a5043cf7f6b8"
+ },
+ {
+  "file": "maps/IceCavern_1F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/IceCavern_1F_Main.webp",
+  "sha256": "83d771d778cd38a0870ae5e535e580cc2685fa4ccdff28e7962322d33521bb50"
+ },
+ {
+  "file": "maps/InsideJabuJabuBelly_1F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideJabuJabuBelly_1F_Main.webp",
+  "sha256": "37fc662834ab00cc562e374cc7c138fcc883e46287406c7f70728fff81661c28"
+ },
+ {
+  "file": "maps/InsideJabuJabuBelly_2F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideJabuJabuBelly_2F_Main.webp",
+  "sha256": "891e020369198b29956875de684e8fc839307b8b8b7f1fab40c32a10887c50ed"
+ },
+ {
+  "file": "maps/InsideJabuJabuBelly_B1_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideJabuJabuBelly_B1_Main.webp",
+  "sha256": "f9e659a83fbd06c3d259f9fa2526d314d60a4442bab458e753993f0c90d893ce"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_1F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_1F_State00_Main.webp",
+  "sha256": "d194ed6e96af4b3dbe83972201d05130c5e4face500a655a59bbd78d0a059423"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_1F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_1F_State01_Main.webp",
+  "sha256": "e7687791c84f0b2c5725cdbbfb582b7a0602a9a20aab9b5b63ab5b2c6a0d8d3d"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_2F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_2F_State00_Main.webp",
+  "sha256": "56bc095969b1138449767a8d9f5d85124c3196a8ce9d6b72b53ecfc46796c9e7"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_2F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_2F_State01_Main.webp",
+  "sha256": "80ad7766ec462ffb99d6f1e14c81b6b4c0d11afb56efb41b41a4251e638cfe80"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_3F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_3F_State00_Main.webp",
+  "sha256": "269b62a5e37a8d81687d06ad4b2295d29ff9e741240b92b8a740dd0c2673e1a7"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_3F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_3F_State01_Main.webp",
+  "sha256": "6cdfb69fd0dea3128260234572c9ce38ae7fc57b4b113fe1202b4d804b09ea16"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_B1_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_B1_State00_Main.webp",
+  "sha256": "6ac464253c19c59ef4f71e3dcc962be4d2c003715967438496cef8dfe94db1cd"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_B1_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_B1_State01_Main.webp",
+  "sha256": "585e8a20a388595f376772bc857750c777a849387859cb53c4c340bb74375bfb"
+ },
+ {
+  "file": "maps/InsideTheDekuTree_B2_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/InsideTheDekuTree_B2_State00_Main.webp",
+  "sha256": "3affe61629a43dc18a64941d8d1412edea51579476161701444dfe7d545117a7"
+ },
+ {
+  "file": "maps/KakarikoVillage_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/KakarikoVillage_Adult_00.webp",
+  "sha256": "ff454fe337764e840655653a2f4f968d1165cac1967e8bcee18c43319ae03cd4"
+ },
+ {
+  "file": "maps/KakarikoVillage_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/KakarikoVillage_Child_00.webp",
+  "sha256": "a7049778a983976c9cd2982cb36caecf4666621b731b2fd34c9e8657545b4058"
+ },
+ {
+  "file": "maps/KokiriForest_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/KokiriForest_Adult_00.webp",
+  "sha256": "0e63c85d1eb566b8c9ff3ff127ee31af55e8b8cd47c3bbe93c204f803831fa39"
+ },
+ {
+  "file": "maps/KokiriForest_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/KokiriForest_Child_00.webp",
+  "sha256": "76e52ba86e0542890c727c417f1f2171c8414570bcf4363dae60630ef2afe4bb"
+ },
+ {
+  "file": "maps/LakeHylia_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/LakeHylia_Adult_00.webp",
+  "sha256": "56d0ff350c060384c5e4f6a5be008d811c084bb1df13eec277d4c5543c5edf15"
+ },
+ {
+  "file": "maps/LakeHylia_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/LakeHylia_Child_00.webp",
+  "sha256": "9e7e39b36f7e39207b9db08731b2efb52d4082c541b50a1fa8d84fe74696040b"
+ },
+ {
+  "file": "maps/LonLonRanch_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/LonLonRanch_Adult_00.webp",
+  "sha256": "5bcbbdf054c788af4b29bedf4eca811b17cf751575434370487b01141867a387"
+ },
+ {
+  "file": "maps/LonLonRanch_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/LonLonRanch_Child_00.webp",
+  "sha256": "5bcbbdf054c788af4b29bedf4eca811b17cf751575434370487b01141867a387"
+ },
+ {
+  "file": "maps/LostWood_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/LostWood_Adult_00.webp",
+  "sha256": "6eec5853b397b730e8dd1ba303999f09ede049f044016e1d1f987fc661e2bb2a"
+ },
+ {
+  "file": "maps/LostWood_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/LostWood_Child_00.webp",
+  "sha256": "6eec5853b397b730e8dd1ba303999f09ede049f044016e1d1f987fc661e2bb2a"
+ },
+ {
+  "file": "maps/Market_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/Market_Adult_00.webp",
+  "sha256": "6fc757e44ad692ab61ac3fc54ad105f879bcb3805422b34af08a59a28409ceff"
+ },
+ {
+  "file": "maps/Market_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/Market_Child_00.webp",
+  "sha256": "13e743f25af7415ec051bb81abbdbcb38fc0d989bfaeed71b3ba014a222d1be8"
+ },
+ {
+  "file": "maps/SacredForestMeadow_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SacredForestMeadow_Adult_00.webp",
+  "sha256": "ce83a45bfdd0e6ed433ca859632dc789a56916acd2e58070102a1a6449ce37c9"
+ },
+ {
+  "file": "maps/SacredForestMeadow_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SacredForestMeadow_Child_00.webp",
+  "sha256": "ce83a45bfdd0e6ed433ca859632dc789a56916acd2e58070102a1a6449ce37c9"
+ },
+ {
+  "file": "maps/ShadowTemple_B1_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ShadowTemple_B1_Main.webp",
+  "sha256": "558486941d636d05470a82b40847dfc8a588cae1bf823ebff589b9f5dca8624f"
+ },
+ {
+  "file": "maps/ShadowTemple_B2_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ShadowTemple_B2_Main.webp",
+  "sha256": "6fa335b42dbe501184ad61dae0155309269f81d75f9d0856e4d754c61cd9636e"
+ },
+ {
+  "file": "maps/ShadowTemple_B3_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ShadowTemple_B3_Main.webp",
+  "sha256": "fccbd1495afbd5d8bd60b05ed16ca14067e237bd8ff2abfaa6561919bc24d810"
+ },
+ {
+  "file": "maps/ShadowTemple_B4_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ShadowTemple_B4_State00_Main.webp",
+  "sha256": "926f783e5701aff84616bdeaaed58968bd32b091fb744191588008eab3f48b1f"
+ },
+ {
+  "file": "maps/ShadowTemple_B4_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ShadowTemple_B4_State01_Main.webp",
+  "sha256": "c89d0c12873d1ea720ad5b1dd9ebdf6ab05ea9167b490948909c23baa0ad3bbd"
+ },
+ {
+  "file": "maps/SpiritTemple_1F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SpiritTemple_1F_Main.webp",
+  "sha256": "e3fde095bbbaf8be934d9daa4892a9383f2a78561de0119ae9f9117720870de7"
+ },
+ {
+  "file": "maps/SpiritTemple_2F_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SpiritTemple_2F_Main.webp",
+  "sha256": "b84d472cbdbeca7a00b06e8ab94c39c8f8d4dbc4b018b2fb9be428d4b64bc68c"
+ },
+ {
+  "file": "maps/SpiritTemple_3F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SpiritTemple_3F_State00_Main.webp",
+  "sha256": "4bcea60c0f5bca32e4be1c8dae9c38657c5805d1344fb0baee80ca5262d0b3ae"
+ },
+ {
+  "file": "maps/SpiritTemple_3F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SpiritTemple_3F_State01_Main.webp",
+  "sha256": "91a6111a85bf2feb8eba76f366eecacba3f25f9987f427547d6087cdf8cabbdf"
+ },
+ {
+  "file": "maps/SpiritTemple_3F_State02_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SpiritTemple_3F_State02_Main.webp",
+  "sha256": "9e68a81aa40cdd2584af1ae9d359c1638a04e42532642815108dc87f0e4bf6bb"
+ },
+ {
+  "file": "maps/SpiritTemple_4F_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SpiritTemple_4F_State00_Main.webp",
+  "sha256": "d8fd2d7fb0fe9ba80f84a95ccfb0a79583383a14c1a2637cf0b6dfdd17450718"
+ },
+ {
+  "file": "maps/SpiritTemple_4F_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/SpiritTemple_4F_State01_Main.webp",
+  "sha256": "83230868d042367f267af3c810ed180a2fcaf7166c51e7adf29422d283629943"
+ },
+ {
+  "file": "maps/WaterTemple_1F_Lv1_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_1F_Lv1_State00_Main.webp",
+  "sha256": "c762b99bb555dcd38d7a5b7b57560f24a73a5ed2866a53f54ab599d807bb4429"
+ },
+ {
+  "file": "maps/WaterTemple_1F_Lv1_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_1F_Lv1_State01_Main.webp",
+  "sha256": "249c0f33221a8d21e609e3a8d22f2c7bd80e909cb2c0911e6e28231172161a78"
+ },
+ {
+  "file": "maps/WaterTemple_1F_Lv2_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_1F_Lv2_State00_Main.webp",
+  "sha256": "8b6fe90b5ed73b06bcc0136a4a22eb199dc196491ba08fd4defb0a12030af1d3"
+ },
+ {
+  "file": "maps/WaterTemple_1F_Lv2_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_1F_Lv2_State01_Main.webp",
+  "sha256": "f94dd1787a0b049ef0a186c28ec2ac9e1967f2b454396cf9893ea2e50159c6c1"
+ },
+ {
+  "file": "maps/WaterTemple_1F_Lv3_State00_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_1F_Lv3_State00_Main.webp",
+  "sha256": "8b6fe90b5ed73b06bcc0136a4a22eb199dc196491ba08fd4defb0a12030af1d3"
+ },
+ {
+  "file": "maps/WaterTemple_1F_Lv3_State01_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_1F_Lv3_State01_Main.webp",
+  "sha256": "f94dd1787a0b049ef0a186c28ec2ac9e1967f2b454396cf9893ea2e50159c6c1"
+ },
+ {
+  "file": "maps/WaterTemple_2F_Lv1_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_2F_Lv1_Main.webp",
+  "sha256": "5234737e1c751ee01553ef2d9cfa5c83094034c29c46399d045e874a590c3194"
+ },
+ {
+  "file": "maps/WaterTemple_2F_Lv2_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_2F_Lv2_Main.webp",
+  "sha256": "d6e047e6c2babbb1a91021a065731575fd6233cfb4d0273fc5b57b9bd94d3c87"
+ },
+ {
+  "file": "maps/WaterTemple_2F_Lv3_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_2F_Lv3_Main.webp",
+  "sha256": "4c48a476011c2ca0d2864e4d503b3d5b4369d44fe38daed8b590bfbfe2a41c9b"
+ },
+ {
+  "file": "maps/WaterTemple_3F_Lv1_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_3F_Lv1_Main.webp",
+  "sha256": "7a1abdeb38ab65322f8e6281ab2eb9d0a1d494ac81b744097fbb4246d18df933"
+ },
+ {
+  "file": "maps/WaterTemple_3F_Lv2_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_3F_Lv2_Main.webp",
+  "sha256": "bcab290dc8a16abfd226b6fba253e4921d062080273e406eb41fe680caf2f119"
+ },
+ {
+  "file": "maps/WaterTemple_3F_Lv3_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_3F_Lv3_Main.webp",
+  "sha256": "906e9080102e7830fb91e63f683590a081e4ff61c292ab96d5388c63b5e4945f"
+ },
+ {
+  "file": "maps/WaterTemple_B1_Lv1_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_B1_Lv1_Main.webp",
+  "sha256": "6ce92ed958c0932316980052b19190d3104d3bfcabf3e214adf990f6c6d56d26"
+ },
+ {
+  "file": "maps/WaterTemple_B1_Lv2_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_B1_Lv2_Main.webp",
+  "sha256": "6ce92ed958c0932316980052b19190d3104d3bfcabf3e214adf990f6c6d56d26"
+ },
+ {
+  "file": "maps/WaterTemple_B1_Lv3_Main.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/WaterTemple_B1_Lv3_Main.webp",
+  "sha256": "6ce92ed958c0932316980052b19190d3104d3bfcabf3e214adf990f6c6d56d26"
+ },
+ {
+  "file": "maps/ZoraDomain_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ZoraDomain_Adult_00.webp",
+  "sha256": "db70c7f5c8a171087e80dd9d6e956c345f0549393e5b56d7bb818e940d1f74e8"
+ },
+ {
+  "file": "maps/ZoraDomain_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ZoraDomain_Child_00.webp",
+  "sha256": "be6f098312a6c7a1241f6cd62996304b54f999ced37fa83fd0cd04a7ebd1feb1"
+ },
+ {
+  "file": "maps/ZoraFountain_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ZoraFountain_Adult_00.webp",
+  "sha256": "23bd2ef0e0288d5e0d4b9e4139b66b27d5ea7d0c99914b3d985749ee5021c1a7"
+ },
+ {
+  "file": "maps/ZoraFountain_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ZoraFountain_Child_00.webp",
+  "sha256": "e9e0123fe0fe6e7db0802430c32a31f00b877e6087e2a1413dd030aee370d584"
+ },
+ {
+  "file": "maps/ZoraRiver_Adult_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ZoraRiver_Adult_00.webp",
+  "sha256": "6b6ff3a52f13dc7e357a723cea8e08986ddb65d5cff2d2cc75b6c2233b9c6eaf"
+ },
+ {
+  "file": "maps/ZoraRiver_Child_00.webp",
+  "url": "https://objmap-oot.zeldamods.org/game_files/maps/ZoraRiver_Child_00.webp",
+  "sha256": "6b6ff3a52f13dc7e357a723cea8e08986ddb65d5cff2d2cc75b6c2233b9c6eaf"
+ }
+]

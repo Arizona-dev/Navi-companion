@@ -1,0 +1,4581 @@
+[
+  {
+    "id": "0x35fb354fac262d36",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "BottomOfTheWell",
+    "bank": "BottomOfTheWell",
+    "floor": "B1_State00",
+    "position": [
+      31.99,
+      104.8,
+      -14.92
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State00/z4.5,32.0,-14.9?id=BottomOfTheWell,BottomOfTheWell,0x35fb354fac262d36",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x6789388e9fb9c92c",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "BottomOfTheWell",
+    "bank": "BottomOfTheWell",
+    "floor": "B1_State00",
+    "position": [
+      -8.22,
+      103.8,
+      -31.85
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State00/z4.5,32.0,-14.9?id=BottomOfTheWell,BottomOfTheWell,0x6789388e9fb9c92c",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xa8d6182a5c956e16",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "BottomOfTheWell",
+    "bank": "BottomOfTheWell",
+    "floor": "B1_State00",
+    "position": [
+      2.65,
+      103.8,
+      -30.5
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/BottomOfTheWell/BottomOfTheWell/B1_State00/z4.5,-8.2,-31.9?id=BottomOfTheWell,BottomOfTheWell,0xa8d6182a5c956e16",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x58c75badf059ca54",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "DeathMountainCrater",
+    "bank": "DeathMountainCrater_Child",
+    "floor": "00",
+    "position": [
+      3.75,
+      111.22,
+      -0.75
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/00/z2.25,-12.0,12.0?id=DeathMountainCrater,DeathMountainCrater_Child,0x58c75badf059ca54",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      },
+      {
+        "label": "Boléro du Feu pour rejoindre le cratère enfant",
+        "song": "FireBolero"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xfcd7f04dcf755e8e",
+    "kind": "skull",
+    "name": "Gold Skulltula (in crate)",
+    "map": "DeathMountainCrater",
+    "bank": "DeathMountainCrater_Child",
+    "floor": "00",
+    "position": [
+      -2.87,
+      128.19,
+      48.67
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/00/z4.75,-2.9,48.7?id=DeathMountainCrater,DeathMountainCrater_Child,0xfcd7f04dcf755e8e",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Briser la caisse"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x04e03ac27985e328",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "DeathMountainTrail",
+    "bank": "DeathMountainTrail_Adult",
+    "floor": "00",
+    "position": [
+      -51.19,
+      102.8,
+      27.21
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00/z1.25,-21.0,-36.0?id=DeathMountainTrail,DeathMountainTrail_Adult,0x04e03ac27985e328",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xf5359b24fc86ac22",
+    "kind": "skull",
+    "name": "Gold Skulltula (behind rock â€” bomb or hammer it)",
+    "map": "DeathMountainTrail",
+    "bank": "DeathMountainTrail_Adult",
+    "floor": "00",
+    "position": [
+      -30.97,
+      125.08,
+      -17.96
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00/z1.25,-51.3,27.3?id=DeathMountainTrail,DeathMountainTrail_Adult,0xf5359b24fc86ac22",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Détruire le rocher : bombes ou Masse des Titans",
+        "items": [
+          "Item_Bomb",
+          "Item_Hammer"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x0b8e43abfa0b5f86",
+    "kind": "skull",
+    "name": "Gold Skulltula (behind rock â€” bomb or hammer it)",
+    "map": "DeathMountainTrail",
+    "bank": "DeathMountainTrail_Adult",
+    "floor": "00",
+    "position": [
+      3.17,
+      187.3,
+      -111.29
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00/z1.25,-31.1,-18.1?id=DeathMountainTrail,DeathMountainTrail_Adult,0x0b8e43abfa0b5f86",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Détruire le rocher : bombes ou Masse des Titans",
+        "items": [
+          "Item_Bomb",
+          "Item_Hammer"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xf1d32c06612da232",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "DeathMountainTrail",
+    "bank": "DeathMountainTrail_Child",
+    "floor": "00",
+    "position": [
+      -45.5,
+      109.2,
+      -20.25
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Child/00/z1.25,-21.0,-36.0?id=DeathMountainTrail,DeathMountainTrail_Child,0xf1d32c06612da232",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x9ae3d0ac392e6cda",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "DesertColossus",
+    "bank": "DesertColossus_Adult",
+    "floor": "00",
+    "position": [
+      -73.9,
+      105.3,
+      -5.68
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/00/z1.5,-88.0,12.0?id=DesertColossus,DesertColossus_Adult,0x9ae3d0ac392e6cda",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xd0f7e5ffa76ba288",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "DesertColossus",
+    "bank": "DesertColossus_Adult",
+    "floor": "00",
+    "position": [
+      -170.12,
+      101.76,
+      -47.87
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/00/z3.5,-73.9,-5.7?id=DesertColossus,DesertColossus_Adult,0xd0f7e5ffa76ba288",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x0341f2c03598c861",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "DesertColossus",
+    "bank": "DesertColossus_Child",
+    "floor": "00",
+    "position": [
+      -157.46,
+      95.66,
+      17.19
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Child/00/z1.5,-88.0,12.0?id=DesertColossus,DesertColossus_Child,0x0341f2c03598c861",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x0d53e429a1ef383d",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "DodongoCavern",
+    "bank": "DodongoCavern",
+    "floor": "1F",
+    "position": [
+      58.18,
+      104.5,
+      -19.87
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/1F/z1.75,31.0,-30.0?id=DodongoCavern,DodongoCavern,0x0d53e429a1ef383d",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x10434342a3917ebd",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "DodongoCavern",
+    "bank": "DodongoCavern",
+    "floor": "1F",
+    "position": [
+      64.0,
+      98.55,
+      15.85
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/1F/z4.5,64.0,15.8?id=DodongoCavern,DodongoCavern,0x10434342a3917ebd",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x758ce7b4868447fb",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "DodongoCavern",
+    "bank": "DodongoCavern",
+    "floor": "2F",
+    "position": [
+      -48.42,
+      120.31,
+      -40.12
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/2F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/2F/z4.5,-48.4,-40.1?id=DodongoCavern,DodongoCavern,0x758ce7b4868447fb",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x3f5b150f16d84603",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "DodongoCavern",
+    "bank": "DodongoCavern",
+    "floor": "2F",
+    "position": [
+      21.47,
+      112.4,
+      -55.93
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/2F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/2F/z4.5,21.5,-55.9?id=DodongoCavern,DodongoCavern,0x3f5b150f16d84603",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xbdfe13c37f356829",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "DodongoCavern",
+    "bank": "DodongoCavern",
+    "floor": "1F",
+    "position": [
+      -48.84,
+      96.6,
+      -104.25
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DodongoCavern/DodongoCavern/1F/z4.5,-48.8,-104.3?id=DodongoCavern,DodongoCavern,0xbdfe13c37f356829",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x7f498ada1c2e9c7a",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "FireTemple",
+    "bank": "FireTemple",
+    "floor": "5F_State00",
+    "position": [
+      36.57,
+      187.7,
+      -5.18
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/5F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/5F_State00/z2,17.0,-3.0?id=FireTemple,FireTemple,0x7f498ada1c2e9c7a",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xb0f77b17cfb37458",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "FireTemple",
+    "bank": "FireTemple",
+    "floor": "3F",
+    "position": [
+      59.04,
+      148.4,
+      -29.98
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/3F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/3F/z4.75,36.6,-5.2?id=FireTemple,FireTemple,0xb0f77b17cfb37458",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x4d1b7e35ca0c6484",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "FireTemple",
+    "bank": "FireTemple",
+    "floor": "5F_State00",
+    "position": [
+      40.05,
+      189.1,
+      -19.75
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/5F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/5F_State00/z4.75,59.1,-30.0?id=FireTemple,FireTemple,0x4d1b7e35ca0c6484",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x5e3ae6a7cf3ac292",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "FireTemple",
+    "bank": "FireTemple",
+    "floor": "1F_State00",
+    "position": [
+      67.73,
+      115.3,
+      -47.0
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/1F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/1F_State00/z4.75,67.7,-47.0?id=FireTemple,FireTemple,0x5e3ae6a7cf3ac292",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xcc175a90e0014905",
+    "kind": "skull",
+    "name": "Gold Skulltula (behind rock â€” bomb or hammer it)",
+    "map": "FireTemple",
+    "bank": "FireTemple",
+    "floor": "1F_State00",
+    "position": [
+      11.25,
+      101.5,
+      -43.24
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/1F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/FireTemple/FireTemple/1F_State00/z4.75,11.3,-43.2?id=FireTemple,FireTemple,0xcc175a90e0014905",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Détruire le rocher : bombes ou Masse des Titans",
+        "items": [
+          "Item_Bomb",
+          "Item_Hammer"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x984021bc20419ebe",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ForestTemple",
+    "bank": "ForestTemple",
+    "floor": "2F_State00",
+    "position": [
+      -38.06,
+      112.86,
+      -4.38
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State00/z2,-3.0,6.0?id=ForestTemple,ForestTemple,0x984021bc20419ebe",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x99ca89963485df11",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ForestTemple",
+    "bank": "ForestTemple",
+    "floor": "2F_State00",
+    "position": [
+      11.28,
+      119.84,
+      64.0
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/2F_State00/z4.25,11.3,64.0?id=ForestTemple,ForestTemple,0x99ca89963485df11",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x1bf5f0176ef03bda",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ForestTemple",
+    "bank": "ForestTemple",
+    "floor": "1F",
+    "position": [
+      44.27,
+      112.07,
+      -38.24
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/1F/z4.5,44.3,-38.2?id=ForestTemple,ForestTemple,0x1bf5f0176ef03bda",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x2aa39f00aaa2d331",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ForestTemple",
+    "bank": "ForestTemple",
+    "floor": "B2",
+    "position": [
+      -3.43,
+      65.6,
+      17.17
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/B2",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/B2/z4.5,-3.4,17.2?id=ForestTemple,ForestTemple,0x2aa39f00aaa2d331",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xf46b1710ed0620d1",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ForestTemple",
+    "bank": "ForestTemple",
+    "floor": "1F",
+    "position": [
+      8.82,
+      109.56,
+      -23.56
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ForestTemple/ForestTemple/1F/z4.5,8.8,-23.6?id=ForestTemple,ForestTemple,0xf46b1710ed0620d1",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x4e13cc311cd04df4",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "GanonCastle",
+    "bank": "GanonCastle",
+    "floor": "00",
+    "position": [
+      78.4,
+      94.1,
+      328.38
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GanonCastle/GanonCastle/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GanonCastle/GanonCastle/00/z1.75,61.0,297.0?id=GanonCastle,GanonCastle,0x4e13cc311cd04df4",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x81ed4ed76699e3d8",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "GerudoFortress",
+    "bank": "GerudoFortress_Adult",
+    "floor": "00",
+    "position": [
+      55.3,
+      131.87,
+      -70.22
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00/z1.5,86.0,-22.0?id=GerudoFortress,GerudoFortress_Adult,0x81ed4ed76699e3d8",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xb4ece769e6f3a206",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "GerudoFortress",
+    "bank": "GerudoFortress_Adult",
+    "floor": "00",
+    "position": [
+      181.69,
+      125.56,
+      -88.61
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00/z3,55.3,-70.2?id=GerudoFortress,GerudoFortress_Adult,0xb4ece769e6f3a206",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xbc85efca2b222cd9",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "GerudoValley",
+    "bank": "GerudoValley_Adult",
+    "floor": "00",
+    "position": [
+      -45.68,
+      106.23,
+      -35.56
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00/z2,0.0,-13.0?id=GerudoValley,GerudoValley_Adult,0xbc85efca2b222cd9",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xa017ce09904c2dce",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "GerudoValley",
+    "bank": "GerudoValley_Adult",
+    "floor": "00",
+    "position": [
+      -34.53,
+      109.96,
+      10.28
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00/z2,-45.8,-35.5?id=GerudoValley,GerudoValley_Adult,0xa017ce09904c2dce",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x738f5746cc517702",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "GerudoValley",
+    "bank": "GerudoValley_Child",
+    "floor": "00",
+    "position": [
+      -11.04,
+      48.04,
+      2.45
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Child/00/z2,0.0,-13.0?id=GerudoValley,GerudoValley_Child,0x738f5746cc517702",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xd3d86d3d6988ed8c",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "GerudoValley",
+    "bank": "GerudoValley_Child",
+    "floor": "00",
+    "position": [
+      50.81,
+      97.4,
+      5.09
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Child/00/z2,-11.0,2.5?id=GerudoValley,GerudoValley_Child,0xd3d86d3d6988ed8c",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xfbbc2d490276c68e",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "GoronCity",
+    "bank": "GoronCity_Adult",
+    "floor": "00",
+    "position": [
+      0.49,
+      113.36,
+      -1.23
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Adult/00/z2.5,-5.0,0.0?id=GoronCity,GoronCity_Adult,0xfbbc2d490276c68e",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x07e6e21142cc54db",
+    "kind": "skull",
+    "name": "Gold Skulltula (in crate)",
+    "map": "GoronCity",
+    "bank": "GoronCity_Child",
+    "floor": "00",
+    "position": [
+      -48.25,
+      113.68,
+      -7.84
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Child/00/z2.5,-5.0,0.0?id=GoronCity,GoronCity_Child,0x07e6e21142cc54db",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Briser la caisse"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x032f42f523be6425",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "Graveyard",
+    "bank": "Graveyard_Adult",
+    "floor": "00",
+    "position": [
+      -20.2,
+      104.3,
+      26.4
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00/z2.75,18.0,8.0?id=Graveyard,Graveyard_Adult,0x032f42f523be6425",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xe91f6be796358ffc",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "Graveyard",
+    "bank": "Graveyard_Child",
+    "floor": "00",
+    "position": [
+      -12.15,
+      103.37,
+      -12.2
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Child/00/z2.75,18.0,8.0?id=Graveyard,Graveyard_Child,0xe91f6be796358ffc",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xceed596f17934971",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "HountedWasteland",
+    "bank": "HountedWasteland_Adult",
+    "floor": "00",
+    "position": [
+      16.01,
+      88.85,
+      -99.8
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HountedWasteland/HountedWasteland_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HountedWasteland/HountedWasteland_Adult/00/z0.5,6.0,-52.0?id=HountedWasteland,HountedWasteland_Adult,0xceed596f17934971",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x22c0f7dff5ebb86d",
+    "kind": "skull",
+    "name": "Gold Skulltula (in tree â€” shake it)",
+    "map": "HyruleCastle",
+    "bank": "HyruleCastle",
+    "floor": "00",
+    "position": [
+      -12.36,
+      121.78,
+      -94.95
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleCastle/HyruleCastle/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleCastle/HyruleCastle/00/z2,0.0,-80.0?id=HyruleCastle,HyruleCastle,0x22c0f7dff5ebb86d",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Faire une roulade contre l’arbre"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x7f28485fa5d3688f",
+    "kind": "skull",
+    "name": "Gold Skulltula (inside hidden hole)",
+    "map": "HyruleCastle",
+    "bank": "HyruleCastle",
+    "floor": "00",
+    "position": [
+      39.05,
+      101.05,
+      -116.13
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleCastle/HyruleCastle/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleCastle/HyruleCastle/00/z2,-12.3,-95.0?id=HyruleCastle,HyruleCastle,0x7f28485fa5d3688f",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Chant des Tempêtes",
+        "song": "StormSong"
+      },
+      {
+        "label": "Bombes",
+        "items": [
+          "Item_Bomb"
+        ]
+      },
+      {
+        "label": "Boomerang",
+        "items": [
+          "Item_Boomerang"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x04be4a8ff29f2099",
+    "kind": "skull",
+    "name": "Gold Skulltula (in tree â€” shake it)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -39.55,
+      158.25,
+      200.67
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-33.0,287.0?id=HyruleField,HyruleField_Adult,0x04be4a8ff29f2099",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      },
+      {
+        "label": "Faire une roulade contre l’arbre"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x25e6072d4df023b3",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -147.44,
+      159.21,
+      268.23
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-40.0,201.0?id=HyruleField,HyruleField_Adult,0x25e6072d4df023b3",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xa6a4e87da18fa678",
+    "kind": "skull",
+    "name": "Gold Skulltula (inside hidden hole)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -147.92,
+      129.89,
+      322.5
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-147.0,268.0?id=HyruleField,HyruleField_Adult,0xa6a4e87da18fa678",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x781e0de8eed42373",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -295.62,
+      131.98,
+      597.77
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-148.0,323.0?id=HyruleField,HyruleField_Adult,0x781e0de8eed42373",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x1e38e8d23596eecf",
+    "kind": "skull",
+    "name": "Gold Skulltula (in tree â€” shake it)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      70.53,
+      167.41,
+      263.84
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-296.0,598.0?id=HyruleField,HyruleField_Adult,0x1e38e8d23596eecf",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      },
+      {
+        "label": "Faire une roulade contre l’arbre"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x0af4d6f063d3ae9f",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -196.95,
+      150.28,
+      517.38
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,71.0,264.0?id=HyruleField,HyruleField_Adult,0x0af4d6f063d3ae9f",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x6689bdebc95368eb",
+    "kind": "skull",
+    "name": "Gold Skulltula (in underwater crate)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -175.11,
+      128.46,
+      415.59
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-197.0,517.0?id=HyruleField,HyruleField_Adult,0x6689bdebc95368eb",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Bottes de plomb",
+        "items": [
+          "Armor_Adult_HeavyBoot"
+        ]
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      },
+      {
+        "label": "Briser la caisse sous l’eau"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x7d8ec14bdd1f6341",
+    "kind": "skull",
+    "name": "Gold Skulltula (in crate)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      56.51,
+      126.33,
+      342.58
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-175.0,416.0?id=HyruleField,HyruleField_Adult,0x7d8ec14bdd1f6341",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Briser la caisse"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x61576befd16c499a",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Child",
+    "floor": "00",
+    "position": [
+      -167.69,
+      137.9,
+      413.48
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00/z0,-33.0,287.0?id=HyruleField,HyruleField_Child,0x61576befd16c499a",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xdc8113831c56b194",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Child",
+    "floor": "00",
+    "position": [
+      -63.22,
+      156.39,
+      212.39
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00/z0,-168.0,413.0?id=HyruleField,HyruleField_Child,0xdc8113831c56b194",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xc1858a4fcd84a28e",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Child",
+    "floor": "00",
+    "position": [
+      -178.25,
+      141.96,
+      426.4
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00/z0,-63.0,212.0?id=HyruleField,HyruleField_Child,0xc1858a4fcd84a28e",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xcdb49f5d0a67fcf6",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "IceCavern",
+    "bank": "IceCavern",
+    "floor": "1F",
+    "position": [
+      -18.13,
+      108.68,
+      -16.56
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/IceCavern/IceCavern/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/IceCavern/IceCavern/1F/z1.75,11.0,12.0?id=IceCavern,IceCavern,0xcdb49f5d0a67fcf6",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x63701a2cf70b201c",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "IceCavern",
+    "bank": "IceCavern",
+    "floor": "1F",
+    "position": [
+      -1.42,
+      107.23,
+      -6.2
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/IceCavern/IceCavern/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/IceCavern/IceCavern/1F/z4.25,-18.1,-16.6?id=IceCavern,IceCavern,0x63701a2cf70b201c",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x165fc0bc0aca1f6c",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "IceCavern",
+    "bank": "IceCavern",
+    "floor": "1F",
+    "position": [
+      83.67,
+      108.25,
+      -0.45
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/IceCavern/IceCavern/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/IceCavern/IceCavern/1F/z4.25,83.7,-0.5?id=IceCavern,IceCavern,0x165fc0bc0aca1f6c",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xc03f282ff60942b6",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideJabuJabuBelly",
+    "bank": "InsideJabuJabuBelly",
+    "floor": "B1",
+    "position": [
+      -2.21,
+      88.41,
+      -94.96
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/B1",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/B1/z1.5,-1.0,-92.0?id=InsideJabuJabuBelly,InsideJabuJabuBelly,0xc03f282ff60942b6",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x9c95fd41b89c058a",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideJabuJabuBelly",
+    "bank": "InsideJabuJabuBelly",
+    "floor": "1F",
+    "position": [
+      -15.36,
+      90.34,
+      -82.93
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/1F/z4,-2.2,-95.0?id=InsideJabuJabuBelly,InsideJabuJabuBelly,0x9c95fd41b89c058a",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xddd260afb6f2989a",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideJabuJabuBelly",
+    "bank": "InsideJabuJabuBelly",
+    "floor": "2F",
+    "position": [
+      38.29,
+      106.12,
+      -49.09
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/2F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/2F/z4,-15.4,-82.9?id=InsideJabuJabuBelly,InsideJabuJabuBelly,0xddd260afb6f2989a",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x9fc92497f014dbd5",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideJabuJabuBelly",
+    "bank": "InsideJabuJabuBelly",
+    "floor": "B1",
+    "position": [
+      17.37,
+      81.72,
+      -59.28
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/B1",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideJabuJabuBelly/InsideJabuJabuBelly/B1/z4,38.3,-49.1?id=InsideJabuJabuBelly,InsideJabuJabuBelly,0x9fc92497f014dbd5",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xbce05898ce61f1c0",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideTheDekuTree",
+    "bank": "InsideTheDekuTree",
+    "floor": "3F_State00",
+    "position": [
+      -29.76,
+      121.0,
+      13.04
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/3F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/3F_State00/z3,-36.0,18.0?id=InsideTheDekuTree,InsideTheDekuTree,0xbce05898ce61f1c0",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xdf73f3739cef466b",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideTheDekuTree",
+    "bank": "InsideTheDekuTree",
+    "floor": "B1_State00",
+    "position": [
+      3.32,
+      86.86,
+      1.13
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State00/z5.5,3.3,1.1?id=InsideTheDekuTree,InsideTheDekuTree,0xdf73f3739cef466b",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xfad8931a0011e1d4",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideTheDekuTree",
+    "bank": "InsideTheDekuTree",
+    "floor": "B1_State00",
+    "position": [
+      -18.13,
+      78.69,
+      -12.98
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State00/z5.5,3.3,1.1?id=InsideTheDekuTree,InsideTheDekuTree,0xfad8931a0011e1d4",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xf2e27d6a27026acf",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "InsideTheDekuTree",
+    "bank": "InsideTheDekuTree",
+    "floor": "B1_State00",
+    "position": [
+      -81.9,
+      86.69,
+      -7.4
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/InsideTheDekuTree/InsideTheDekuTree/B1_State00/z5.5,-81.9,-7.4?id=InsideTheDekuTree,InsideTheDekuTree,0xf2e27d6a27026acf",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x2df265292516bdf0",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Adult_Alternative",
+    "floor": "00",
+    "position": [
+      -38.74,
+      113.7,
+      115.48
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00/z2,-50.0,42.0?id=KakarikoVillage,KakarikoVillage_Adult_Alternative,0x2df265292516bdf0",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x6a8d9b2373d08fcb",
+    "kind": "skull",
+    "name": "Gold Skulltula (in tree â€” shake it)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Child",
+    "floor": "00",
+    "position": [
+      -73.6,
+      104.46,
+      43.48
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00/z2,-50.0,42.0?id=KakarikoVillage,KakarikoVillage_Child,0x6a8d9b2373d08fcb",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Faire une roulade contre l’arbre"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xd1cef51cf294fb86",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Child",
+    "floor": "00",
+    "position": [
+      -48.11,
+      110.91,
+      18.4
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00/z2,-73.5,43.5?id=KakarikoVillage,KakarikoVillage_Child,0xd1cef51cf294fb86",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xd4883a16973b1d06",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Child",
+    "floor": "00",
+    "position": [
+      -29.08,
+      103.09,
+      60.51
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00/z2,-48.0,18.5?id=KakarikoVillage,KakarikoVillage_Child,0xd4883a16973b1d06",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xa1632e322c612b97",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Child",
+    "floor": "00",
+    "position": [
+      -75.01,
+      105.29,
+      2.17
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00/z2,-29.0,60.5?id=KakarikoVillage,KakarikoVillage_Child,0xa1632e322c612b97",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xc3c68d0ac4b85831",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Child",
+    "floor": "00",
+    "position": [
+      -60.71,
+      102.13,
+      59.55
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Child/00/z2,-75.0,2.3?id=KakarikoVillage,KakarikoVillage_Child,0xc3c68d0ac4b85831",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x62c340f0b876c195",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "KokiriForest",
+    "bank": "KokiriForest_Adult",
+    "floor": "00",
+    "position": [
+      18.04,
+      117.17,
+      18.88
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Adult/00/z1.5,-5.0,-12.0?id=KokiriForest,KokiriForest_Adult,0x62c340f0b876c195",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x858f5000ad57b2cc",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "KokiriForest",
+    "bank": "KokiriForest_Child",
+    "floor": "00",
+    "position": [
+      8.24,
+      112.64,
+      -23.31
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Child/00/z1.5,-5.0,-12.0?id=KokiriForest,KokiriForest_Child,0x858f5000ad57b2cc",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xecdc46b409ed7d38",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "KokiriForest",
+    "bank": "KokiriForest_Child",
+    "floor": "00",
+    "position": [
+      -83.79,
+      117.85,
+      -17.62
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KokiriForest/KokiriForest_Child/00/z3.25,8.2,-23.3?id=KokiriForest,KokiriForest_Child,0xecdc46b409ed7d38",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x3c2b585ac5c0443e",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "LostWood",
+    "bank": "LostWood_Adult",
+    "floor": "00",
+    "position": [
+      14.45,
+      105.85,
+      -56.42
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Adult/00/z1.25,6.0,-1.0?id=LostWood,LostWood_Adult,0x3c2b585ac5c0443e",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xf6fa6ef0ca152948",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "LostWood",
+    "bank": "LostWood_Child",
+    "floor": "00",
+    "position": [
+      10.87,
+      99.78,
+      -52.07
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00/z1.25,6.0,-1.0?id=LostWood,LostWood_Child,0xf6fa6ef0ca152948",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x8186bcb07d6c2cf9",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "LostWood",
+    "bank": "LostWood_Child",
+    "floor": "00",
+    "position": [
+      -33.19,
+      100.17,
+      31.42
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00/z3.25,-33.2,31.4?id=LostWood,LostWood_Child,0x8186bcb07d6c2cf9",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x7c1a05315f83c34d",
+    "kind": "skull",
+    "name": "Gold Skulltula (in crate)",
+    "map": "Market",
+    "bank": "Market_Child",
+    "floor": "00",
+    "position": [
+      17.38,
+      102.1,
+      58.36
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00/z2,0.0,3.0?id=Market,Market_Child,0x7c1a05315f83c34d",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Briser la caisse"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xc8db3346f78ea31b",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "SacredForestMeadow",
+    "bank": "SacredForestMeadow_Adult",
+    "floor": "00",
+    "position": [
+      7.75,
+      107.38,
+      13.21
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/SacredForestMeadow/SacredForestMeadow_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/SacredForestMeadow/SacredForestMeadow_Adult/00/z1.5,-12.0,-25.0?id=SacredForestMeadow,SacredForestMeadow_Adult,0xc8db3346f78ea31b",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xd23a7a2c9eced9ce",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ShadowTemple",
+    "bank": "ShadowTemple",
+    "floor": "B2",
+    "position": [
+      33.37,
+      73.77,
+      86.2
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B2",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B2/z1,-22.0,7.0?id=ShadowTemple,ShadowTemple,0xd23a7a2c9eced9ce",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xeafe60e592e9a3fb",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ShadowTemple",
+    "bank": "ShadowTemple",
+    "floor": "B3",
+    "position": [
+      179.79,
+      62.47,
+      96.86
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B3",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B3/z3.75,179.8,96.9?id=ShadowTemple,ShadowTemple,0xeafe60e592e9a3fb",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xd7ffbe169189e50d",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ShadowTemple",
+    "bank": "ShadowTemple",
+    "floor": "B3",
+    "position": [
+      75.84,
+      53.41,
+      6.33
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B3",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B3/z3.75,75.8,6.3?id=ShadowTemple,ShadowTemple,0xd7ffbe169189e50d",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x7a74bc651f9fe024",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ShadowTemple",
+    "bank": "ShadowTemple",
+    "floor": "B3",
+    "position": [
+      104.61,
+      52.01,
+      -39.79
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B3",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B3/z3.75,75.8,6.3?id=ShadowTemple,ShadowTemple,0x7a74bc651f9fe024",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x8e87908cb035e950",
+    "kind": "skull",
+    "name": "Gold Skulltula (appears when the room is cleared)",
+    "map": "ShadowTemple",
+    "bank": "ShadowTemple",
+    "floor": "B4_State00",
+    "position": [
+      -212.27,
+      41.3,
+      -37.4
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B4_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ShadowTemple/ShadowTemple/B4_State00/z3.75,-212.3,-37.4?id=ShadowTemple,ShadowTemple,0x8e87908cb035e950",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      },
+      {
+        "label": "Vaincre les ennemis de la salle"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x9222e742b73d3d2c",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "SpiritTemple",
+    "bank": "SpiritTemple",
+    "floor": "1F",
+    "position": [
+      -9.59,
+      107.42,
+      -56.0
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/1F/z2.25,0.0,-24.0?id=SpiritTemple,SpiritTemple,0x9222e742b73d3d2c",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x4696b2730de0516c",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "SpiritTemple",
+    "bank": "SpiritTemple",
+    "floor": "3F_State00",
+    "position": [
+      -23.09,
+      129.67,
+      -66.68
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/3F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/3F_State00/z4,-9.6,-56.0?id=SpiritTemple,SpiritTemple,0x4696b2730de0516c",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xb3d9f353599eea53",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "SpiritTemple",
+    "bank": "SpiritTemple",
+    "floor": "2F",
+    "position": [
+      14.75,
+      115.15,
+      -68.79
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/2F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/2F/z4.75,-23.1,-66.7?id=SpiritTemple,SpiritTemple,0xb3d9f353599eea53",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x8c8bb95471d20d02",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "SpiritTemple",
+    "bank": "SpiritTemple",
+    "floor": "3F_State00",
+    "position": [
+      -55.69,
+      136.63,
+      -7.3
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/3F_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/3F_State00/z4.75,-55.7,-7.3?id=SpiritTemple,SpiritTemple,0x8c8bb95471d20d02",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x70b0fca66ca4808a",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "SpiritTemple",
+    "bank": "SpiritTemple",
+    "floor": "1F",
+    "position": [
+      38.96,
+      104.17,
+      -62.89
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/1F",
+    "source": "https://objmap-oot.zeldamods.org/#/map/SpiritTemple/SpiritTemple/1F/z4.75,39.0,-62.9?id=SpiritTemple,SpiritTemple,0x70b0fca66ca4808a",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xa0973706f6415ecd",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "WaterTemple",
+    "bank": "WaterTemple",
+    "floor": "3F_Lv1",
+    "position": [
+      -1.19,
+      125.95,
+      -7.9
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/3F_Lv1",
+    "source": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/3F_Lv1/z1.75,-24.0,-45.0?id=WaterTemple,WaterTemple,0xa0973706f6415ecd",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x3d0de5adaeb73cc9",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "WaterTemple",
+    "bank": "WaterTemple",
+    "floor": "2F_Lv1",
+    "position": [
+      35.08,
+      112.5,
+      -9.55
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/2F_Lv1",
+    "source": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/2F_Lv1/z4.5,35.1,-9.6?id=WaterTemple,WaterTemple,0x3d0de5adaeb73cc9",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xe03a2965df9f7b30",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "WaterTemple",
+    "bank": "WaterTemple",
+    "floor": "B1_Lv1",
+    "position": [
+      1.4,
+      95.15,
+      0.55
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/B1_Lv1",
+    "source": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/B1_Lv1/z4.5,35.1,-9.6?id=WaterTemple,WaterTemple,0xe03a2965df9f7b30",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xd731ea6a04d0fd01",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "WaterTemple",
+    "bank": "WaterTemple",
+    "floor": "2F_Lv1",
+    "position": [
+      -54.54,
+      114.01,
+      -59.25
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/2F_Lv1",
+    "source": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/2F_Lv1/z4.5,-54.5,-59.3?id=WaterTemple,WaterTemple,0xd731ea6a04d0fd01",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x02974596f92cf377",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "WaterTemple",
+    "bank": "WaterTemple",
+    "floor": "1F_Lv1_State00",
+    "position": [
+      18.65,
+      107.5,
+      -65.66
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv1_State00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/WaterTemple/WaterTemple/1F_Lv1_State00/z4.5,18.6,-65.7?id=WaterTemple,WaterTemple,0x02974596f92cf377",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Époque : dépend de la partie de la zone explorée"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x853b892663c0215d",
+    "kind": "skull",
+    "name": "Gold Skulltula",
+    "map": "ZoraDomain",
+    "bank": "ZoraDomain_Adult_Alternative",
+    "floor": "00",
+    "position": [
+      17.29,
+      115.47,
+      2.72
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraDomain/ZoraDomain_Adult_Alternative/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraDomain/ZoraDomain_Adult_Alternative/00/z2.5,30.0,-14.0?id=ZoraDomain,ZoraDomain_Adult_Alternative,0x853b892663c0215d",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x845ba51dc18c855e",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "ZoraFountain",
+    "bank": "ZoraFountain_Adult",
+    "floor": "00",
+    "position": [
+      79.96,
+      133.36,
+      12.9
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/00/z2.25,30.0,-13.0?id=ZoraFountain,ZoraFountain_Adult,0x845ba51dc18c855e",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult",
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Présent aux deux époques",
+        "condition": "either"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x63446d12663daa83",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "ZoraFountain",
+    "bank": "ZoraFountain_Child",
+    "floor": "00",
+    "position": [
+      14.04,
+      107.79,
+      22.82
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Child/00/z2.25,30.0,-13.0?id=ZoraFountain,ZoraFountain_Child,0x63446d12663daa83",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xf0dac245e2fc448e",
+    "kind": "skull",
+    "name": "Gold Skulltula (in tree â€” shake it)",
+    "map": "ZoraFountain",
+    "bank": "ZoraFountain_Child",
+    "floor": "00",
+    "position": [
+      49.31,
+      110.37,
+      32.04
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Child/00/z2.25,14.1,22.9?id=ZoraFountain,ZoraFountain_Child,0xf0dac245e2fc448e",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Faire une roulade contre l’arbre"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x8325fea55edfbe97",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Adult",
+    "floor": "00",
+    "position": [
+      76.28,
+      126.8,
+      -46.41
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00/z1.75,20.0,-15.0?id=ZoraRiver,ZoraRiver_Adult,0x8325fea55edfbe97",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x97824c2ffeaa877c",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Adult",
+    "floor": "00",
+    "position": [
+      -35.0,
+      118.75,
+      12.5
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00/z3.25,76.3,-46.4?id=ZoraRiver,ZoraRiver_Adult,0x97824c2ffeaa877c",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0xabad0e9f0d471156",
+    "kind": "skull",
+    "name": "Gold Skulltula (soft soil â€” release Bugs)",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Child",
+    "floor": "00",
+    "position": [
+      -54.56,
+      100.6,
+      -11.86
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00/z1.75,20.0,-15.0?id=ZoraRiver,ZoraRiver_Child,0xabad0e9f0d471156",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Relâcher des insectes en bouteille sur le sol meuble"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x78ae4fd90b3cfaaa",
+    "kind": "skull",
+    "name": "Gold Skulltula (night only)",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Child",
+    "floor": "00",
+    "position": [
+      112.6,
+      111.8,
+      -48.8
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00/z3.25,112.6,-48.8?id=ZoraRiver,ZoraRiver_Child,0x78ae4fd90b3cfaaa",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Venir de nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions identifiées ; les obstacles et mécanismes de chaque salle ne sont pas tous documentés."
+  },
+  {
+    "id": "0x8f5f3d3321aeb7cd",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "DeathMountainCrater",
+    "bank": "DeathMountainCrater_Adult",
+    "floor": "00",
+    "position": [
+      -0.5,
+      116.77,
+      32.34
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Adult/00/z2.25,-12.0,12.0?id=DeathMountainCrater,DeathMountainCrater_Adult,0x8f5f3d3321aeb7cd",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Des cœurs pour résister à la chaleur"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La niche dans la paroi",
+      "location": "Sous l’entrée du cratère, côté sommet du Mont du Péril.",
+      "steps": [
+        "Descends la pente jusqu’au filet entre les deux rochers.",
+        "Escalade le filet vers le bas : le fragment est dans le renfoncement de la paroi. Remonte vite, la chaleur blesse Link."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nexzy",
+        "url": "https://www.nexzyapp.com/games/zelda-ocarina-of-time-remake/heart-piece/poh-death-mountain-crater-wall-alcove"
+      }
+    }
+  },
+  {
+    "id": "0x0a564328faf93c71",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "DeathMountainCrater",
+    "bank": "DeathMountainCrater_Adult",
+    "floor": "00",
+    "position": [
+      -17.5,
+      127.15,
+      3.95
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Adult/00/z4.75,-17.5,4.0?id=DeathMountainCrater,DeathMountainCrater_Adult,0x0a564328faf93c71",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Haricot planté enfant"
+      },
+      {
+        "label": "Boléro du Feu"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "L’îlot au-dessus de la lave",
+      "location": "Au centre du cratère.",
+      "steps": [
+        "Enfant, utilise le Boléro du Feu et plante un haricot près du point d’arrivée.",
+        "Adulte, monte sur la plante pour atteindre le fragment."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Games.gg",
+        "url": "https://games.gg/the-legend-of-zelda-ocarina-of-time-2026/guides/ocarina-of-time-remake-heart-pieces-all-36-locations/"
+      }
+    }
+  },
+  {
+    "id": "0xad62e34bc0966f30",
+    "kind": "heart",
+    "name": "Piece of Heart (sold by a Business Scrub)",
+    "map": "DeathMountainCrater",
+    "bank": "DeathMountainCrater_Child",
+    "floor": "00",
+    "position": [
+      -23.0,
+      121.1,
+      33.0
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainCrater/DeathMountainCrater_Child/00/z2.25,-12.0,12.0?id=DeathMountainCrater,DeathMountainCrater_Child,0xad62e34bc0966f30",
+    "flag": 1804584785,
+    "flagName": "DeathMountain_Enemy_Scrub_Business_HeartPiece_01",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "100 rubis"
+      },
+      {
+        "label": "Des cœurs pour la traversée"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le marchand du cratère",
+      "location": "Plateforme basse au nord-ouest de l’entrée, près du pont cassé et du rocher gris.",
+      "steps": [
+        "Rejoins la plateforme du marchand Mojo.",
+        "Parle-lui pour acheter son fragment à 100 rubis. Fais vite dans cette zone brûlante."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nexzy",
+        "url": "https://www.nexzyapp.com/games/zelda-ocarina-of-time-remake/heart-piece/poh-death-mountain-crater-business-scrub"
+      }
+    }
+  },
+  {
+    "id": "0x09ecb6a0150fee97",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "DeathMountainTrail",
+    "bank": "DeathMountainTrail_Adult",
+    "floor": "00",
+    "position": [
+      -39.66,
+      122.21,
+      -26.0
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DeathMountainTrail/DeathMountainTrail_Adult/00/z1.25,-21.0,-36.0?id=DeathMountainTrail,DeathMountainTrail_Adult,0x09ecb6a0150fee97",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Haricot planté enfant"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La corniche du Mont du Péril",
+      "location": "Au-dessus de la caverne Dodongo.",
+      "steps": [
+        "Enfant, plante un haricot près du panneau, en haut du filet.",
+        "Adulte, suis les plantes puis les marches près du pont suspendu jusqu’à la niche."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Zelda Central",
+        "url": "https://zeldacentral.com/games/ocarina-of-time-remake/heart-pieces/"
+      }
+    }
+  },
+  {
+    "id": "0x92feab9a9810c619",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "DesertColossus",
+    "bank": "DesertColossus_Adult",
+    "floor": "00",
+    "position": [
+      -137.13,
+      103.49,
+      10.51
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/DesertColossus/DesertColossus_Adult/00/z1.5,-88.0,12.0?id=DesertColossus,DesertColossus_Adult,0x92feab9a9810c619",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Haricot planté enfant"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le sommet du Colosse",
+      "location": "Structure élevée près du Temple de l’Esprit.",
+      "steps": [
+        "Plante un haricot devant le temple quand tu es enfant.",
+        "Reviens adulte et quitte la plante au niveau du fragment."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Games.gg",
+        "url": "https://games.gg/the-legend-of-zelda-ocarina-of-time-2026/guides/ocarina-of-time-remake-heart-pieces-all-36-locations/"
+      }
+    }
+  },
+  {
+    "id": "0xab4dd26b0113ac53",
+    "kind": "heart",
+    "name": "Piece of Heart (in large chest)",
+    "map": "GerudoFortress",
+    "bank": "GerudoFortress_Adult",
+    "floor": "00",
+    "position": [
+      28.98,
+      131.5,
+      -93.67
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00/z1.5,86.0,-22.0?id=GerudoFortress,GerudoFortress_Adult,0xab4dd26b0113ac53",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Chant de l’Épouvantail"
+      },
+      {
+        "label": "Grappin ou Super grappin",
+        "items": [
+          "Item_Hookshot",
+          "Item_Longshot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le coffre sur la forteresse",
+      "location": "Sur les toits les plus hauts.",
+      "steps": [
+        "Monte face au coffre éloigné.",
+        "Appelle l’épouvantail avec son chant, accroche-le au grappin et ouvre le coffre."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "GameRiv",
+        "url": "https://gameriv.com/the-legend-of-zelda-ocarina-of-time-all-36-heart-piece-locations/"
+      }
+    }
+  },
+  {
+    "id": "0x2f09cefbd4a756a9",
+    "kind": "heart",
+    "name": "Piece of Heart (horseback archery prize)",
+    "map": "GerudoFortress",
+    "bank": "GerudoFortress_Adult",
+    "floor": "00",
+    "position": [
+      70.48,
+      115.0,
+      37.42
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoFortress/GerudoFortress_Adult/00/z3,70.5,37.4?id=GerudoFortress,GerudoFortress_Adult,0x2f09cefbd4a756a9",
+    "flag": 1061364827,
+    "flagName": "MiniGame_HorsebackArchery_GotaHeart",
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Epona"
+      },
+      {
+        "label": "Arc des fées",
+        "items": [
+          "Weapon_Range_Bow"
+        ]
+      },
+      {
+        "label": "Rubis pour jouer"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le tir à l’arc à cheval",
+      "location": "Terrain derrière la forteresse.",
+      "steps": [
+        "Rejoins la Gerudo avec Epona.",
+        "Fais au moins 1 000 points au parcours."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "GameRiv",
+        "url": "https://gameriv.com/the-legend-of-zelda-ocarina-of-time-all-36-heart-piece-locations/"
+      }
+    }
+  },
+  {
+    "id": "0xdfd66c63357cdea7",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "GerudoValley",
+    "bank": "GerudoValley_Adult",
+    "floor": "00",
+    "position": [
+      4.85,
+      59.16,
+      -78.16
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00/z2,0.0,-13.0?id=GerudoValley,GerudoValley_Adult,0xdfd66c63357cdea7",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Une cocotte"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Derrière la cascade",
+      "location": "En contrebas du pont Gerudo.",
+      "steps": [
+        "Prends la cocotte près du pont et plane vers la cascade.",
+        "Suis le passage derrière l’eau jusqu’au fragment."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Games.gg",
+        "url": "https://games.gg/the-legend-of-zelda-ocarina-of-time-2026/guides/ocarina-of-time-remake-heart-pieces-all-36-locations/"
+      }
+    }
+  },
+  {
+    "id": "0xdc0cbd0ac9f0b18a",
+    "kind": "heart",
+    "name": "Piece of Heart (in large chest)",
+    "map": "GerudoValley",
+    "bank": "GerudoValley_Adult",
+    "floor": "00",
+    "position": [
+      -9.46,
+      90.45,
+      34.98
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GerudoValley/GerudoValley_Adult/00/z2,4.8,-78.3?id=GerudoValley,GerudoValley_Adult,0xdc0cbd0ac9f0b18a",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Une cocotte"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le coffre sous le pont",
+      "location": "Corniche isolée à gauche du pont Gerudo.",
+      "steps": [
+        "Prends la cocotte avant le pont.",
+        "Plane vers la petite plateforme portant le coffre, puis ouvre-le."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Games.gg",
+        "url": "https://games.gg/the-legend-of-zelda-ocarina-of-time-2026/guides/ocarina-of-time-remake-heart-pieces-all-36-locations/"
+      }
+    }
+  },
+  {
+    "id": "0x3058b6424192113f",
+    "kind": "heart",
+    "name": "Piece of Heart (Goron City large pot)",
+    "map": "GoronCity",
+    "bank": "GoronCity_Child",
+    "floor": "00",
+    "position": [
+      0.0,
+      105.5,
+      0.0
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/GoronCity/GoronCity_Child/00/z2.5,-5.0,0.0?id=GoronCity,GoronCity_Child,0x3058b6424192113f",
+    "flag": 488084457,
+    "flagName": "GoronLargePot_IsGetHeartPiece",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Bâton Mojo",
+        "items": [
+          "Item_DekuStick"
+        ]
+      },
+      {
+        "label": "Bombes",
+        "items": [
+          "Item_Bomb",
+          "Item_BombBag_Small",
+          "Item_BombBag_Medium",
+          "Item_BombBag_Large"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La grande jarre Goron",
+      "location": "Au niveau inférieur du village.",
+      "steps": [
+        "Allume les torches autour de la jarre avec un bâton.",
+        "Depuis l’étage, lance une bombe dans son ouverture."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Games.gg",
+        "url": "https://games.gg/the-legend-of-zelda-ocarina-of-time-2026/guides/ocarina-of-time-remake-heart-pieces-all-36-locations/"
+      }
+    }
+  },
+  {
+    "id": "0x1df0dbf50c1732b7",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "Graveyard",
+    "bank": "Graveyard_Adult",
+    "floor": "00",
+    "position": [
+      -16.61,
+      108.02,
+      -8.91
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00/z2.75,18.0,8.0?id=Graveyard,Graveyard_Adult,0x1df0dbf50c1732b7",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Haricot planté enfant"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La corniche du cimetière",
+      "location": "Près de l’arbre au nord.",
+      "steps": [
+        "Plante un haricot dans la terre meuble enfant.",
+        "Reviens adulte et monte sur la plante."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Nintendo Insider",
+        "url": "https://www.nintendo-insider.com/zelda-ocarina-of-time-remake-heart-piece-locations-guide/"
+      }
+    }
+  },
+  {
+    "id": "0x8588aaeeac14eed7",
+    "kind": "heart",
+    "name": "Piece of Heart (in large chest)",
+    "map": "Graveyard",
+    "bank": "Graveyard_Adult",
+    "floor": "00",
+    "position": [
+      21.41,
+      85.81,
+      39.33
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00/z2.75,-16.6,-8.9?id=Graveyard,Graveyard_Adult,0x8588aaeeac14eed7",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Enfant ou adulte",
+        "condition": "either"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le coffre sous une tombe",
+      "location": "Rangée devant la tombe royale, côté droit en regardant vers elle.",
+      "steps": [
+        "De nuit, tire la pierre tombale de droite.",
+        "Descends dans le trou et prends le coffre."
+      ],
+      "era": "both",
+      "source": {
+        "label": "Nintendo Insider",
+        "url": "https://www.nintendo-insider.com/zelda-ocarina-of-time-remake-heart-piece-locations-guide/"
+      }
+    }
+  },
+  {
+    "id": "0x4ccffbd5778b67e2",
+    "kind": "heart",
+    "name": "Piece of Heart (chest at the end of DampÃ©'s race)",
+    "map": "Graveyard",
+    "bank": "Graveyard_Adult",
+    "floor": "00",
+    "position": [
+      -6.03,
+      82.53,
+      77.66
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Adult/00/z2.75,21.4,39.4?id=Graveyard,Graveyard_Adult,0x4ccffbd5778b67e2",
+    "flag": 2376298851,
+    "flagName": "HavePlayedEvent.MiniGame_DampeRace_OpenGoalTBox",
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Première course terminée"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La revanche d’Igor",
+      "location": "À l’intérieur de la tombe d’Igor.",
+      "steps": [
+        "Après avoir gagné le grappin, recommence la course.",
+        "Termine en moins d’une minute."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Nintendo Insider",
+        "url": "https://www.nintendo-insider.com/zelda-ocarina-of-time-remake-heart-piece-locations-guide/"
+      }
+    }
+  },
+  {
+    "id": "0x8bd2273da3caaa35",
+    "kind": "heart",
+    "name": "Piece of Heart (Heart-Pounding Grave-Digging Tour)",
+    "map": "Graveyard",
+    "bank": "Graveyard_Child",
+    "floor": "00",
+    "position": [
+      -4.63,
+      103.13,
+      -1.82
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Graveyard/Graveyard_Child/00/z2.75,18.0,8.0?id=Graveyard,Graveyard_Child,0x8bd2273da3caaa35",
+    "flag": 3037888117,
+    "flagName": "GraveYard_DiggingHoleTour_Drop_HeartPiece",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "10 rubis par essai, plus les suppléments"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Les fouilles d’Igor",
+      "location": "Cimetière, la nuit.",
+      "steps": [
+        "Paie Igor pour creuser.",
+        "Recommence jusqu’au fragment ; certaines fouilles demandent un supplément."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nintendo Insider",
+        "url": "https://www.nintendo-insider.com/zelda-ocarina-of-time-remake-heart-piece-locations-guide/"
+      }
+    }
+  },
+  {
+    "id": "0x35fba6d9b63f8357",
+    "kind": "heart",
+    "name": "Piece of Heart (reward: Lake Scientist, diving)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -174.39,
+      138.0,
+      418.02
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-33.0,287.0?id=HyruleField,HyruleField_Adult,0x35fba6d9b63f8357",
+    "flag": 2910462414,
+    "flagName": "Npc_Hylia_045_HasDived",
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Écaille d’or",
+        "items": [
+          "Item_Scale_Gold"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le bassin du laboratoire",
+      "location": "À l’intérieur du laboratoire du lac Hylia.",
+      "steps": [
+        "Plonge jusqu’au fond avec l’Écaille d’or, sans Bottes de plomb.",
+        "Parle au chercheur pour la récompense."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "GameRiv",
+        "url": "https://gameriv.com/the-legend-of-zelda-ocarina-of-time-all-36-heart-piece-locations/"
+      },
+      "region": "Lac Hylia"
+    }
+  },
+  {
+    "id": "0x292e3ed6acacbe44",
+    "kind": "heart",
+    "name": "Piece of Heart (in chest)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -213.3,
+      133.47,
+      138.69
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-174.0,418.0?id=HyruleField,HyruleField_Adult,0x292e3ed6acacbe44",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Indice lu adulte"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le coffre du canyon",
+      "location": "Ouest de la plaine, avant la vallée Gerudo.",
+      "steps": [
+        "Adulte, lis la pensée de fée près du coffre ouvert.",
+        "Reviens enfant ouvrir ce même coffre."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Mobalytics",
+        "url": "https://mobalytics.gg/gamebase/guides/zelda-ocarina-of-time-heart-piece-locations"
+      }
+    }
+  },
+  {
+    "id": "0xbaec91d6ed8dd96b",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "HyruleField",
+    "bank": "HyruleField_Adult",
+    "floor": "00",
+    "position": [
+      -180.58,
+      163.09,
+      424.97
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Adult/00/z0,-213.0,139.0?id=HyruleField,HyruleField_Adult,0xbaec91d6ed8dd96b",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Haricot planté enfant"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le toit du laboratoire",
+      "location": "Lac Hylia, au-dessus du laboratoire.",
+      "steps": [
+        "Plante un haricot à côté du bâtiment quand tu es enfant.",
+        "Adulte, monte avec la plante puis grimpe jusqu’au fragment."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "GameRiv",
+        "url": "https://gameriv.com/the-legend-of-zelda-ocarina-of-time-all-36-heart-piece-locations/"
+      },
+      "region": "Lac Hylia"
+    }
+  },
+  {
+    "id": "0xcdbd2974d6db61d7",
+    "kind": "heart",
+    "name": "Piece of Heart (sold by a Business Scrub)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Child",
+    "floor": "00",
+    "position": [
+      39.86,
+      152.45,
+      26.58
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00/z0,-33.0,287.0?id=HyruleField,HyruleField_Child,0xcdbd2974d6db61d7",
+    "flag": 3827176855,
+    "flagName": "HyruleField_Enemy_Scrub_Business_HeartPiece_01",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Bombes",
+        "items": [
+          "Item_Bomb",
+          "Item_BombBag_Small",
+          "Item_BombBag_Medium",
+          "Item_BombBag_Large"
+        ]
+      },
+      {
+        "label": "100 rubis"
+      },
+      {
+        "label": "Mot de passe appris adulte"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le marchand près du château",
+      "location": "Grotte près du pont-levis de la place du marché.",
+      "steps": [
+        "Adulte, lis la pensée de fée sur l’arbre voisin.",
+        "Enfant, ouvre le sol fissuré avec une bombe. Donne le mot de passe au marchand et paie 100 rubis."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Mobalytics",
+        "url": "https://mobalytics.gg/gamebase/guides/zelda-ocarina-of-time-heart-piece-locations"
+      }
+    }
+  },
+  {
+    "id": "0x88358af5b5300aa9",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "HyruleField",
+    "bank": "HyruleField_Child",
+    "floor": "00",
+    "position": [
+      -157.15,
+      150.93,
+      266.44
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00/z0,40.0,27.0?id=HyruleField,HyruleField_Child,0x88358af5b5300aa9",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La réserve du ranch",
+      "location": "Bâtiment au sud-ouest du ranch Lon Lon.",
+      "steps": [
+        "Déplace les caisses devant le passage bas.",
+        "Rampe dans l’ouverture jusqu’au fragment."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nintendo Insider",
+        "url": "https://www.nintendo-insider.com/zelda-ocarina-of-time-remake-heart-piece-locations-guide/"
+      },
+      "region": "Ranch Lon Lon"
+    }
+  },
+  {
+    "id": "0x55b359ccd6dbf81c",
+    "kind": "heart",
+    "name": "Piece of Heart (Fishing Pond prize)",
+    "map": "HyruleField",
+    "bank": "HyruleField_Child",
+    "floor": "00",
+    "position": [
+      -98.82,
+      134.76,
+      493.29
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/HyruleField/HyruleField_Child/00/z0,-157.0,266.0?id=HyruleField,HyruleField_Child,0x55b359ccd6dbf81c",
+    "flag": 4052295534,
+    "flagName": "MiniGame_Fishing_GetHeartPiece",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Rubis pour pêcher"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le gros poisson",
+      "location": "Stand de pêche, à l’est du lac Hylia.",
+      "steps": [
+        "Paie une partie et vise un des plus gros poissons.",
+        "Présente ta prise au propriétaire."
+      ],
+      "era": "child",
+      "source": {
+        "label": "GameRiv",
+        "url": "https://gameriv.com/the-legend-of-zelda-ocarina-of-time-all-36-heart-piece-locations/"
+      },
+      "region": "Lac Hylia"
+    }
+  },
+  {
+    "id": "0x13a6f8392ab7cfeb",
+    "kind": "heart",
+    "name": "Piece of Heart (reward: man on the roof)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Adult_Alternative",
+    "floor": "00",
+    "position": [
+      -36.1,
+      107.5,
+      28.97
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00/z2,-50.0,42.0?id=KakarikoVillage,KakarikoVillage_Adult_Alternative,0x13a6f8392ab7cfeb",
+    "flag": 2791750312,
+    "flagName": "Npc_Hylia_001_IsGetHeartPiece",
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Enfant ou adulte",
+        "condition": "either"
+      },
+      {
+        "label": "Cocotte enfant ; grappin adulte"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "L’homme sur le toit",
+      "location": "Toit de la boutique de potions, près du moulin.",
+      "steps": [
+        "Enfant, plane depuis la hauteur du moulin avec une cocotte. Adulte, utilise le grappin.",
+        "Parle à l’homme assis sur le toit."
+      ],
+      "era": "both",
+      "source": {
+        "label": "Zelda Central",
+        "url": "https://zeldacentral.com/games/ocarina-of-time-remake/heart-pieces/"
+      }
+    }
+  },
+  {
+    "id": "0xb9d0070b468f26d2",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Adult_Alternative",
+    "floor": "00",
+    "position": [
+      1.48,
+      108.9,
+      37.52
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00/z2,-36.0,29.0?id=KakarikoVillage,KakarikoVillage_Adult_Alternative,0xb9d0070b468f26d2",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Accès depuis la course d’Igor"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La plateforme du moulin",
+      "location": "En hauteur à l’intérieur du moulin.",
+      "steps": [
+        "Sors par le tunnel après la course d’Igor.",
+        "Saute sur la plateforme tournante pour rejoindre le fragment."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Nintendo Insider",
+        "url": "https://www.nintendo-insider.com/zelda-ocarina-of-time-remake-heart-piece-locations-guide/"
+      }
+    }
+  },
+  {
+    "id": "0xf8c7601da7dd887e",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Adult_Alternative",
+    "floor": "00",
+    "position": [
+      -44.07,
+      107.97,
+      112.0
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00/z2,1.5,37.5?id=KakarikoVillage,KakarikoVillage_Adult_Alternative,0xf8c7601da7dd887e",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Voyage avec le hibou"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le toit près de la vache",
+      "location": "Petit toit rouge sous la maison d’Impa.",
+      "steps": [
+        "Au sommet du Mont du Péril, accepte le voyage avec le hibou.",
+        "Depuis le toit bleu d’arrivée, descends sur le toit rouge."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Zelda Central",
+        "url": "https://zeldacentral.com/games/ocarina-of-time-remake/heart-pieces/"
+      }
+    }
+  },
+  {
+    "id": "0xa6b4645338ae03c7",
+    "kind": "heart",
+    "name": "Piece of Heart (reward: Restored First Son)",
+    "map": "KakarikoVillage",
+    "bank": "KakarikoVillage_Adult_Alternative",
+    "floor": "00",
+    "position": [
+      -27.76,
+      103.21,
+      80.59
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/KakarikoVillage/KakarikoVillage_Adult_Alternative/00/z2,-44.0,112.0?id=KakarikoVillage,KakarikoVillage_Adult_Alternative,0xa6b4645338ae03c7",
+    "flag": 2245529914,
+    "flagName": "KakarikoVillage_IsAfterSave_Npc_Hylia_025",
+    "ages": [
+      "both"
+    ],
+    "requirements": [
+      {
+        "label": "Enfant ou adulte",
+        "condition": "either"
+      },
+      {
+        "label": "50 jetons de Skulltula",
+        "condition": "tokens50"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La maison des Skulltulas",
+      "location": "Maison de la famille maudite, à Cocorico.",
+      "steps": [
+        "Réunis 50 jetons de Skulltula d’or.",
+        "Reviens réclamer la récompense dans la maison."
+      ],
+      "era": "both",
+      "source": {
+        "label": "Nintendo Insider",
+        "url": "https://www.nintendo-insider.com/zelda-ocarina-of-time-remake-heart-piece-locations-guide/"
+      }
+    }
+  },
+  {
+    "id": "0x0868827eb7ffccf5",
+    "kind": "heart",
+    "name": "Piece of Heart (reward: Skull Kid)",
+    "map": "LostWood",
+    "bank": "LostWood_Child",
+    "floor": "00",
+    "position": [
+      -34.01,
+      104.5,
+      -3.74
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00/z1.25,6.0,-1.0?id=LostWood,LostWood_Child,0x0868827eb7ffccf5",
+    "flag": 1610066480,
+    "flagName": "Npc_SkullKid_Child_IsGetHeartPiece",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Ocarina",
+        "items": [
+          "Item_Ocarina_Fairy",
+          "Item_Ocarina_Time"
+        ]
+      },
+      {
+        "label": "Chant de Saria",
+        "song": "SariaSong"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le Skull Kid solitaire",
+      "location": "À gauche depuis l’entrée des Bois perdus.",
+      "steps": [
+        "Place-toi sur la souche devant le Skull Kid.",
+        "Joue le Chant de Saria."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Mobalytics",
+        "url": "https://mobalytics.gg/gamebase/guides/zelda-ocarina-of-time-heart-piece-locations"
+      }
+    }
+  },
+  {
+    "id": "0xfb14c797726a070d",
+    "kind": "heart",
+    "name": "Piece of Heart (Skull Kid ocarina session prize)",
+    "map": "LostWood",
+    "bank": "LostWood_Child",
+    "floor": "00",
+    "position": [
+      48.76,
+      98.34,
+      16.03
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/LostWood/LostWood_Child/00/z3.25,-34.0,-3.7?id=LostWood,LostWood_Child,0xfb14c797726a070d",
+    "flag": 374855640,
+    "flagName": "Minigame_SkullKidSession_IsGetHeartPiece",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Ocarina",
+        "items": [
+          "Item_Ocarina_Fairy",
+          "Item_Ocarina_Time"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le duo de Skull Kids",
+      "location": "À droite depuis l’entrée des Bois perdus.",
+      "steps": [
+        "Descends vers les deux Skull Kids.",
+        "Répète leurs mélodies et gagne trois manches."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Mobalytics",
+        "url": "https://mobalytics.gg/gamebase/guides/zelda-ocarina-of-time-heart-piece-locations"
+      }
+    }
+  },
+  {
+    "id": "0x76e823dc73142e21",
+    "kind": "heart",
+    "name": "Piece of Heart (reward: finding Richard)",
+    "map": "Market",
+    "bank": "Market_Child",
+    "floor": "00",
+    "position": [
+      1.66,
+      100.09,
+      26.6
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00/z2,0.0,3.0?id=Market,Market_Child,0x76e823dc73142e21",
+    "flag": 4076516624,
+    "flagName": "SubEvent_FindRichard_GetHeartPiece",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "La nuit"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Richard, le chien perdu",
+      "location": "Ruelles de la place du marché, la nuit.",
+      "steps": [
+        "Fais suivre le petit chien blanc.",
+        "Ramène-le à sa maîtresse près de l’entrée."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Mobalytics",
+        "url": "https://mobalytics.gg/gamebase/guides/zelda-ocarina-of-time-heart-piece-locations"
+      }
+    }
+  },
+  {
+    "id": "0x485fe05afb7ba0c1",
+    "kind": "heart",
+    "name": "Piece of Heart (treasure chest game prize)",
+    "map": "Market",
+    "bank": "Market_Child",
+    "floor": "00",
+    "position": [
+      -62.9,
+      110.67,
+      12.55
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00/z2,1.8,26.5?id=Market,Market_Child,0x485fe05afb7ba0c1",
+    "flag": 3046747885,
+    "flagName": "MiniGame_ChoiceTreasure_IsClear",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Monocle de Vérité conseillé"
+      },
+      {
+        "label": "Rubis pour jouer"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le jeu des coffres",
+      "location": "Boutique des coffres, dans les ruelles du marché.",
+      "steps": [
+        "Entre la nuit. Utilise le Monocle de Vérité pour repérer les clés.",
+        "Traverse les cinq salles et ouvre le coffre final."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Zelda Central",
+        "url": "https://zeldacentral.com/games/ocarina-of-time-remake/heart-pieces/"
+      }
+    }
+  },
+  {
+    "id": "0xa15f536407d0ee1a",
+    "kind": "heart",
+    "name": "Piece of Heart (Bombchu Bowling Alley prize)",
+    "map": "Market",
+    "bank": "Market_Child",
+    "floor": "00",
+    "position": [
+      -22.01,
+      109.97,
+      9.21
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/Market/Market_Child/00/z2,-63.0,12.5?id=Market,Market_Child,0xa15f536407d0ee1a",
+    "flag": 1640987553,
+    "flagName": "MiniGame_BombchuBowling_ClearThirdTime",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Caverne Dodongo terminée"
+      },
+      {
+        "label": "10 rubis par partie"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le bowling Teigneux",
+      "location": "Salle de bowling de la place du marché.",
+      "steps": [
+        "Après la caverne Dodongo, joue au bowling et progresse jusqu’au parcours Expert.",
+        "Réussis ses trois cibles avec les Teigneux pour gagner le fragment."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nexzy",
+        "url": "https://www.nexzyapp.com/games/zelda-ocarina-of-time-remake/heart-piece/poh-castle-town-bombchu-bowling-prize"
+      }
+    }
+  },
+  {
+    "id": "0x2b702a67d25f1421",
+    "kind": "heart",
+    "name": "Piece of Heart (in large chest)",
+    "map": "ZoraDomain",
+    "bank": "ZoraDomain_Child",
+    "floor": "00",
+    "position": [
+      28.8,
+      100.39,
+      -4.88
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraDomain/ZoraDomain_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraDomain/ZoraDomain_Child/00/z2.5,30.0,-14.0?id=ZoraDomain,ZoraDomain_Child,0x2b702a67d25f1421",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Bâton Mojo",
+        "items": [
+          "Item_DekuStick"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Les torches du domaine",
+      "location": "En bas du Domaine Zora, derrière la cascade.",
+      "steps": [
+        "Enflamme un bâton à la torche de la salle du roi.",
+        "Allume les torches du parcours jusqu’à celles derrière la cascade, puis ouvre le coffre apparu."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nintendo Life",
+        "url": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-heart-piece-locations-switch-2"
+      }
+    }
+  },
+  {
+    "id": "0xac2e26b5ec7da3a2",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "ZoraFountain",
+    "bank": "ZoraFountain_Adult",
+    "floor": "00",
+    "position": [
+      84.96,
+      103.15,
+      -34.8
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/00/z2.25,30.0,-13.0?id=ZoraFountain,ZoraFountain_Adult,0xac2e26b5ec7da3a2",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Sur les blocs de glace",
+      "location": "Fontaine Zora, vers la Caverne polaire.",
+      "steps": [
+        "Repère le fragment sur la glace.",
+        "Saute de bloc en bloc pour l’atteindre."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Nintendo Life",
+        "url": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-heart-piece-locations-switch-2"
+      }
+    }
+  },
+  {
+    "id": "0x6f736fc80f7b0aca",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "ZoraFountain",
+    "bank": "ZoraFountain_Adult",
+    "floor": "00",
+    "position": [
+      56.85,
+      70.93,
+      -27.41
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraFountain/ZoraFountain_Adult/00/z2.25,84.9,-34.9?id=ZoraFountain,ZoraFountain_Adult,0x6f736fc80f7b0aca",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "adult"
+    ],
+    "requirements": [
+      {
+        "label": "Link adulte",
+        "condition": "adult"
+      },
+      {
+        "label": "Bottes de plomb",
+        "items": [
+          "Armor_Adult_HeavyBoot"
+        ]
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Au fond de la fontaine",
+      "location": "Sous l’eau, parmi les rubis verts.",
+      "steps": [
+        "Équipe les Bottes de plomb pour descendre.",
+        "Rejoins le fragment au fond."
+      ],
+      "era": "adult",
+      "source": {
+        "label": "Nintendo Life",
+        "url": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-heart-piece-locations-switch-2"
+      }
+    }
+  },
+  {
+    "id": "0x3a23b59eaedc0510",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Adult",
+    "floor": "00",
+    "position": [
+      99.49,
+      120.1,
+      -61.73
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00/z1.75,20.0,-15.0?id=ZoraRiver,ZoraRiver_Adult,0x3a23b59eaedc0510",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Une cocotte"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "La corniche près de la cascade",
+      "location": "Rivière Zora, juste avant l’entrée du domaine.",
+      "steps": [
+        "Porte la cocotte du début jusqu’en haut de la rivière.",
+        "Retourne-toi et plane vers la corniche du fragment."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nintendo Life",
+        "url": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-heart-piece-locations-switch-2"
+      }
+    }
+  },
+  {
+    "id": "0x9efabd5b0516c341",
+    "kind": "heart",
+    "name": "Piece of Heart",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Adult",
+    "floor": "00",
+    "position": [
+      -3.99,
+      111.42,
+      -34.3
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Adult/00/z3.25,99.5,-61.7?id=ZoraRiver,ZoraRiver_Adult,0x9efabd5b0516c341",
+    "flag": null,
+    "flagName": null,
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Bombes",
+        "items": [
+          "Item_Bomb",
+          "Item_BombBag_Small",
+          "Item_BombBag_Medium",
+          "Item_BombBag_Large"
+        ]
+      },
+      {
+        "label": "Cocotte de la grotte"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le pilier au milieu de la rivière",
+      "location": "Rivière Zora, près des lianes.",
+      "steps": [
+        "Grimpe les lianes et ouvre le trou fissuré sur l’îlot sud avec une bombe.",
+        "Remonte avec la cocotte de la grotte, puis plane jusqu’au pilier."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Nintendo Life",
+        "url": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-heart-piece-locations-switch-2"
+      }
+    }
+  },
+  {
+    "id": "0xfd37692f6f040f24",
+    "kind": "heart",
+    "name": "Piece of Heart (frogs, Song of Storms)",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Child",
+    "floor": "00",
+    "position": [
+      8.99,
+      101.89,
+      -50.85
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00/z1.75,20.0,-15.0?id=ZoraRiver,ZoraRiver_Child,0xfd37692f6f040f24",
+    "flag": 3581468565,
+    "flagName": "MiniGame_FrogTenors_StormSong",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Ocarina",
+        "items": [
+          "Item_Ocarina_Fairy",
+          "Item_Ocarina_Time"
+        ]
+      },
+      {
+        "label": "Chant des Tempêtes",
+        "song": "StormSong"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Les grenouilles et la pluie",
+      "location": "Grenouilles sur les souches de la rivière Zora.",
+      "steps": [
+        "Apprends le Chant des Tempêtes au moulin adulte.",
+        "Reviens enfant et joue-le aux grenouilles."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Zelda Central",
+        "url": "https://zeldacentral.com/games/ocarina-of-time-remake/heart-pieces/"
+      }
+    }
+  },
+  {
+    "id": "0x43aec91ca2410080",
+    "kind": "heart",
+    "name": "Piece of Heart (frogs, second song game)",
+    "map": "ZoraRiver",
+    "bank": "ZoraRiver_Child",
+    "floor": "00",
+    "position": [
+      8.99,
+      101.89,
+      -50.85
+    ],
+    "plan": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00",
+    "source": "https://objmap-oot.zeldamods.org/#/map/ZoraRiver/ZoraRiver_Child/00/z3.25,9.0,-50.9?id=ZoraRiver,ZoraRiver_Child,0x43aec91ca2410080",
+    "flag": 2415839079,
+    "flagName": "MiniGame_FrogTenors_InsectRepellent",
+    "ages": [
+      "child"
+    ],
+    "requirements": [
+      {
+        "label": "Link enfant",
+        "condition": "child"
+      },
+      {
+        "label": "Chants Zelda, Saria, Epona, Soleil, Temps, Tempêtes"
+      }
+    ],
+    "requirementsCoverage": "Conditions du parcours décrit ci-dessus.",
+    "guide": {
+      "title": "Le concert des grenouilles",
+      "location": "Rivière Zora, aux grenouilles.",
+      "steps": [
+        "Fais grandir les cinq grenouilles avec tes chants.",
+        "Joue ensuite la note de chaque grenouille illuminée."
+      ],
+      "era": "child",
+      "source": {
+        "label": "Games.gg",
+        "url": "https://games.gg/the-legend-of-zelda-ocarina-of-time-2026/guides/ocarina-of-time-remake-heart-pieces-all-36-locations/"
+      }
+    }
+  }
+]

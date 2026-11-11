@@ -1,0 +1,120 @@
+NAVI — compagnon local pour Fritchii
+
+Lancement : double-cliquer Lancer-Navi.cmd (Python 3 requis).
+Adresse : http://127.0.0.1:8766
+Fermer la fenêtre de commande arrête le serveur. Lancé par la mini-carte seule,
+le serveur s'arrête à la fermeture de celle-ci.
+
+Le dossier de sauvegarde est détecté automatiquement quand Navi est placé dans le
+dossier de Fritchii ou juste à côté. Sinon, copier config.example.json en
+config.json et y indiquer save_root.
+Le serveur écoute uniquement sur 127.0.0.1. Aucune donnée n'est envoyée
+à un service externe. La carte intégrée représente les régions et 24 équipements principaux.
+Les repères se synchronisent avec les quantités de la sauvegarde.
+Les améliorations remplacent leurs versions inférieures pour ce suivi.
+Les 36 fragments ont une fiche intégrée : nom du lieu, emplacement précis,
+parcours et prérequis. Le lien du guide consulté figure dans chaque fiche.
+La recherche trouve aussi les lieux et les indications du parcours.
+Le filtre enfant/adulte suit l'époque du parcours documenté ; il ne garantit
+pas que tous les raccourcis possibles à l'autre époque soient recensés.
+
+Fonctions : suivi toutes les 5 secondes des sauvegardes sur disque,
+sélection parmi les slots, aperçu de sauvegarde, zone, cœurs, rubis,
+Skulltulas, 104 entrées de catalogue d'inventaire, recherche et filtres,
+huit chants identifiés, notes par slot dans le navigateur, export JSON.
+L'inventaire et les collectibles sont actualisés à la sauvegarde.
+Link et les étapes des quêtes Epona, Biggoron, flèches de feu et gymnase
+Gerudo sont lus en direct (5 fois par seconde) quand Dernière sauvegarde
+est sélectionnée. Les slots précis restent des instantanés sauvegardés.
+Les slots peuvent inclure des sauvegardes automatiques d'une même partie.
+
+Limites : pas de services Nintendo. Catalogue partiellement en anglais. Seuls huit chants
+ont un champ connu dans le catalogue utilisé ; les autres ne sont pas
+déduits. Le compteur d'objets mesure les types présents, pas le 100 %.
+Les notes suivent un slot physique : une sauvegarde automatique tournante
+peut changer de slot. Choisir un slot précis pour un carnet stable.
+
+Les sauvegardes sont ouvertes en lecture seule. Aucune fonction d'édition.
+Les notes restent dans le profil du navigateur ; utiliser l'export pour
+les conserver hors de ce profil. L'export n'est pas une sauvegarde du jeu.
+
+Format binaire et catalogue adaptés de Traiver/OOT-SW2SE :
+https://github.com/Traiver/OOT-SW2SE
+Licence MIT conservée dans LICENSE-Traiver.txt.
+Application non officielle, sans affiliation Nintendo.
+
+Atlas : 100 Skulltulas et 36 références de fragments de cœur. Plans et positions issus de https://objmap-oot.zeldamods.org/ . Images du jeu © Nintendo.
+Skulltulas : identifiants individuels contrôlés avec le compteur de la sauvegarde ; en cas de désaccord, état inconnu.
+Cœurs : synchronisation partielle. Les identifiants absents et les événements ambigus restent À vérifier ; ce statut ne signifie pas manquant. La couverture des 36 références ne garantit pas leur validation exhaustive.
+Navigation : filtres à gauche, région et époque/étage en haut du plan, zoom +/− et déplacement à la souris ou aux flèches. Sur mobile, bouton Liste des repères.
+
+Molette : zoom autour du curseur, sans faire défiler la page. Glisser : déplacer
+la carte, sans attraper l'image. Le zoom est mémorisé dans le navigateur et
+conservé au rafraîchissement. « Suivre Link » centre la carte en direct ; un
+zoom ou un déplacement manuel suspend le suivi. « Ma position » le réactive.
+La carte complète d'Hyrule indique la région ; la position exacte est placée
+sur les plans extérieurs et les plans de donjons. Avec « Suivre Link », l'étage
+change automatiquement selon son altitude en direct, sans réinitialiser le zoom.
+35 étages distincts sont couverts par les bandes de hauteur publiées dans
+https://objmap-oot.zeldamods.org/game_files/maps.json (39 images ajoutées).
+Les bornes X/Z de cette même source remplacent les anciennes calibrations visuelles.
+Une sélection manuelle suspend le suivi ; « Ma position » le réactive.
+Les variantes d'un même étage (eau, salles transformées) restent sélectionnables
+manuellement ; leur état n'est pas déduit de la hauteur. Le gymnase Gerudo et
+l'intérieur du château de Ganon n'ont pas d'image de plan dans cette source :
+la position est indiquée sur une vue générale explicitement signalée sans plan.
+Hors d'une bande de hauteur connue, aucun étage approximatif n'est choisi.
+La flèche utilise la rotation de l'acteur Player, avec les axes de la carte X/Z.
+Quand sa direction n'est pas disponible (position sauvegardée), un point remplace
+la flèche pour ne pas donner une orientation arbitraire.
+
+Direct : Windows 64 bits, installation Fritchii configurée, OoT 1.1.1
+(build E0F3CCFAF50065AE4EA01EB5AEB13B1A45DA3348). Détection automatique
+du processus et des adresses à chaque connexion. En cas d'arrêt, de chargement
+ou de version non reconnue, retour explicite à la dernière position sauvegardée.
+Lecture mémoire uniquement (VM_READ), sans injection ni débogueur, aucune
+modification du jeu ou des sauvegardes. Les champs de quêtes et les dispositions
+mémoire sont documentés dans https://github.com/PracticeROM/sloperina et
+https://github.com/Kabosune/oot-remake-modding ; lecteur Python indépendant.
+Tests : python -m unittest discover -p "test_*.py"
+Les changements d'étage et l'orientation ont des tests avec données simulées ;
+la validation en parcourant les étages dans une vraie partie reste à réaliser.
+
+MINI-CARTE AU-DESSUS DU JEU
+Depuis la carte, cliquer « Sur le jeu », ou lancer Lancer-Navi-Flottant.cmd.
+La fenêtre Windows reste au-dessus des autres fenêtres. Elle garde la
+position, l'orientation et le suivi automatique de l'étage de Link.
+Déplacer par la fine poignée dorée sur le bord supérieur, sans barre de titre.
+Redimensionner par les coins et les bords latéraux ; Alt+F4 pour fermer.
+Le bouton fléché près de +/− active ou désactive le suivi de Link. Il est doré
+quand le suivi est actif ; le réactiver recentre automatiquement la carte.
+Ctrl+Alt+N : verrouiller / déverrouiller les clics, sans bouton dans la barre.
+En mode verrouillé, les clics passent au jeu sans prendre le focus.
+Ctrl+Alt+M : masquer / afficher. L'icône de notification permet aussi de
+déverrouiller, afficher et fermer la fenêtre.
+Utiliser Fritchii en fenêtre ou plein écran sans bordure pour la superposition.
+La fenêtre, son zoom et ses réglages ont leur propre profil local, distinct
+du navigateur. Taille et position sont enregistrées à la fermeture.
+Nécessite Windows x64, .NET Desktop Runtime 8 ou plus récent et Microsoft Edge
+WebView2. Sources dans overlay-src ; programme dans overlay-app.
+Compilation : dotnet publish overlay-src/NaviOverlay.csproj -c Release -o overlay-app
+
+La mini-carte affiche uniquement les repères confirmés manquants. La récompense
+de la maison des Skulltulas reste masquée avant 50 jetons (elle reste dans le
+guide). Les 16 fragments associés à un signal de récompense identifié sont
+lus en direct ; les autres fragments et les Skulltulas utilisent la sauvegarde.
+Une lecture en direct incomplète ne remplace pas les données de sauvegarde.
+Les slots historiques n'utilisent jamais les récompenses de la partie en cours.
+Tests du filtrage et de la fusion des états : node test_collectibles.cjs
+
+FONTAINES DES FEES
+18 plans couvrent les six Grandes Fées et quatre fontaines de petites fées,
+avec les variantes enfant/adulte disponibles. Les intérieurs sont projetés
+depuis la géométrie réelle publiée par Owl Object Map (static_compound),
+pas depuis une image de carte officielle du menu du jeu.
+La sélection automatique utilise le contour du sol et l’altitude de Link,
+puis revient au plan extérieur en quittant la salle. Entrer/sortir d’un
+intérieur adapte le cadrage ; un rafraîchissement dans la même salle conserve le zoom.
+Source : https://objmap-oot.zeldamods.org/game_files/static_compound/
+La validation des fontaines utilise les positions publiées ; le passage réel
+dans chacune des dix salles reste à vérifier en jouant.
