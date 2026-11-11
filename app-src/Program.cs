@@ -217,9 +217,27 @@ namespace Navi
     {
         readonly WebView2 browser = new WebView2 { Dock = DockStyle.Fill, DefaultBackgroundColor = Color.FromArgb(27, 28, 30), Visible = false };
         bool splash = true;
+        readonly Shortcuts shortcuts;
+
+        protected override void OnHandleCreated(EventArgs e) { base.OnHandleCreated(e); shortcuts?.HandleCreated(); }
+
+        protected override void WndProc(ref Message m)
+        {
+            if (m.Msg == Shortcuts.Message)
+            {
+                var overlay = Native.FindWindow(null, Program.OverlayTitle);
+                if (overlay != IntPtr.Zero) Native.PostMessage(overlay, Shortcuts.Message, m.WParam, IntPtr.Zero);
+                else
+                    try { Process.Start(new ProcessStartInfo(Application.ExecutablePath, "--overlay") { UseShellExecute = false }); }
+                    catch (Exception) { }
+                return;
+            }
+            base.WndProc(ref m);
+        }
 
         public MainWindow()
         {
+            shortcuts = new Shortcuts(this);
             Text = Program.AppTitle;
             BackColor = Color.FromArgb(27, 28, 30);
             try { Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch (Exception) { }
@@ -333,6 +351,7 @@ namespace Navi
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
             if (WindowState == FormWindowState.Normal) Backend.WriteBounds("app-window.txt", Bounds);
+            shortcuts.Dispose();
             browser.Dispose();
             Backend.StopServerIfLastWindow(closingOverlay: false);
             base.OnFormClosed(e);
@@ -380,12 +399,16 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
     {
         readonly WebView2 browser = new WebView2 { Dock = DockStyle.Fill, DefaultBackgroundColor = Color.FromArgb(27, 28, 30) };
         readonly NotifyIcon tray;
-        bool locked, lockHotkey, hideHotkey;
+        bool locked;
+        readonly Shortcuts shortcuts;
+        // The shortcuts reach the mini-map directly, or through the application window when it holds them.
+        bool ShortcutsWork => shortcuts.Held || Native.FindWindow(null, Program.AppTitle) != IntPtr.Zero;
         protected override bool ShowWithoutActivation => true;
         static string L(string fr, string en) => Backend.L(fr, en);
 
         public OverlayWindow()
         {
+            shortcuts = new Shortcuts(this);
             Text = Program.OverlayTitle;
             TopMost = true;
             ShowInTaskbar = true;
@@ -433,7 +456,7 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
         }
 
         static Uri PageAddress() => new Uri(Backend.Origin + "/?overlay=1&lang=" + Backend.Language);
-        string LockedText() => lockHotkey ? L("Navi · Verrouillée · Ctrl+Alt+N", "Navi · Locked · Ctrl+Alt+N") : L("Navi · Verrouillée · clic droit ici", "Navi · Locked · right-click here");
+        string LockedText() => ShortcutsWork ? L("Navi · Verrouillée · Ctrl+Alt+N", "Navi · Locked · Ctrl+Alt+N") : L("Navi · Verrouillée · clic droit ici", "Navi · Locked · right-click here");
 
         protected override void OnPaint(PaintEventArgs e)
         {
@@ -453,7 +476,7 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
                 Backend.Protect(browser.CoreWebView2, () => false);
                 browser.CoreWebView2.Settings.IsZoomControlEnabled = false;
                 browser.Source = PageAddress();
-                if (!lockHotkey || !hideHotkey)
+                if (!ShortcutsWork)
                     tray.ShowBalloonTip(5000, "Navi", L("Un raccourci Ctrl+Alt+N ou Ctrl+Alt+M est déjà pris par un autre programme. Utilise l'icône Navi près de l'horloge pour verrouiller, afficher ou fermer la mini-carte.", "The Ctrl+Alt+N or Ctrl+Alt+M shortcut is already used by another program. Use the Navi icon near the clock to lock, show or close the mini-map."), ToolTipIcon.Info);
             }
             catch (Exception error)
@@ -484,16 +507,15 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
         protected override void OnHandleCreated(EventArgs e)
         {
             base.OnHandleCreated(e);
-            lockHotkey = Native.RegisterHotKey(Handle, 1, 0x4003, (uint)Keys.N); // Ctrl+Alt, no repeat
-            hideHotkey = Native.RegisterHotKey(Handle, 2, 0x4003, (uint)Keys.M);
+            shortcuts?.HandleCreated();
         }
 
         protected override void WndProc(ref Message m)
         {
-            if (m.Msg == 0x312)
+            if (m.Msg == Shortcuts.Message)
             {
-                if (m.WParam.ToInt32() == 1) SetLocked(!locked);
-                if (m.WParam.ToInt32() == 2) ToggleVisible();
+                if (m.WParam.ToInt32() == Shortcuts.Lock) SetLocked(!locked);
+                if (m.WParam.ToInt32() == Shortcuts.Toggle) ToggleVisible();
                 return;
             }
             if (m.Msg == 0x84 && !locked)
@@ -514,8 +536,7 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
 
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
-            if (lockHotkey) Native.UnregisterHotKey(Handle, 1);
-            if (hideHotkey) Native.UnregisterHotKey(Handle, 2);
+            shortcuts.Dispose();
             tray.Dispose();
             Backend.WriteBounds("window.json", Bounds);
             browser.Dispose();
@@ -524,8 +545,47 @@ function setVersion(text){document.getElementById('version').textContent='Navi '
         }
     }
 
+    // Ctrl+Alt+N (lock clicks) and Ctrl+Alt+M (show / hide) act on the mini-map from anywhere, the game included.
+    // Windows gives a shortcut to one window only: whichever Navi window got it passes it on, and the other
+    // one keeps asking so that it takes over when the first is closed.
+    internal sealed class Shortcuts : IDisposable
+    {
+        internal const int Message = 0x312, Lock = 1, Toggle = 2;
+        readonly Form owner;
+        readonly System.Windows.Forms.Timer retry = new System.Windows.Forms.Timer { Interval = 2000 };
+        bool lockKey, toggleKey;
+
+        internal Shortcuts(Form owner)
+        {
+            this.owner = owner;
+            retry.Tick += (_, _) => Register();
+            retry.Start();
+        }
+
+        internal bool Held => lockKey && toggleKey;
+
+        // The window handle is new (first display, or recreated by Windows Forms): earlier registrations died with the old one.
+        internal void HandleCreated() { lockKey = toggleKey = false; Register(); }
+
+        void Register()
+        {
+            if (!owner.IsHandleCreated || owner.IsDisposed) return;
+            if (!lockKey) lockKey = Native.RegisterHotKey(owner.Handle, Lock, 0x4003, (uint)Keys.N); // Ctrl+Alt, no repeat
+            if (!toggleKey) toggleKey = Native.RegisterHotKey(owner.Handle, Toggle, 0x4003, (uint)Keys.M);
+        }
+
+        public void Dispose()
+        {
+            retry.Dispose();
+            if (!owner.IsHandleCreated) return;
+            if (lockKey) Native.UnregisterHotKey(owner.Handle, Lock);
+            if (toggleKey) Native.UnregisterHotKey(owner.Handle, Toggle);
+        }
+    }
+
     internal static class Native
     {
+        [DllImport("user32.dll")] internal static extern bool PostMessage(IntPtr hwnd, uint message, IntPtr wParam, IntPtr lParam);
         [DllImport("user32.dll", CharSet = CharSet.Unicode)] internal static extern IntPtr FindWindow(string? className, string title);
         [DllImport("user32.dll")] internal static extern bool ShowWindow(IntPtr hwnd, int command);
         [DllImport("user32.dll")] internal static extern bool SetForegroundWindow(IntPtr hwnd);

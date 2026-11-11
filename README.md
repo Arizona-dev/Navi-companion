@@ -55,6 +55,7 @@ Click **Over the game** from the map, or run `Start-Navi-Overlay.cmd`. The mini-
 - Move it with the golden handle on the top edge; resize it from the edges and corners.
 - `Ctrl+Alt+N` locks or unlocks clicks (when locked, clicks go through to the game).
 - `Ctrl+Alt+M` hides or shows it. The Navi icon near the clock offers the same actions and the language switch.
+- Both shortcuts work from anywhere, the game included. With only the Navi window open, they open the mini-map.
 
 ## Live tracking
 

@@ -9,7 +9,8 @@ const NAVI_LANG = (() => {
     const saved = localStorage.getItem('navi-lang');
     if (saved === 'fr' || saved === 'en') return saved;
   } catch {}
-  return (navigator.language || 'fr').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+  // English by default, French on a PC set to French.
+  return (navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
 })();
 const NAVI_LOCALE = NAVI_LANG === 'fr' ? 'fr-FR' : 'en-GB';
 
@@ -723,7 +724,11 @@ function localizeData(value, key) {
       try { localStorage.setItem('navi-lang', button.dataset.lang); } catch {}
       // Inside the Navi window, the program remembers the choice for its own texts and the mini-map.
       try { window.chrome?.webview?.postMessage('lang:' + button.dataset.lang); } catch {}
-      location.reload();
+      // The Navi window and the mini-map open the page with ?lang=: it must follow the new choice,
+      // otherwise the address would bring the previous language back on reload.
+      const address = new URL(location.href);
+      if (address.searchParams.has('lang')) { address.searchParams.set('lang', button.dataset.lang); location.replace(address); }
+      else location.reload();
     };
   }
   if (NAVI_LANG !== 'en') return;
