@@ -2,6 +2,14 @@ import math
 import unittest
 from pathlib import Path
 from map_position import BY_AREA, PLANS, locate_player
+import json
+
+# Game images are downloaded at first launch (images-sources.json), so a fresh
+# copy only has to know where each plan image comes from.
+DOWNLOADABLE = {e['file'] for e in json.loads(Path(__file__).with_name('images-sources.json').read_text('utf-8'))}
+
+def available(name):
+    return 'maps/' + name in DOWNLOADABLE or (Path(__file__).parent / 'maps' / name).is_file()
 
 
 def at(area, y, source='live'):
@@ -20,7 +28,7 @@ class DungeonPositionTests(unittest.TestCase):
                     self.assertEqual(at(area, (low + high) / 2)['floor'], p['floor'])
                     self.assertTrue(p['layers'])
                     for image in p['layers']:
-                        self.assertTrue((Path(__file__).parent / 'maps' / image['file']).is_file())
+                        self.assertTrue(available(image['file']))
                     checked.add((area, p['floor']))
         self.assertEqual(len(checked), 35)
 
@@ -71,7 +79,7 @@ class DungeonPositionTests(unittest.TestCase):
                 self.assertEqual(player['floorSource'], 'interior-geometry')
                 self.assertTrue(player['mapAvailable'])
                 for layer in plan['layers']:
-                    self.assertTrue((Path(__file__).parent / 'maps' / layer['file']).is_file())
+                    self.assertTrue(available(layer['file']))
                 # A player above a hidden fountain must stay on the exterior.
                 outside = locate_player({'area': area, 'position': [pos[0], pos[1]+30, pos[2]]})
                 self.assertIsNotNone(outside['plan'])
