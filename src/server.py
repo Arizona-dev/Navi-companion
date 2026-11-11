@@ -6,14 +6,14 @@ import json, struct, base64, argparse, webbrowser, math, subprocess, os, re, sys
 from quests import EPONA_SONG, quest_states
 from live import LiveTracker
 from map_position import locate_player
-from paths import BASE, FROZEN
+from paths import BASE, DATA, FROZEN, WEB
 from updater import Updater
 import download_images
 import threading
 
 UPDATES = Updater()
-CATALOG = json.loads((BASE / 'catalog.json').read_text('utf-8'))
-COLLECTIBLES = json.loads((BASE / 'collectibles.json').read_text('utf-8'))
+CATALOG = json.loads((DATA / 'catalog.json').read_text('utf-8'))
+COLLECTIBLES = json.loads((DATA / 'collectibles.json').read_text('utf-8'))
 TITLE_ID = '0400486024DEC000'
 SETUP_HELP = ('Sauvegardes Fritchii introuvables. Placez le dossier Navi dans le dossier de Fritchii '
               '(ou juste à côté), ou copiez config.example.json en config.json et indiquez-y save_root.')
@@ -203,12 +203,27 @@ def snapshot(slot):
 
 MANAGED = False
 
+# Files and folders of the 1.1 and 1.2 layouts, now in web/, data/ and docs/ or no longer shipped.
+# An update copies the new files over the install without removing the old ones.
+LEGACY = ('_internal', 'overlay-app', 'app-src', 'fonts', 'index.html', 'app.js', 'i18n.js', 'style.css',
+          'catalog.json', 'collectibles.json', 'plans.json', 'images-sources.json', 'server.py', 'live.py',
+          'map_position.py', 'paths.py', 'quests.py', 'updater.py', 'download_images.py', 'test_live.py',
+          'test_map_position.py', 'test_overlay.py', 'test_server.py', 'test_collectibles.cjs', 'build.ps1',
+          'Start-Navi.cmd', 'ASSETS-SOURCES.txt', 'LICENSE-Traiver.txt', '.gitattributes', '.gitignore')
+
+def remove_legacy_files(base=BASE):
+    import shutil
+    for name in LEGACY:
+        path = base / name
+        if path.is_dir(): shutil.rmtree(path, ignore_errors=True)
+        else:
+            try: path.unlink()
+            except OSError: pass
+
 def overlay_command():
-    # Packaged app: the mini-map is a mode of Navi.exe. From sources: the separately built program.
-    for path, arguments in ((BASE / 'Navi.exe', ['--overlay']), (BASE / 'overlay-app' / 'Navi.exe', ['--overlay'])):
-        if path.is_file():
-            return [str(path), *arguments]
-    return None
+    # The mini-map is a mode of Navi.exe (packaged app only).
+    path = BASE / 'Navi.exe'
+    return [str(path), '--overlay'] if path.is_file() else None
 
 class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -270,7 +285,7 @@ class Handler(BaseHTTPRequestHandler):
                 mime = 'application/json'
             elif url.path in ('/','/app.js','/i18n.js','/style.css','/collectibles.json','/plans.json'):
                 name = {'/':'index.html'}.get(url.path,url.path.lstrip('/'))
-                data = (BASE/name).read_bytes()
+                data = ((DATA if name.endswith('.json') else WEB)/name).read_bytes()
                 mime = {'/':'text/html','/app.js':'text/javascript','/i18n.js':'text/javascript','/style.css':'text/css'}.get(url.path,'application/json')
             elif url.path.startswith('/maps/') and url.path.endswith('.webp') and STATIC_IMAGE.fullmatch(url.path[6:]):
                 data=(BASE/'maps'/url.path[6:]).read_bytes();mime='image/webp'
@@ -278,7 +293,7 @@ class Handler(BaseHTTPRequestHandler):
                 data=(BASE/'assets'/url.path[8:]).read_bytes()
                 mime='image/png' if url.path.endswith('.png') else 'image/webp'
             elif url.path in ('/fonts/cormorant-garamond-latin.woff2','/fonts/dm-sans-latin.woff2'):
-                data=(BASE/'fonts'/url.path[7:]).read_bytes();mime='font/woff2'
+                data=(WEB/'fonts'/url.path[7:]).read_bytes();mime='font/woff2'
             else: self.send_error(404); return
             self.send_response(200)
         except FileNotFoundError:
@@ -301,11 +316,8 @@ if __name__ == '__main__':
     parser=argparse.ArgumentParser(); parser.add_argument('--port',type=int,default=8766); parser.add_argument('--open',action='store_true'); parser.add_argument('--no-open',action='store_true'); parser.add_argument('--managed',action='store_true')
     args=parser.parse_args()
     MANAGED = args.managed
-    if FROZEN and (BASE / 'server' / 'navi-server.exe').is_file():
-        # Folders of the 1.1 layout, replaced by Navi.exe and server/: remove them after an update.
-        import shutil
-        for legacy in ('_internal', 'overlay-app'):
-            shutil.rmtree(BASE / legacy, ignore_errors=True)
+    if FROZEN and (BASE / 'server' / 'navi-server.exe').is_file() and (WEB / 'index.html').is_file():
+        remove_legacy_files()
     # The packaged Navi.exe opens the browser on a plain double-click; the mini-map starts it with --no-open.
     args.open = args.open or (FROZEN and not args.no_open)
     try:

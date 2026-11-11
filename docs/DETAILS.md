@@ -67,6 +67,6 @@
 ## Tests
 
 ```
-python -m unittest discover -p "test_*.py"
-node test_collectibles.cjs
+python -m unittest discover -s tests -t .
+node tests/test_collectibles.cjs
 ```

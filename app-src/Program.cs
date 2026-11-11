@@ -95,14 +95,16 @@ namespace Navi
                 var started = Process.Start(new ProcessStartInfo(packaged, "--no-open --managed") { WorkingDirectory = Root, UseShellExecute = false, CreateNoWindow = true });
                 if (started != null) return started;
             }
-            var script = Path.Combine(Root, "server.py");
-            if (!File.Exists(script)) script = Path.Combine(Root, "..", "server.py");
+            // From sources: Navi.exe built somewhere below the repository (build\shell, for instance).
+            var script = Path.Combine(Root, "src", "server.py");
+            for (var folder = Directory.GetParent(Root); folder != null && !File.Exists(script); folder = folder.Parent)
+                script = Path.Combine(folder.FullName, "src", "server.py");
             if (!File.Exists(script)) throw new FileNotFoundException(L("Le serveur Navi est introuvable : le programme doit rester dans son dossier.", "The Navi server was not found: the program must stay in its folder."));
             script = Path.GetFullPath(script);
             foreach (var (program, option) in new[] { ("pyw.exe", "-3 "), ("pythonw.exe", "") })
             {
                 var launch = new ProcessStartInfo(program, option + "\"" + script + "\" --no-open --managed")
-                    { WorkingDirectory = Path.GetDirectoryName(script), UseShellExecute = false, CreateNoWindow = true };
+                    { WorkingDirectory = Path.GetDirectoryName(Path.GetDirectoryName(script)), UseShellExecute = false, CreateNoWindow = true };
                 try { var started = Process.Start(launch); if (started != null) return started; }
                 catch (System.ComponentModel.Win32Exception) { }
             }
@@ -131,7 +133,7 @@ namespace Navi
             return true;
         }
 
-        // The server stops with the last Navi window. A server started by hand (python server.py) is left alone:
+        // The server stops with the last Navi window. A server started by hand (python src/server.py) is left alone:
         // it only accepts this request when it was started by one of the windows.
         internal static void StopServerIfLastWindow(bool closingOverlay)
         {

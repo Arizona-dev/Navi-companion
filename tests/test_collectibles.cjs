@@ -2,7 +2,7 @@ const {readFileSync}=require('node:fs');
 const {join}=require('node:path');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
-const source=readFileSync(join(__dirname,'app.js'),'utf8');
+const source=readFileSync(join(__dirname,'..','web','app.js'),'utf8');
 // Run the actual state-merging and overlay visibility functions without a DOM.
 const functions=source.slice(source.indexOf('function currentSkulltulas(){'),source.indexOf('function filtered(){'));
 const ui={slot:{value:'latest'}};

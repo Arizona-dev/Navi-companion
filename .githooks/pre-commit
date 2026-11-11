@@ -1,0 +1,11 @@
+#!/bin/sh
+# Refuses to publish personal paths, build output, per-PC settings or game images.
+# Rules: tools/check_leaks.py. Enable once per clone: git config core.hooksPath .githooks
+root=$(git rev-parse --show-toplevel)
+for python in "py -3" python3 python; do
+  if $python -c "" >/dev/null 2>&1; then
+    exec $python "$root/tools/check_leaks.py" --staged
+  fi
+done
+echo "pre-commit: Python 3 was not found, so the private data check could not run." >&2
+exit 1

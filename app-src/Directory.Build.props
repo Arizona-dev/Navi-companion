@@ -1,0 +1,6 @@
+<Project>
+  <!-- Intermediate build files (which contain local paths) stay out of the source folder. -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)..\build\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

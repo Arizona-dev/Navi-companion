@@ -74,12 +74,19 @@ More details in [docs/DETAILS.md](docs/DETAILS.md).
 
 With Python 3.9+ installed, `Start-Navi.cmd` runs the server from the sources and opens Navi in your browser.
 
-The program is in three parts: the Python server (`server.py`), the web interface it serves (`index.html`, `app.js`, `style.css`, `i18n.js`) and the window that hosts it (`app-src`, a small .NET Framework 4.8 program using WebView2; `Navi.exe --overlay` is the mini-map).
+| Folder | Content |
+| --- | --- |
+| `src/` | Python server: save reading, live tracking, image download, updates |
+| `web/` | Interface served to the window: page, script, styles, English texts, fonts |
+| `data/` | Game reference tables: catalogue, collectibles, floor plans, image sources |
+| `app-src/` | The window (`Navi.exe`): a small .NET Framework 4.8 program using WebView2; `Navi.exe --overlay` is the mini-map |
+| `maps/`, `assets/` | Game images, downloaded at first launch (only the fairy fountain plans are in the repository) |
+| `tests/`, `tools/`, `docs/` | Tests, build and checks, documentation |
 
 To build the release archive (Python with PyInstaller, .NET SDK 8 or newer, git):
 
 ```
-powershell -ExecutionPolicy Bypass -File build.ps1
+powershell -ExecutionPolicy Bypass -File tools\build.ps1
 ```
 
 This produces `dist/Navi-companion.zip` with `Navi.exe` and `server\navi-server.exe` (embedded Python). The version number is in the `VERSION` file.
@@ -87,18 +94,24 @@ This produces `dist/Navi-companion.zip` with `Navi.exe` and `server\navi-server.
 Tests:
 
 ```
-python -m unittest discover -p "test_*.py"
-node test_collectibles.cjs
+python -m unittest discover -s tests -t .
+node tests/test_collectibles.cjs
 ```
 
-French is the source language of the interface; English texts live in [i18n.js](i18n.js).
+Before contributing, enable the checks that keep personal paths, settings, build output and game images out of the repository (they run before each commit and push, and on the release archive):
+
+```
+git config core.hooksPath .githooks
+```
+
+French is the source language of the interface; English texts live in [web/i18n.js](web/i18n.js).
 
 ## Credits and licences
 
 - Navi source code: MIT licence, see [LICENSE](LICENSE).
-- Save format and catalogue adapted from [Traiver/OOT-SW2SE](https://github.com/Traiver/OOT-SW2SE) (MIT, see [LICENSE-Traiver.txt](LICENSE-Traiver.txt)).
+- Save format and catalogue adapted from [Traiver/OOT-SW2SE](https://github.com/Traiver/OOT-SW2SE) (MIT, see [LICENSE-Traiver.txt](docs/LICENSE-Traiver.txt)).
 - Memory layouts documented by [PracticeROM/sloperina](https://github.com/PracticeROM/sloperina) and [Kabosune/oot-remake-modding](https://github.com/Kabosune/oot-remake-modding).
-- Maps and positions: [Owl Object Map](https://objmap-oot.zeldamods.org/). Icons: [Zelda Central](https://zeldacentral.com/). The full list is in [ASSETS-SOURCES.txt](ASSETS-SOURCES.txt) and [images-sources.json](images-sources.json).
+- Maps and positions: [Owl Object Map](https://objmap-oot.zeldamods.org/). Icons: [Zelda Central](https://zeldacentral.com/). The full list is in [ASSETS-SOURCES.txt](docs/ASSETS-SOURCES.txt) and [images-sources.json](data/images-sources.json).
 - Cormorant Garamond and DM Sans fonts: SIL Open Font License 1.1.
 
 The Legend of Zelda, Ocarina of Time and their artwork belong to Nintendo. This project is not affiliated with or endorsed by Nintendo, and contains neither the game nor its files.

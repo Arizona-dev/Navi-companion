@@ -4,12 +4,12 @@ from pathlib import Path
 from map_position import BY_AREA, PLANS, locate_player
 import json
 
-# Game images are downloaded at first launch (images-sources.json), so a fresh
+# Game images are downloaded at first launch (data/images-sources.json), so a fresh
 # copy only has to know where each plan image comes from.
-DOWNLOADABLE = {e['file'] for e in json.loads(Path(__file__).with_name('images-sources.json').read_text('utf-8'))}
+DOWNLOADABLE = {e['file'] for e in json.loads((Path(__file__).parents[1] / 'data' / 'images-sources.json').read_text('utf-8'))}
 
 def available(name):
-    return 'maps/' + name in DOWNLOADABLE or (Path(__file__).parent / 'maps' / name).is_file()
+    return 'maps/' + name in DOWNLOADABLE or (Path(__file__).parents[1] / 'maps' / name).is_file()
 
 
 def at(area, y, source='live'):

@@ -1,6 +1,19 @@
 * text=auto
 *.cmd text eol=crlf
+.githooks/* text eol=lf
 *.webp binary
 *.png binary
 *.jpg binary
+*.ico binary
 *.woff2 binary
+
+# Not part of the release archive (tools/build.ps1 starts from "git archive"):
+# the packaged app carries its own server and window programs.
+/src export-ignore
+/tests export-ignore
+/tools export-ignore
+/app-src export-ignore
+/.githooks export-ignore
+/Start-Navi.cmd export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore

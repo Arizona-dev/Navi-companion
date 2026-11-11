@@ -86,6 +86,14 @@ class Tests(unittest.TestCase):
                 self.assertIsNone(server.overlay_command())
                 (Path(d)/'Navi.exe').write_bytes(b'')
                 self.assertEqual(server.overlay_command(),[str(Path(d)/'Navi.exe'),'--overlay'])
+    def test_update_removes_files_of_older_layouts(self):
+        with tempfile.TemporaryDirectory() as d:
+            base=Path(d)
+            for name in ('app.js','server.py','config.json','VERSION'): (base/name).write_text('x','utf-8')
+            for name in ('fonts','assets','web'): (base/name).mkdir(); (base/name/'file').write_text('x','utf-8')
+            server.remove_legacy_files(base)
+            self.assertEqual(sorted(p.name for p in base.iterdir()),['VERSION','assets','config.json','web'])
+            self.assertTrue((base/'assets'/'file').is_file())
     def test_stable_read_leaves_file_unchanged(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'test.sav';p.write_bytes(b'unchanged')

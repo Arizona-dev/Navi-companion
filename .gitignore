@@ -1,7 +1,7 @@
 # Per-PC setting (see config.example.json)
 config.json
 
-# Game images (c) Nintendo: fetched by download_images.py
+# Game images (c) Nintendo: fetched by src/download_images.py
 assets/*
 maps/*
 # Fairy fountain plans: outlines drawn for Navi, with no online source
@@ -11,19 +11,13 @@ maps/*
 __pycache__/
 bin/
 obj/
-overlay-app/
+build/
+build-*/
+dist/
 *.pdb
 *.part
 
-# Working screenshots at the root (the README ones are in docs/)
+# Personal working files (screenshots, drafts)
+.local/
 /*.jpg
-# Old test that no longer matches the code
-test-map.cjs
-# Release archives
-dist/
-
-# Packaging work folder
-build/
-
-# Other packaging work folders
-build-*/
+/*.png

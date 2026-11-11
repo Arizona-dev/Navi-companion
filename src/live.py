@@ -15,14 +15,14 @@ import struct
 import threading
 import time
 from quests import EPONA_SONG, quest_states
-from paths import BASE
+from paths import DATA
 
 BUILD = 'E0F3CCFAF50065AE4EA01EB5AEB13B1A45DA3348'
 MAIN_SIZE = 0x4EA0000
 # Only explicit reward flags are authoritative here. Actor/chest IDs still
 # use the save reader, and the Dampe event flag does not prove the prize was taken.
 REWARD_FLAGS = tuple((item['id'], item['flag']) for item in
-                    json.loads((BASE / 'collectibles.json').read_text('utf-8'))
+                    json.loads((DATA / 'collectibles.json').read_text('utf-8'))
                     if item['kind'] == 'heart' and item['flag'] is not None
                     and 'DampeRace' not in (item.get('flagName') or ''))
 

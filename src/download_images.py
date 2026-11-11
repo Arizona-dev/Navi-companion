@@ -1,7 +1,7 @@
 """Download the game images (icons, maps) from their public sources.
 
 Nintendo's artwork is not distributed with Navi. This script fetches it once
-into assets/ and maps/, following images-sources.json. Files already present
+into assets/ and maps/, following data/images-sources.json. Files already present
 are kept; running the script again only downloads what is missing.
 """
 import hashlib
@@ -18,7 +18,7 @@ PROGRESS = {'total': 0, 'done': 0, 'failed': 0, 'active': False}
 
 
 def missing_images(base=BASE):
-    entries = json.loads((base / 'images-sources.json').read_text('utf-8'))
+    entries = json.loads((base / 'data' / 'images-sources.json').read_text('utf-8'))
     return [e for e in entries if not (base / e['file']).is_file()]
 
 

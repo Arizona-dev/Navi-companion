@@ -6,9 +6,9 @@ No guessed floor heights, nearest-floor extrapolation, or save writes.
 import json
 import math
 from pathlib import Path
-from paths import BASE
+from paths import DATA
 
-PLANS = json.loads((BASE / 'plans.json').read_text('utf-8'))
+PLANS = json.loads((DATA / 'plans.json').read_text('utf-8'))
 BY_AREA = {}
 for plan in PLANS:
     BY_AREA.setdefault(plan['id'].split('/')[6].removesuffix('_Alternative'), []).append(plan)

@@ -9,6 +9,6 @@ if not defined PY (
   pause
   exit /b 1
 )
-%PY% download_images.py
-%PY% server.py --open
+%PY% src\download_images.py
+%PY% src\server.py --open
 pause
