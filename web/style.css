@@ -378,3 +378,6 @@ html[data-app] .save-control .region-picker{width:calc(214px * var(--ui-scale, 1
 html[data-app] .save-control .region-trigger{padding:0 calc(12px * var(--ui-scale, 1))!important;font-size:calc(13px * var(--ui-scale, 1))!important;gap:calc(10px * var(--ui-scale, 1))}
 html[data-app] .save-control #refresh{width:calc(36px * var(--ui-scale, 1));min-width:0;padding:0;display:grid;place-items:center;font-size:calc(15px * var(--ui-scale, 1));color:var(--muted)}
 html[data-app] .save-control #refresh:hover,html[data-app] .save-control .region-trigger:hover{border-color:var(--gold)!important;color:var(--ink)}
+/* The gold focus frame is a keyboard aid: it only shows after Tab was used, never from a click or when the window opens. Text fields keep theirs. */
+html:not([data-keyboard]) :focus-visible:not(input,textarea){outline:none!important}
+html:not([data-keyboard]) .world-region:focus-visible{background:transparent}

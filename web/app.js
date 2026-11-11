@@ -509,3 +509,6 @@ async function checkUpdate(attempt=0){
  }
  actions.append(later);banner.replaceChildren(text,actions);banner.hidden=false;
 }
+// Focus frames are for keyboard navigation only (see style.css).
+addEventListener('keydown',e=>{if(e.key==='Tab')document.documentElement.dataset.keyboard='true';},true);
+addEventListener('pointerdown',()=>{delete document.documentElement.dataset.keyboard;},true);
