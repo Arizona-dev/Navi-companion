@@ -24,3 +24,6 @@ dist/
 
 # Packaging work folder
 build/
+
+# Other packaging work folders
+build-*/

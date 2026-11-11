@@ -201,12 +201,21 @@ def snapshot(slot):
         'activity':optional(activity_stats, p, {'emulatorSeconds':None,'records':[],
             'distanceWalkingKm':None,'distanceHorseKm':None,'distanceSwimmingKm':None})}
 
+MANAGED = False
+
+def overlay_command():
+    # Packaged app: the mini-map is a mode of Navi.exe. From sources: the separately built program.
+    for path, arguments in ((BASE / 'Navi.exe', ['--overlay']), (BASE / 'overlay-app' / 'Navi.exe', ['--overlay'])):
+        if path.is_file():
+            return [str(path), *arguments]
+    return None
+
 class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         allowed = (f'127.0.0.1:{self.server.server_port}', f'localhost:{self.server.server_port}')
         if self.headers.get('Host') not in allowed or self.headers.get('Origin') not in tuple('http://' + h for h in allowed):
             self.send_error(403); return
-        if self.path not in ('/api/overlay/open', '/api/update/install'):
+        if self.path not in ('/api/overlay/open', '/api/update/install') and not (self.path == '/api/quit' and MANAGED):
             self.send_error(404); return
         if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
             self.send_error(415); return
@@ -216,14 +225,19 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_error(413); return
             self.rfile.read(size)
             if self.path == '/api/update/install':
-                # Stops this process once the new files are staged; a script then copies them and restarts Navi.
+                # Runs in the background; once the new files are staged this process stops,
+                # a script copies them over the install and restarts Navi.
                 UPDATES.install(lambda: os._exit(0))
                 data = json.dumps({'installing': True}).encode()
+            elif self.path == '/api/quit':
+                # Only when started by the application window, which closes its own server.
+                threading.Timer(0.3, lambda: os._exit(0)).start()
+                data = json.dumps({'stopping': True}).encode()
             else:
-                executable = BASE / 'overlay-app' / 'NaviOverlay.exe'
-                if not executable.is_file():
+                command = overlay_command()
+                if not command:
                     raise ValueError('Le programme de mini-carte est introuvable.')
-                subprocess.Popen([str(executable)], cwd=BASE, stdin=subprocess.DEVNULL,
+                subprocess.Popen(command, cwd=BASE, stdin=subprocess.DEVNULL,
                                  stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
                 data = json.dumps({'opened': True}).encode()
             self.send_response(200)
@@ -244,6 +258,9 @@ class Handler(BaseHTTPRequestHandler):
             if url.path == '/api/live':
                 live = LIVE.snapshot()
                 data = json.dumps({**live, 'player': locate_player(live.get('player'))}).encode()
+                mime = 'application/json'
+            elif url.path == '/api/setup':
+                data = json.dumps({'version': UPDATES.snapshot()['current'], 'images': dict(download_images.PROGRESS)}).encode()
                 mime = 'application/json'
             elif url.path == '/api/update':
                 data = json.dumps(UPDATES.snapshot()).encode()
@@ -281,8 +298,14 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self,*args): pass
 
 if __name__ == '__main__':
-    parser=argparse.ArgumentParser(); parser.add_argument('--port',type=int,default=8766); parser.add_argument('--open',action='store_true'); parser.add_argument('--no-open',action='store_true')
+    parser=argparse.ArgumentParser(); parser.add_argument('--port',type=int,default=8766); parser.add_argument('--open',action='store_true'); parser.add_argument('--no-open',action='store_true'); parser.add_argument('--managed',action='store_true')
     args=parser.parse_args()
+    MANAGED = args.managed
+    if FROZEN and (BASE / 'server' / 'navi-server.exe').is_file():
+        # Folders of the 1.1 layout, replaced by Navi.exe and server/: remove them after an update.
+        import shutil
+        for legacy in ('_internal', 'overlay-app'):
+            shutil.rmtree(BASE / legacy, ignore_errors=True)
     # The packaged Navi.exe opens the browser on a plain double-click; the mini-map starts it with --no-open.
     args.open = args.open or (FROZEN and not args.no_open)
     try:
@@ -295,6 +318,7 @@ if __name__ == '__main__':
     print(f'Navi : http://127.0.0.1:{args.port}',flush=True)
     print(f'Saves: {ROOT}' if ROOT else 'Fritchii saves not found. Put the Navi folder inside the Fritchii folder (or next to it), or copy config.example.json to config.json and set save_root.',flush=True)
     # Game images are not shipped with Navi; fetch missing ones without delaying the server.
+    download_images.PROGRESS['active'] = bool(download_images.missing_images())
     threading.Thread(target=download_images.main,daemon=True).start()
     UPDATES.start()
     if args.open: webbrowser.open(f'http://127.0.0.1:{args.port}')

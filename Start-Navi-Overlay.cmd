@@ -1,9 +1,13 @@
 @echo off
-if not exist "%~dp0overlay-app\NaviOverlay.exe" (
-  echo The mini-map is not installed: the overlay-app folder is missing.
-  echo Download the full archive from the Releases page of the project,
-  echo or build it: dotnet publish overlay-src/NaviOverlay.csproj -c Release -o overlay-app
-  pause
-  exit /b 1
+if exist "%~dp0Navi.exe" (
+  start "" "%~dp0Navi.exe" --overlay
+  exit /b 0
 )
-start "" "%~dp0overlay-app\NaviOverlay.exe"
+if exist "%~dp0overlay-app\Navi.exe" (
+  start "" "%~dp0overlay-app\Navi.exe" --overlay
+  exit /b 0
+)
+echo The Navi program is not here. Download the full archive from the Releases page of the project,
+echo or build it: dotnet build app-src/Navi.csproj -c Release -o overlay-app
+pause
+exit /b 1

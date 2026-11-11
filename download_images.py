@@ -13,6 +13,10 @@ from pathlib import Path
 from paths import BASE
 
 
+# Read by the application's launch screen.
+PROGRESS = {'total': 0, 'done': 0, 'failed': 0, 'active': False}
+
+
 def missing_images(base=BASE):
     entries = json.loads((base / 'images-sources.json').read_text('utf-8'))
     return [e for e in entries if not (base / e['file']).is_file()]
@@ -35,6 +39,7 @@ def download(entry, base=BASE):
 
 def main():
     todo = missing_images()
+    PROGRESS.update(total=len(todo), done=0, failed=0, active=bool(todo))
     if not todo:
         return 0
     print(f'Downloading {len(todo)} game images (only once)...', flush=True)
@@ -44,8 +49,10 @@ def main():
             download(entry)
         except (OSError, ValueError) as exc:
             failed.append(f"  {entry['file']}: {exc}")
+        PROGRESS.update(done=index, failed=len(failed))
         if index % 20 == 0 or index == len(todo):
             print(f'  {index}/{len(todo)}', flush=True)
+    PROGRESS['active'] = False
     if failed:
         print(f'{len(failed)} images could not be fetched (Navi works, they will be missing on screen):')
         print('\n'.join(failed[:15]))

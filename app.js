@@ -445,12 +445,18 @@ async function checkUpdate(attempt=0){
  if(info.canInstall){
   const go=node('button',T('Mettre à jour'),'primary');
   go.onclick=async()=>{
-   go.disabled=later.disabled=true;text.textContent=T('Mise à jour en cours… Navi va redémarrer tout seul.');
+   go.disabled=later.disabled=true;const bar=node('span','','update-bar'),fill=node('span','');bar.append(fill);banner.append(bar);
+   text.textContent=T('Téléchargement de la mise à jour… ')+'0 %';
    try{
     const r=await fetch('/api/update/install',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
     const d=await r.json().catch(()=>({}));if(!r.ok)throw Error(d.error||'erreur '+r.status);
-    const wait=setInterval(async()=>{try{const now=await (await fetch('/api/update',{signal:AbortSignal.timeout(2500)})).json();if(now.current===info.latest){clearInterval(wait);location.reload();}}catch{}},2500);
-   }catch(e){text.textContent=T(e.message);go.disabled=later.disabled=false;}
+    const wait=setInterval(async()=>{
+     let now;try{now=await (await fetch('/api/update',{signal:AbortSignal.timeout(2500)})).json();}catch{return;}
+     if(now.current===info.latest){clearInterval(wait);location.reload();return;}
+     if(now.status==='installing'){const share=Math.round((now.progress||0)*100);fill.style.width=share+'%';text.textContent=share>=100?T('Installation… Navi va redémarrer tout seul.'):T('Téléchargement de la mise à jour… ')+share+' %';}
+     else if(now.error){clearInterval(wait);bar.remove();text.textContent=T(now.error);go.disabled=later.disabled=false;}
+    },600);
+   }catch(e){bar.remove();text.textContent=T(e.message);go.disabled=later.disabled=false;}
   };
   actions.append(go);
  }else if(/^https:\/\/github\.com\//.test(info.url||'')){

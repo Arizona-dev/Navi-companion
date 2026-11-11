@@ -2,8 +2,8 @@
 
 ## Running
 
-- Start: double-click `Navi.exe` (packaged app) or `Start-Navi.cmd` (from sources, Python 3 required). Address: `http://127.0.0.1:8766`.
-- Closing the command window stops the server. When the mini-map started the server by itself, closing the mini-map stops it.
+- Start: double-click `Navi.exe` (packaged app, its own window) or `Start-Navi.cmd` (from sources, Python 3 required, opens the browser). Address: `http://127.0.0.1:8766`.
+- The server stops when the last Navi window (application or mini-map) is closed. Started from sources, it stops with its command window.
 - The save folder is detected automatically when Navi sits inside the Fritchii folder or next to it. Otherwise copy `config.example.json` to `config.json` and set `save_root`.
 - The server only listens on `127.0.0.1`. None of your data is sent anywhere; the only outgoing requests are the image downloads and the update check on GitHub.
 - Saves are opened read-only. There is no editing feature.
@@ -48,14 +48,14 @@
 
 ## Mini-map
 
-- From the map, click "Over the game", or run `Start-Navi-Overlay.cmd`.
+- From the map, click "Over the game", or run `Start-Navi-Overlay.cmd` (`Navi.exe --overlay`).
 - The window stays above other windows and keeps Link's position, heading and automatic floor tracking.
 - Move it with the thin golden handle on the top edge (no title bar). Resize from the corners and edges; Alt+F4 closes it.
 - The arrow button near +/− turns Follow Link on or off; it is golden when active.
 - `Ctrl+Alt+N` locks/unlocks clicks. When locked, clicks go to the game without taking focus. `Ctrl+Alt+M` hides/shows. The notification icon can also lock, unlock, show, switch language and close.
 - Use Fritchii in windowed or borderless fullscreen mode.
-- The window, its zoom and its settings have their own local profile, separate from the browser. Size and position are saved on close.
-- Requires Windows x64 and Microsoft Edge WebView2 (the packaged mini-map includes .NET). Sources in `overlay-src`; program in `overlay-app`.
+- The application window and the mini-map share one local profile (language, notes), separate from your web browser. Size and position are saved on close.
+- Requires Windows x64 and Microsoft Edge WebView2. It is a mode of `Navi.exe`; sources in `app-src`.
 - The mini-map only shows markers confirmed as missing. The House of Skulltula reward stays hidden before 50 tokens. The 16 Pieces of Heart tied to an identified reward signal are read live; the others and the Skulltulas use the save. An incomplete live read never replaces save data, and historical slots never use the rewards of the game in progress.
 
 ## Fairy fountains

@@ -65,7 +65,7 @@ class Updater:
         self.base = base
         self.lock = threading.Lock()
         self.state = {'current': current_version(base), 'latest': None, 'available': False, 'url': None,
-                      'canInstall': can_install, 'status': 'idle', 'error': None}
+                      'canInstall': can_install, 'status': 'idle', 'error': None, 'progress': 0}
         self.asset = None
 
     def snapshot(self):
@@ -99,19 +99,30 @@ class Updater:
             self.update(status='unavailable', error=str(exc))
 
     def install(self, stop):
-        """Download and stage the update, then hand over to the copy script and stop Navi."""
+        """Start the installation in the background; progress is published in the state."""
         state = self.snapshot()
         if not (state['available'] and state['canInstall'] and self.asset):
             raise ValueError('Aucune mise à jour à installer.')
         if state['status'] == 'installing':
             return
-        self.update(status='installing')
+        self.update(status='installing', progress=0, error=None)
+        threading.Thread(target=self.run, args=(stop,), daemon=True).start()
+
+    def run(self, stop):
+        """Download and stage the update, then hand over to the copy script and stop Navi."""
         try:
             work = Path(tempfile.mkdtemp(prefix='navi-update-'))
             archive = work / ASSET
             request = urllib.request.Request(self.asset['browser_download_url'], headers={'User-Agent': 'Navi-companion'})
+            expected = max(1, int(self.asset.get('size', 0)))
             with urllib.request.urlopen(request, timeout=60) as response, archive.open('wb') as output:
-                shutil.copyfileobj(response, output)
+                received = 0
+                while chunk := response.read(262144):
+                    output.write(chunk)
+                    received += len(chunk)
+                    if received > MAX_ARCHIVE:
+                        raise ValueError('Téléchargement incomplet.')
+                    self.update(progress=min(0.97, received / expected))
             size = archive.stat().st_size
             if size != int(self.asset.get('size', -1)) or size > MAX_ARCHIVE:
                 raise ValueError('Téléchargement incomplet.')
@@ -124,9 +135,10 @@ class Updater:
                              stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, close_fds=True,
                              creationflags=0x00000008 | 0x00000200 | 0x08000000)  # detached, new group, no window
         except Exception as exc:
-            self.update(status='ready', error=str(exc))
-            raise ValueError(f'Mise à jour impossible : {exc}') from exc
-        threading.Timer(1.0, stop).start()
+            self.update(status='ready', error=f'Mise à jour impossible : {exc}')
+            return
+        self.update(progress=1)
+        threading.Timer(1.5, stop).start()
 
 
 def apply_script(pid, staged, install, work):
@@ -134,6 +146,7 @@ def apply_script(pid, staged, install, work):
         '@echo off',
         ':wait',
         f'tasklist /FI "PID eq {pid}" 2>nul | find " {pid} " >nul && (ping -n 2 127.0.0.1 >nul & goto wait)',
+        'taskkill /IM Navi.exe /F >nul 2>nul',
         'taskkill /IM NaviOverlay.exe /F >nul 2>nul',
         'ping -n 2 127.0.0.1 >nul',
         f'robocopy "{staged}" "{install}" /E /R:5 /W:1 /XF config.json /NFL /NDL /NJH /NJS /NP >nul',

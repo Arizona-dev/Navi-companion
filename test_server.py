@@ -78,6 +78,14 @@ class Tests(unittest.TestCase):
             idle=updater.Updater(Path(d),can_install=True); idle.start()
             self.assertEqual(idle.snapshot()['status'],'disabled')
             with self.assertRaises(ValueError): idle.install(lambda: None)
+    def test_setup_progress_and_overlay_command(self):
+        import download_images
+        self.assertEqual(set(download_images.PROGRESS), {'total','done','failed','active'})
+        with tempfile.TemporaryDirectory() as d:
+            with patch.object(server,'BASE',Path(d)):
+                self.assertIsNone(server.overlay_command())
+                (Path(d)/'Navi.exe').write_bytes(b'')
+                self.assertEqual(server.overlay_command(),[str(Path(d)/'Navi.exe'),'--overlay'])
     def test_stable_read_leaves_file_unchanged(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'test.sav';p.write_bytes(b'unchanged')

@@ -14,12 +14,13 @@ class OverlayTests(unittest.TestCase):
         connection = http.client.HTTPConnection('127.0.0.1', httpd.server_port)
         host = f'127.0.0.1:{httpd.server_port}'
         try:
-            with patch.object(server.subprocess, 'Popen') as start:
-                connection.request('POST', '/api/overlay/open', '{}', {'Origin': 'http://' + host, 'Content-Type': 'application/json'})
+            fixed = ['C:/Navi/Navi.exe', '--overlay']
+            with patch.object(server.subprocess, 'Popen') as start, patch.object(server, 'overlay_command', return_value=fixed):
+                connection.request('POST', '/api/overlay/open', '{"program": "evil.exe"}', {'Origin': 'http://' + host, 'Content-Type': 'application/json'})
                 response = connection.getresponse()
                 self.assertEqual(response.status, 200)
                 self.assertEqual(json.loads(response.read()), {'opened': True})
-                self.assertEqual(start.call_args.args[0], [str(server.BASE / 'overlay-app/NaviOverlay.exe')])
+                self.assertEqual(start.call_args.args[0], fixed)
         finally:
             connection.close(); httpd.shutdown(); httpd.server_close()
 

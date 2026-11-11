@@ -275,6 +275,7 @@ const NAVI_EN = {
 "Impossible d’enregistrer la case dans ce navigateur.": "Could not save the checkbox in this browser.",
 "Indice lu adulte": "Hint read as an adult",
 "Indisponible": "Unavailable",
+"Installation… Navi va redémarrer tout seul.": "Installing… Navi will restart by itself.",
 "Intérieur du château de Ganon": "Inside Ganon's Castle",
 "Inventaire": "Inventory",
 "Jeu d’ocarina — meilleur échange": "Ocarina game — best streak",
@@ -607,6 +608,7 @@ const NAVI_EN = {
 "Trouver les flèches de feu": "Find the Fire Arrows",
 "Trouver l’épée Kokiri et un bouclier, puis rejoindre l’Arbre Mojo.": "Find the Kokiri Sword and a shield, then head to the Deku Tree.",
 "Types présents dans la sacoche": "Types present in the bag",
+"Téléchargement de la mise à jour… ": "Downloading the update… ",
 "Téléchargement incomplet.": "Incomplete download.",
 "Un coffre à retrouver, une mélodie à apprendre…": "A chest to track down, a melody to learn…",
 "Un objet absent peut aussi avoir été utilisé ou échangé.": "A missing item may also have been used or traded.",
@@ -719,6 +721,8 @@ function localizeData(value, key) {
     button.onclick = () => {
       if (button.dataset.lang === NAVI_LANG) return;
       try { localStorage.setItem('navi-lang', button.dataset.lang); } catch {}
+      // Inside the Navi window, the program remembers the choice for its own texts and the mini-map.
+      try { window.chrome?.webview?.postMessage('lang:' + button.dataset.lang); } catch {}
       location.reload();
     };
   }
